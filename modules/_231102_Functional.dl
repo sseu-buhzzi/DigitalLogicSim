@@ -1,0 +1,537 @@
+id _231102_functional
+__input__ D_0 D_1 D_2 D_3 D_4 D_5 D_6 D_7 Addr_D_0 Addr_D_1 Addr_A_0 Addr_A_1 Addr_B_0 Addr_B_1 Write
+__output__
+
+wire D_0
+    path
+        140 6c  h   -f9 30  9
+        87  6c  v   30  9
+        c7  6c  v   30  9
+        107 6c  v   30  9
+    colour
+        483838  907070
+wire D_1
+    path
+        140 68  h   -fa 30  a
+        86  68  v   30  a
+        c6  68  v   30  a
+        106 68  v   30  a
+    colour
+        503030  a06060
+wire D_2
+    path
+        140 64  h   -fb 30  b
+        85  64  v   30  b
+        c5  64  v   30  b
+        105 64  v   30  b
+    colour
+        582828  b05050
+wire D_3
+    path
+        140 60  h   -fc 30  c
+        84  60  v   30  c
+        c4  60  v   30  c
+        104 60  v   30  c
+    colour
+        602020  c04040
+wire D_4
+    path
+        140 5c  h   -fd 30  d
+        83  5c  v   30  d
+        c3  5c  v   30  d
+        103 5c  v   30  d
+    colour
+        681818  d03030
+wire D_5
+    path
+        140 58  h   -fe 30  e
+        82  58  v   30  e
+        c2  58  v   30  e
+        102 58  v   30  e
+    colour
+        701010  e02020
+wire D_6
+    path
+        140 54  h   -ff 30  f
+        81  54  v   30  f
+        c1  54  v   30  f
+        101 54  v   30  f
+    colour
+        780808  f01010
+wire D_7
+    path
+        140 50  h   -100    30  10
+        80  50  v   30  10
+        c0  50  v   30  10
+        100 50  v   30  10
+    colour
+        800000  ff0000
+
+wire Addr_D_0
+    path
+        0   10  h   10
+    colour
+        602060  c040c0
+wire Addr_D_1
+    path
+        0   8   h   10
+    colour
+        800080  ff00ff
+
+wire RegSel_0
+    path
+        20  18  h   f0  10
+    colour
+        503050  a060a0
+wire RegSel_1
+    path
+        20  10  h   b0  18
+    colour
+        602060  c040c0
+wire RegSel_2
+    path
+        20  8   h   70  20
+    colour
+        701070  e020e0
+wire RegSel_3
+    path
+        20  0   h   30  28
+    colour
+        800080  ff00ff
+
+wire Write
+    path
+        0   20  h   120 8
+        60  20  v   8
+        a0  20  v   8
+        e0  20  v   8
+    colour
+        804000  ff8000
+
+wire RegSel_W_0
+    path
+        118 48  v   30
+    colour
+        503050  a060a0
+wire RegSel_W_1
+    path
+        d8  48  v   30
+    colour
+        602060  c040c0
+wire RegSel_W_2
+    path
+        98  48  v   30
+    colour
+        701070  e020e0
+wire RegSel_W_3
+    path
+        58  48  v   30
+    colour
+        800080  ff00ff
+
+wire DO_0_0
+    path
+        120 9c  h   10  170 8
+        12f 154 h   8
+    colour
+        585828  b0b050
+wire DO_0_1
+    path
+        120 98  h   f   170 9
+        12e 150 h   9
+    colour
+        606020  c0c040
+wire DO_0_2
+    path
+        120 94  h   e   170 a
+        12d 14c h   a
+    colour
+        686818  d0d030
+wire DO_0_3
+    path
+        120 90  h   d   170 b
+        12c 148 h   b
+    colour
+        707010  e0e020
+wire DO_0_4
+    path
+        120 8c  h   c   170 c
+        12b 144 h   c
+    colour
+        787808  f0f010
+wire DO_0_5
+    path
+        120 88  h   b   170 d
+        12a 140 h   d
+    colour
+        808000  ffff00
+wire DO_0_6
+    path
+        120 84  h   a   170 e
+        129 13c h   e
+    colour
+        808000  ffff00
+wire DO_0_7
+    path
+        120 80  h   9   170 f
+        128 138 h   f
+    colour
+        808000  ffff00
+wire DO_1_0
+    path
+        e0  9c  h   10  148 48
+        ef  12c h   48
+    colour
+        585828  b0b050
+wire DO_1_1
+    path
+        e0  98  h   f   148 49
+        ee  128 h   49
+    colour
+        606020  c0c040
+wire DO_1_2
+    path
+        e0  94  h   e   148 4a
+        ed  124 h   4a
+    colour
+        686818  d0d030
+wire DO_1_3
+    path
+        e0  90  h   d   148 4b
+        ec  120 h   4b
+    colour
+        707010  e0e020
+wire DO_1_4
+    path
+        e0  8c  h   c   148 4c
+        eb  11c h   4c
+    colour
+        787808  f0f010
+wire DO_1_5
+    path
+        e0  88  h   b   148 4d
+        ea  118 h   4d
+    colour
+        808000  ffff00
+wire DO_1_6
+    path
+        e0  84  h   a   148 4e
+        e9  114 h   4e
+    colour
+        808000  ffff00
+wire DO_1_7
+    path
+        e0  80  h   9   148 4f
+        e8  110 h   4f
+    colour
+        808000  ffff00
+wire DO_2_0
+    path
+        a0  9c  h   10  120 88
+        af  104 h   88
+    colour
+        585828  b0b050
+wire DO_2_1
+    path
+        a0  98  h   f   120 89
+        ae  100 h   89
+    colour
+        606020  c0c040
+wire DO_2_2
+    path
+        a0  94  h   e   120 8a
+        ad  fc  h   8a
+    colour
+        686818  d0d030
+wire DO_2_3
+    path
+        a0  90  h   d   120 8b
+        ac  f8  h   8b
+    colour
+        707010  e0e020
+wire DO_2_4
+    path
+        a0  8c  h   c   120 8c
+        ab  f4  h   8c
+    colour
+        787808  f0f010
+wire DO_2_5
+    path
+        a0  88  h   b   120 8d
+        aa  f0  h   8d
+    colour
+        808000  ffff00
+wire DO_2_6
+    path
+        a0  84  h   a   120 8e
+        a9  ec  h   8e
+    colour
+        808000  ffff00
+wire DO_2_7
+    path
+        a0  80  h   9   120 8f
+        a8  e8  h   8f
+    colour
+        808000  ffff00
+wire DO_3_0
+    path
+        60  9c  h   10  f8  c8
+        6f  dc  h   c8
+    colour
+        585828  b0b050
+wire DO_3_1
+    path
+        60  98  h   f   f8  c9
+        6e  d8  h   c9
+    colour
+        606020  c0c040
+wire DO_3_2
+    path
+        60  94  h   e   f8  ca
+        6d  d4  h   ca
+    colour
+        686818  d0d030
+wire DO_3_3
+    path
+        60  90  h   d   f8  cb
+        6c  d0  h   cb
+    colour
+        707010  e0e020
+wire DO_3_4
+    path
+        60  8c  h   c   f8  cc
+        6b  cc  h   cc
+    colour
+        787808  f0f010
+wire DO_3_5
+    path
+        60  88  h   b   f8  cd
+        6a  c8  h   cd
+    colour
+        808000  ffff00
+wire DO_3_6
+    path
+        60  84  h   a   f8  ce
+        69  c4  h   ce
+    colour
+        808000  ffff00
+wire DO_3_7
+    path
+        60  80  h   9   f8  cf
+        68  c0  h   cf
+    colour
+        808000  ffff00
+
+wire A_0
+    path
+        150 dc  h   10
+    colour
+        384838  709070
+wire A_1
+    path
+        150 d8  h   10
+    colour
+        305030  60a060
+wire A_2
+    path
+        150 d4  h   10
+    colour
+        285828  50b050
+wire A_3
+    path
+        150 d0  h   10
+    colour
+        206020  40c040
+wire A_4
+    path
+        150 cc  h   10
+    colour
+        186818  30d030
+wire A_5
+    path
+        150 c8  h   10
+    colour
+        107010  20e020
+wire A_6
+    path
+        150 c4  h   10
+    colour
+        087808  10f010
+wire A_7
+    path
+        150 c0  h   10
+    colour
+        008000  00ff00
+
+wire Addr_A_0
+    path
+        0   b0  h   148 8
+    colour
+        602060  c040c0
+wire Addr_A_1
+    path
+        0   a8  h   140 10
+    colour
+        800080  ff00ff
+
+wire B_0
+    path
+        150 194 h   10
+    colour
+        384848  709090
+wire B_1
+    path
+        150 190 h   10
+    colour
+        305050  60a0a0
+wire B_2
+    path
+        150 18c h   10
+    colour
+        285858  50b0b0
+wire B_3
+    path
+        150 188 h   10
+    colour
+        206060  40c0c0
+wire B_4
+    path
+        150 184 h   10
+    colour
+        186868  30d0d0
+wire B_5
+    path
+        150 180 h   10
+    colour
+        107070  20e0e0
+wire B_6
+    path
+        150 17c h   10
+    colour
+        087878  10f0f0
+wire B_7
+    path
+        150 178 h   10
+    colour
+        008080  00ffff
+
+wire Addr_B_0
+    path
+        0   168 h   148 8
+    colour
+        602060  c040c0
+wire Addr_B_1
+    path
+        0   160 h   140 10
+    colour
+        800080  ff00ff
+
+
+
+module decoder_d
+    module_id
+        decoder_2_4
+    rect
+        10  -4  10  20
+    colour
+        ffffff  808080
+    __input__ Addr_D_0 Addr_D_1
+    __output__ RegSel_0 RegSel_1 RegSel_2 RegSel_3
+module reg_0
+    module_id
+        reg_8
+    rect
+        110 78  10  28
+    colour
+        ffffff  808080
+    __input__ RegSel_W_0 D_0 D_1 D_2 D_3 D_4 D_5 D_6 D_7
+    __output__ DO_0_0 DO_0_1 DO_0_2 DO_0_3 DO_0_4 DO_0_5 DO_0_6 DO_0_7
+module reg_1
+    module_id
+        reg_8
+    rect
+        d0  78  10  28
+    colour
+        ffffff  808080
+    __input__ RegSel_W_1 D_0 D_1 D_2 D_3 D_4 D_5 D_6 D_7
+    __output__ DO_1_0 DO_1_1 DO_1_2 DO_1_3 DO_1_4 DO_1_5 DO_1_6 DO_1_7
+module reg_2
+    module_id
+        reg_8
+    rect
+        90  78  10  28
+    colour
+        ffffff  808080
+    __input__ RegSel_W_2 D_0 D_1 D_2 D_3 D_4 D_5 D_6 D_7
+    __output__ DO_2_0 DO_2_1 DO_2_2 DO_2_3 DO_2_4 DO_2_5 DO_2_6 DO_2_7
+module reg_3
+    module_id
+        reg_8
+    rect
+        50  78  10  28
+    colour
+        ffffff  808080
+    __input__ RegSel_W_3 D_0 D_1 D_2 D_3 D_4 D_5 D_6 D_7
+    __output__ DO_3_0 DO_3_1 DO_3_2 DO_3_3 DO_3_4 DO_3_5 DO_3_6 DO_3_7
+
+module mux_a
+    module_id
+        mux_4_8
+    rect
+        138 b8  18  a0
+    colour
+        ffffff  808080
+    __input__ Addr_A_0 Addr_A_1 DO_0_0 DO_0_1 DO_0_2 DO_0_3 DO_0_4 DO_0_5 DO_0_6 DO_0_7 DO_1_0 DO_1_1 DO_1_2 DO_1_3 DO_1_4 DO_1_5 DO_1_6 DO_1_7 DO_2_0 DO_2_1 DO_2_2 DO_2_3 DO_2_4 DO_2_5 DO_2_6 DO_2_7 DO_3_0 DO_3_1 DO_3_2 DO_3_3 DO_3_4 DO_3_5 DO_3_6 DO_3_7
+    __output__ A_0 A_1 A_2 A_3 A_4 A_5 A_6 A_7
+module mux_b
+    module_id
+        mux_4_8
+    rect
+        138 170 18  a0
+    colour
+        ffffff  808080
+    __input__ Addr_B_0 Addr_B_1 DO_0_0 DO_0_1 DO_0_2 DO_0_3 DO_0_4 DO_0_5 DO_0_6 DO_0_7 DO_1_0 DO_1_1 DO_1_2 DO_1_3 DO_1_4 DO_1_5 DO_1_6 DO_1_7 DO_2_0 DO_2_1 DO_2_2 DO_2_3 DO_2_4 DO_2_5 DO_2_6 DO_2_7 DO_3_0 DO_3_1 DO_3_2 DO_3_3 DO_3_4 DO_3_5 DO_3_6 DO_3_7
+    __output__ B_0 B_1 B_2 B_3 B_4 B_5 B_6 B_7
+
+
+
+and zu_regsel_0
+    rect
+        108 28  20  20
+    orientation
+        0
+    colour
+        ffffff  808080
+    __in0__ RegSel_0
+    __in1__ Write
+    __out__ RegSel_W_0
+and zu_regsel_1
+    rect
+        c8  28  20  20
+    orientation
+        0
+    colour
+        ffffff  808080
+    __in0__ RegSel_1
+    __in1__ Write
+    __out__ RegSel_W_1
+and zu_regsel_2
+    rect
+        88  28  20  20
+    orientation
+        0
+    colour
+        ffffff  808080
+    __in0__ RegSel_2
+    __in1__ Write
+    __out__ RegSel_W_2
+and zu_regsel_3
+    rect
+        48  28  20  20
+    orientation
+        0
+    colour
+        ffffff  808080
+    __in0__ RegSel_3
+    __in1__ Write
+    __out__ RegSel_W_3

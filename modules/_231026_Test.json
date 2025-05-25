@@ -1,0 +1,62 @@
+{
+    "id": "_231026_Test",
+    "content": {
+        "A": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 32,
+                    "is_horizontal": true,
+                    "turn": [16, 8, 16]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000",
+            "__signal__": false
+        },
+        "B": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 64,
+                    "is_horizontal": true,
+                    "turn": [16, -8, 16]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff",
+            "__signal__": false
+        },
+        "S": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 48,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff",
+            "__signal__": false
+        },
+        "zzeu_0": {
+            "type": "xor",
+            "x": 32,
+            "y": 64,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ff0000",
+            "fill": "#800000",
+            "__in0__": "A",
+            "__in1__": "B",
+            "__out__": "S"
+        },
+        "__input__": ["A", "B"],
+        "__output__": ["S"]
+    }
+}

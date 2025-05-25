@@ -1,0 +1,46 @@
+id triple_joint
+__input__ I L R
+__output__
+
+wire I
+    path
+        0   0   h   30  18
+        20  0   v   -18
+    colour
+        800000 ff0000
+
+wire L
+    path
+        28  -30 v   -20
+        28  -40 h   -18 48  10  10
+    colour
+        808080 ffffff
+
+wire R
+    path
+        28  30  v   20
+        28  40  h   18  -48 -10 -10
+    colour
+        808080 ffffff
+
+or xo_l
+    rect
+        38  -10 20  20
+    orientation
+        2
+    colour
+        ffffff 808080
+    __in0__ I
+    __in1__ R
+    __out__ L
+
+or xo_r
+    rect
+        18  10  20  20
+    orientation
+        0
+    colour
+        ffffff 808080
+    __in0__ I
+    __in1__ L
+    __out__ R

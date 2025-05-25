@@ -1,0 +1,79 @@
+{
+    "id": "timer",
+    "content": {
+        "C": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 32,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                },
+                {
+                    "x": 48,
+                    "y": 0,
+                    "is_horizontal": false,
+                    "turn": [
+                        32,
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "C_revr": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 16,
+                    "y": 32,
+                    "is_horizontal": true,
+                    "turn": [
+                        -16,
+                        -32,
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00",
+            "__volitale__": true
+        },
+        "fe": {
+            "__in__": "C_revr",
+            "__out__": "C",
+            "type": "not",
+            "x": 16,
+            "y": 8,
+            "width": 16,
+            "height": 16,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080",
+            "__delay__": 512
+        },
+        "xato": {
+            "__in__": "C",
+            "__out__": "C_revr",
+            "type": "buffer",
+            "x": 32,
+            "y": 24,
+            "width": 16,
+            "height": 16,
+            "orientation": 1,
+            "stroke": "#ffffff",
+            "fill": "#808080",
+            "__delay__": 512
+        }
+    },
+    "__input__": [],
+    "__output__": [
+        "C"
+    ]
+}

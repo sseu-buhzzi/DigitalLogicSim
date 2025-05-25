@@ -1,0 +1,168 @@
+{
+    "id": "d_trigger",
+    "content": {
+        "C": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 32,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 32,
+                    "is_horizontal": false,
+                    "turn": [
+                        32,
+                        24
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "C_revr": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 56,
+                    "y": 64,
+                    "is_horizontal": true,
+                    "turn": [
+                        24,
+                        -32,
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "D": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "Y": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 128,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_revr": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 128,
+                    "y": 32,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff"
+        },
+        "fe_0": {
+            "__in__": "C",
+            "__out__": "C_revr",
+            "type": "not",
+            "x": 40,
+            "y": 72,
+            "width": 16,
+            "height": 16,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "latch_0": {
+            "__input__": [
+                "C",
+                "D"
+            ],
+            "__output__": [
+                "Y",
+                null
+            ],
+            "type": "module",
+            "module_id": "latch",
+            "x": 32,
+            "y": -16,
+            "width": 32,
+            "height": 64,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "latch_1": {
+            "__input__": [
+                "C_revr",
+                "Y"
+            ],
+            "__output__": [
+                "Q",
+                "Q_revr"
+            ],
+            "type": "module",
+            "module_id": "latch",
+            "x": 96,
+            "y": -16,
+            "width": 32,
+            "height": 64,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        }
+    },
+    "__input__": [
+        "C",
+        "D"
+    ],
+    "__output__": [
+        "Q",
+        "Q_revr"
+    ]
+}

@@ -1,0 +1,229 @@
+{
+    "id": "latch",
+    "content": {
+        "C": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 64,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 48,
+                    "y": 64,
+                    "is_horizontal": false,
+                    "turn": [
+                        -80,
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "D": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 0,
+                    "is_horizontal": false,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "Q": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 160,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 176,
+                    "y": 0,
+                    "is_horizontal": false,
+                    "turn": [
+                        40,
+                        -64,
+                        16,
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_revr": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 160,
+                    "y": 64,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 192,
+                    "y": 64,
+                    "is_horizontal": false,
+                    "turn": [
+                        -40,
+                        -80,
+                        -16,
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff"
+        },
+        "_0x0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 32,
+                    "y": 32,
+                    "is_horizontal": false,
+                    "turn": [
+                        48,
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "_0x1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 96,
+                    "y": -8,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "_0x2": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 96,
+                    "y": 72,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "fe_0": {
+            "__in__": "D",
+            "__out__": "_0x0",
+            "type": "not",
+            "x": 24,
+            "y": 16,
+            "width": 16,
+            "height": 16,
+            "orientation": 0,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zufe_0": {
+            "__in0__": "C",
+            "__in1__": "D",
+            "__out__": "_0x1",
+            "type": "nand",
+            "x": 64,
+            "y": 8,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zufe_1": {
+            "__in0__": "C",
+            "__in1__": "_0x0",
+            "__out__": "_0x2",
+            "type": "nand",
+            "x": 64,
+            "y": 88,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zufe_2": {
+            "__in0__": "_0x1",
+            "__in1__": "Q_revr",
+            "__out__": "Q",
+            "type": "nand",
+            "x": 128,
+            "y": 16,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zufe_3": {
+            "__in0__": "_0x2",
+            "__in1__": "Q",
+            "__out__": "Q_revr",
+            "type": "nand",
+            "x": 128,
+            "y": 80,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        }
+    },
+    "__input__": [
+        "C",
+        "D"
+    ],
+    "__output__": [
+        "Q",
+        "Q_revr"
+    ]
+}

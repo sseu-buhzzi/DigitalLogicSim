@@ -1,0 +1,500 @@
+{
+    "id": "reg_8",
+    "content": {
+        "Load": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": -32,
+                    "is_horizontal": true,
+                    "turn": [
+                        16,
+                        272,
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 16,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 48,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 80,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 112,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 144,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 176,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 208,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "DI_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "DI_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 32,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "DI_2": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 64,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "DI_3": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 96,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "DI_4": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 128,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "DI_5": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 160,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "DI_6": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 192,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "DI_7": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 224,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "DO_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "DO_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 32,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "DO_2": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 64,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "DO_3": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 96,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "DO_4": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 128,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "DO_5": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 160,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "DO_6": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 192,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "DO_7": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 224,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "trigger_0": {
+            "__input__": [
+                "Load",
+                "DI_0"
+            ],
+            "__output__": [
+                "DO_0",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": -4,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_1": {
+            "__input__": [
+                "Load",
+                "DI_1"
+            ],
+            "__output__": [
+                "DO_1",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 28,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_2": {
+            "__input__": [
+                "Load",
+                "DI_2"
+            ],
+            "__output__": [
+                "DO_2",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 60,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_3": {
+            "__input__": [
+                "Load",
+                "DI_3"
+            ],
+            "__output__": [
+                "DO_3",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 92,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_4": {
+            "__input__": [
+                "Load",
+                "DI_4"
+            ],
+            "__output__": [
+                "DO_4",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 124,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_5": {
+            "__input__": [
+                "Load",
+                "DI_5"
+            ],
+            "__output__": [
+                "DO_5",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 156,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_6": {
+            "__input__": [
+                "Load",
+                "DI_6"
+            ],
+            "__output__": [
+                "DO_6",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 188,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_7": {
+            "__input__": [
+                "Load",
+                "DI_7"
+            ],
+            "__output__": [
+                "DO_7",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 220,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        }
+    },
+    "__input__": [
+        "Load",
+        "DI_0",
+        "DI_1",
+        "DI_2",
+        "DI_3",
+        "DI_4",
+        "DI_5",
+        "DI_6",
+        "DI_7"
+    ],
+    "__output__": [
+        "DO_0",
+        "DO_1",
+        "DO_2",
+        "DO_3",
+        "DO_4",
+        "DO_5",
+        "DO_6",
+        "DO_7"
+    ]
+}

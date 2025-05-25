@@ -1,0 +1,103 @@
+id latch_d
+__input__ C D
+__output__ Q Q_revr
+
+wire C
+    path
+        0   40  h   40
+        30  40  v   -50 10
+    colour
+        808000 ffff00
+
+wire D
+    path
+        0   0   h   40
+        20  0   v   10
+    colour
+        800000 ff0000
+
+wire Q
+    path
+        a0  0   h   40
+        b0  0   v   28  -40 10  10
+    colour
+        008000 00ff00
+
+wire Q_revr
+    path
+        a0  40  h   40
+        c0  40  v   -28 -50 -10 10
+    colour
+        000080 0000ff
+
+wire _0x0
+    path
+        20  20  v   30  20
+    colour
+        800000 ff0000
+
+wire _0x1
+    path
+        60  -8  h   20
+    colour
+        808080 ffffff
+
+wire _0x2
+    path
+        60  48  h   20
+    colour
+        808080 ffffff
+
+not fe_0
+    rect
+        18  10  10  10
+    orientation
+        0
+    colour
+        ffffff 808080
+    __in__ D
+    __out__ _0x0
+
+nand zufe_0
+    rect
+        40  8   20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ C
+    __in1__ D
+    __out__ _0x1
+
+nand zufe_1
+    rect
+        40  58  20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ C
+    __in1__ _0x0
+    __out__ _0x2
+
+nand zufe_2
+    rect
+        80  10  20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ _0x1
+    __in1__ Q_revr
+    __out__ Q
+
+nand zufe_3
+    rect
+        80  50  20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ _0x2
+    __in1__ Q
+    __out__ Q_revr

@@ -1,0 +1,39 @@
+id timer
+__input__
+__output__ C
+
+wire C
+    path
+        20  0   h   20
+        30  0   v   20  -10
+    colour
+        808000 ffff00
+
+wire C_revr
+    path
+        10  20  h   -10 -20 10
+    colour
+        808000 ffff00
+    __volitale__ true
+
+not fe
+    rect
+        10  8   10  10
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in__ C_revr
+    __out__ C
+    __delay__ 200
+
+buffer xato
+    rect
+        20  18  10  10
+    orientation
+        1
+    colour
+        ffffff 808080
+    __in__ C
+    __out__ C_revr
+    __delay__ 200

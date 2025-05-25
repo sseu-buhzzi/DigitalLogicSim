@@ -1,0 +1,39 @@
+{
+    "id": "_231102_timer_test",
+    "content": {
+        "C": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "timer_0": {
+            "__input__": [],
+            "__output__": [
+                "C"
+            ],
+            "type": "module",
+            "module_id": "timer",
+            "x": -32,
+            "y": -16,
+            "width": 32,
+            "height": 32,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        }
+    },
+    "__input__": [],
+    "__output__": [
+        "C"
+    ]
+}

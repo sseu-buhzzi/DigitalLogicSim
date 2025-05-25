@@ -1,0 +1,381 @@
+{
+    "id": "adder_8bit",
+    "content": {
+        "A_00": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 32,
+                    "y": 224,
+                    "is_horizontal": true,
+                    "turn": [64]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000",
+            "__signal__": false
+        },
+        "A_01": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 32,
+                    "y": 220,
+                    "is_horizontal": true,
+                    "turn": [64]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000",
+            "__signal__": false
+        },
+        "A_02": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 32,
+                    "y": 216,
+                    "is_horizontal": true,
+                    "turn": [64]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000",
+            "__signal__": false
+        },
+        "A_03": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 32,
+                    "y": 212,
+                    "is_horizontal": true,
+                    "turn": [64]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000",
+            "__signal__": false
+        },
+        "A_10": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 32,
+                    "y": 160,
+                    "is_horizontal": true,
+                    "turn": [64]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000",
+            "__signal__": false
+        },
+        "A_11": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 32,
+                    "y": 156,
+                    "is_horizontal": true,
+                    "turn": [64]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000",
+            "__signal__": false
+        },
+        "A_12": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 32,
+                    "y": 152,
+                    "is_horizontal": true,
+                    "turn": [64]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000",
+            "__signal__": false
+        },
+        "A_13": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 32,
+                    "y": 148,
+                    "is_horizontal": true,
+                    "turn": [64]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000",
+            "__signal__": false
+        },
+        "B_00": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 256,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff",
+            "__signal__": false
+        },
+        "B_01": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 252,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff",
+            "__signal__": false
+        },
+        "B_02": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 248,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff",
+            "__signal__": false
+        },
+        "B_03": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 244,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff",
+            "__signal__": false
+        },
+        "B_10": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 192,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff",
+            "__signal__": false
+        },
+        "B_11": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 188,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff",
+            "__signal__": false
+        },
+        "B_12": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 184,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff",
+            "__signal__": false
+        },
+        "B_13": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 180,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#000080",
+            "active_stroke": "#0000ff",
+            "__signal__": false
+        },
+        "S_00": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 144,
+                    "y": 240,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff",
+            "__signal__": false
+        },
+        "S_01": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 144,
+                    "y": 236,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff",
+            "__signal__": false
+        },
+        "S_02": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 144,
+                    "y": 232,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff",
+            "__signal__": false
+        },
+        "S_03": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 144,
+                    "y": 228,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff",
+            "__signal__": false
+        },
+        "S_10": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 144,
+                    "y": 176,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff",
+            "__signal__": false
+        },
+        "S_11": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 144,
+                    "y": 172,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff",
+            "__signal__": false
+        },
+        "S_12": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 144,
+                    "y": 168,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff",
+            "__signal__": false
+        },
+        "S_13": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 144,
+                    "y": 164,
+                    "is_horizontal": true,
+                    "turn": [32]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff",
+            "__signal__": false
+        },
+        "_0x0": {
+            "type": "wire",
+            "path": [
+                {
+                    "x": 120,
+                    "y": 210,
+                    "is_horizontal": false,
+                    "turn": [-16]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff",
+            "__signal__": false
+        },
+        "adder_4bit_0": {
+            "type": "module",
+            "module_id": "adder_4bit",
+            "x": 96,
+            "y": 210,
+            "width": 48,
+            "height": 48,
+            "stroke": "#ffffff",
+            "fill": "#808080",
+            "__input__": ["A_00", "A_01", "A_02", "A_03", "B_00", "B_01", "B_02", "B_03", false],
+            "__output__": ["S_00", "S_01", "S_02", "S_03", "_0x0"]
+        },
+        "adder_4bit_1": {
+            "type": "module",
+            "module_id": "adder_4bit",
+            "x": 96,
+            "y": 146,
+            "width": 48,
+            "height": 48,
+            "stroke": "#ffffff",
+            "fill": "#808080",
+            "__input__": ["A_10", "A_11", "A_12", "A_13", "B_10", "B_11", "B_12", "B_13", "_0x0"],
+            "__output__": ["S_10", "S_11", "S_12", "S_13", null]
+        },
+        "__input__": ["A_00", "A_01", "A_02", "A_03", "A_10", "A_11", "A_12", "A_13", "B_00", "B_01", "B_02", "B_03", "B_10", "B_11", "B_12", "B_13"],
+        "__output__": ["S_00", "S_01", "S_02", "S_03", "S_10", "S_11", "S_12", "S_13"]
+    }
+}

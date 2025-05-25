@@ -1,0 +1,1953 @@
+{
+    "id": "reg_32bit",
+    "content": {
+        "C": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": -32,
+                    "is_horizontal": true,
+                    "turn": [
+                        16,
+                        1040,
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 16,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 48,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 80,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 112,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 144,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 176,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 208,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 240,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 272,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 304,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 336,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 368,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 400,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 432,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 464,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 496,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 528,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 560,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 592,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 624,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 656,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 688,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 720,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 752,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 784,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 816,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 848,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 880,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 912,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 944,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 976,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "D_00": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_01": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 32,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_02": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 64,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_03": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 96,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_04": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 128,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_05": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 160,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_06": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 192,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_07": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 224,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_08": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 256,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_09": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 288,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_0a": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 320,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_0b": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 352,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_0c": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 384,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_0d": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 416,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_0e": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 448,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_0f": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 480,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_10": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 512,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_11": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 544,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_12": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 576,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_13": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 608,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_14": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 640,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_15": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 672,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_16": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 704,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_17": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 736,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_18": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 768,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_19": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 800,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_1a": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 832,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_1b": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 864,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_1c": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 896,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_1d": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 928,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_1e": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 960,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "D_1f": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 992,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "Q_00": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_01": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 32,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_02": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 64,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_03": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 96,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_04": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 128,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_05": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 160,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_06": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 192,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_07": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 224,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_08": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 256,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_09": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 288,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_0a": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 320,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_0b": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 352,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_0c": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 384,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_0d": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 416,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_0e": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 448,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_0f": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 480,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_10": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 512,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_11": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 544,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_12": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 576,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_13": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 608,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_14": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 640,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_15": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 672,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_16": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 704,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_17": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 736,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_18": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 768,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_19": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 800,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_1a": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 832,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_1b": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 864,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_1c": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 896,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_1d": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 928,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_1e": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 960,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "Q_1f": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 48,
+                    "y": 992,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "trigger_00": {
+            "__input__": [
+                "C",
+                "D_00"
+            ],
+            "__output__": [
+                "Q_00",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": -4,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_01": {
+            "__input__": [
+                "C",
+                "D_01"
+            ],
+            "__output__": [
+                "Q_01",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 28,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_02": {
+            "__input__": [
+                "C",
+                "D_02"
+            ],
+            "__output__": [
+                "Q_02",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 60,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_03": {
+            "__input__": [
+                "C",
+                "D_03"
+            ],
+            "__output__": [
+                "Q_03",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 92,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_04": {
+            "__input__": [
+                "C",
+                "D_04"
+            ],
+            "__output__": [
+                "Q_04",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 124,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_05": {
+            "__input__": [
+                "C",
+                "D_05"
+            ],
+            "__output__": [
+                "Q_05",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 156,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_06": {
+            "__input__": [
+                "C",
+                "D_06"
+            ],
+            "__output__": [
+                "Q_06",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 188,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_07": {
+            "__input__": [
+                "C",
+                "D_07"
+            ],
+            "__output__": [
+                "Q_07",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 220,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_08": {
+            "__input__": [
+                "C",
+                "D_08"
+            ],
+            "__output__": [
+                "Q_08",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 252,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_09": {
+            "__input__": [
+                "C",
+                "D_09"
+            ],
+            "__output__": [
+                "Q_09",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 284,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_0a": {
+            "__input__": [
+                "C",
+                "D_0a"
+            ],
+            "__output__": [
+                "Q_0a",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 316,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_0b": {
+            "__input__": [
+                "C",
+                "D_0b"
+            ],
+            "__output__": [
+                "Q_0b",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 348,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_0c": {
+            "__input__": [
+                "C",
+                "D_0c"
+            ],
+            "__output__": [
+                "Q_0c",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 380,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_0d": {
+            "__input__": [
+                "C",
+                "D_0d"
+            ],
+            "__output__": [
+                "Q_0d",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 412,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_0e": {
+            "__input__": [
+                "C",
+                "D_0e"
+            ],
+            "__output__": [
+                "Q_0e",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 444,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_0f": {
+            "__input__": [
+                "C",
+                "D_0f"
+            ],
+            "__output__": [
+                "Q_0f",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 476,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_10": {
+            "__input__": [
+                "C",
+                "D_10"
+            ],
+            "__output__": [
+                "Q_10",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 508,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_11": {
+            "__input__": [
+                "C",
+                "D_11"
+            ],
+            "__output__": [
+                "Q_11",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 540,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_12": {
+            "__input__": [
+                "C",
+                "D_12"
+            ],
+            "__output__": [
+                "Q_12",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 572,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_13": {
+            "__input__": [
+                "C",
+                "D_13"
+            ],
+            "__output__": [
+                "Q_13",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 604,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_14": {
+            "__input__": [
+                "C",
+                "D_14"
+            ],
+            "__output__": [
+                "Q_14",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 636,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_15": {
+            "__input__": [
+                "C",
+                "D_15"
+            ],
+            "__output__": [
+                "Q_15",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 668,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_16": {
+            "__input__": [
+                "C",
+                "D_16"
+            ],
+            "__output__": [
+                "Q_16",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 700,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_17": {
+            "__input__": [
+                "C",
+                "D_17"
+            ],
+            "__output__": [
+                "Q_17",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 732,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_18": {
+            "__input__": [
+                "C",
+                "D_18"
+            ],
+            "__output__": [
+                "Q_18",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 764,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_19": {
+            "__input__": [
+                "C",
+                "D_19"
+            ],
+            "__output__": [
+                "Q_19",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 796,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_1a": {
+            "__input__": [
+                "C",
+                "D_1a"
+            ],
+            "__output__": [
+                "Q_1a",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 828,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_1b": {
+            "__input__": [
+                "C",
+                "D_1b"
+            ],
+            "__output__": [
+                "Q_1b",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 860,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_1c": {
+            "__input__": [
+                "C",
+                "D_1c"
+            ],
+            "__output__": [
+                "Q_1c",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 892,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_1d": {
+            "__input__": [
+                "C",
+                "D_1d"
+            ],
+            "__output__": [
+                "Q_1d",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 924,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_1e": {
+            "__input__": [
+                "C",
+                "D_1e"
+            ],
+            "__output__": [
+                "Q_1e",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 956,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_1f": {
+            "__input__": [
+                "C",
+                "D_1f"
+            ],
+            "__output__": [
+                "Q_1f",
+                null
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 32,
+            "y": 988,
+            "width": 16,
+            "height": 24,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "clock": {
+            "__input__": [],
+            "__output__": [
+                "C"
+            ],
+            "type": "module",
+            "module_id": "timer",
+            "x": -16,
+            "y": -40,
+            "width": 16,
+            "height": 16,
+            "stroke": "#ffff00",
+            "fill": "#808000"
+        }
+    },
+    "__input__": [
+        "D_00",
+        "D_01",
+        "D_02",
+        "D_03",
+        "D_04",
+        "D_05",
+        "D_06",
+        "D_07",
+        "D_08",
+        "D_09",
+        "D_0a",
+        "D_0b",
+        "D_0c",
+        "D_0d",
+        "D_0e",
+        "D_0f",
+        "D_10",
+        "D_11",
+        "D_12",
+        "D_13",
+        "D_14",
+        "D_15",
+        "D_16",
+        "D_17",
+        "D_18",
+        "D_19",
+        "D_1a",
+        "D_1b",
+        "D_1c",
+        "D_1d",
+        "D_1e",
+        "D_1f"
+    ],
+    "__output__": [
+        "Q_00",
+        "Q_01",
+        "Q_02",
+        "Q_03",
+        "Q_04",
+        "Q_05",
+        "Q_06",
+        "Q_07",
+        "Q_08",
+        "Q_09",
+        "Q_0a",
+        "Q_0b",
+        "Q_0c",
+        "Q_0d",
+        "Q_0e",
+        "Q_0f",
+        "Q_10",
+        "Q_11",
+        "Q_12",
+        "Q_13",
+        "Q_14",
+        "Q_15",
+        "Q_16",
+        "Q_17",
+        "Q_18",
+        "Q_19",
+        "Q_1a",
+        "Q_1b",
+        "Q_1c",
+        "Q_1d",
+        "Q_1e",
+        "Q_1f"
+    ]
+}

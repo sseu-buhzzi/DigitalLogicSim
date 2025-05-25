@@ -1,0 +1,898 @@
+id mux_4_8
+__input__ S_0 S_1 I_0_0 I_0_1 I_0_2 I_0_3 I_0_4 I_0_5 I_0_6 I_0_7 I_1_0 I_1_1 I_1_2 I_1_3 I_1_4 I_1_5 I_1_6 I_1_7 I_2_0 I_2_1 I_2_2 I_2_3 I_2_4 I_2_5 I_2_6 I_2_7 I_3_0 I_3_1 I_3_2 I_3_3 I_3_4 I_3_5 I_3_6 I_3_7
+__output__ Y_0 Y_1 Y_2 Y_3 Y_4 Y_5 Y_6 Y_7
+
+wire S_0
+    path
+        0   20  h   b8  20
+        10  20  v   10  10
+        58  20  v   20
+    colour
+        701070  e020e0
+wire S_1
+    path
+        0   0   h   78  40
+        10  0   v   10  10
+        48  0   v   40
+    colour
+        800080  ff00ff
+
+wire S_r_0
+    path
+        30  30  h   b8  10
+        88  30  v   10
+    colour
+        701070  e020e0
+wire S_r_1
+    path
+        30  10  h   a8  30
+        a8  10  v   30
+    colour
+        800080  ff00ff
+
+wire Sel_0
+    path
+        e0  60  v   5e8 8
+        e0  4f8 h   8
+        e0  528 h   8
+        e0  558 h   8
+        e0  588 h   8
+        e0  5b8 h   8
+        e0  5e8 h   8
+        e0  618 h   8
+    colour
+        503050  a060a0
+wire Sel_1
+    path
+        b0  60  v   468 8
+        b0  378 h   8
+        b0  3a8 h   8
+        b0  3d8 h   8
+        b0  408 h   8
+        b0  438 h   8
+        b0  468 h   8
+        b0  498 h   8
+    colour
+        602060  c040c0
+wire Sel_2
+    path
+        80  60  v   2e8 8
+        80  1f8 h   8
+        80  228 h   8
+        80  258 h   8
+        80  288 h   8
+        80  2b8 h   8
+        80  2e8 h   8
+        80  318 h   8
+    colour
+        701070  e020e0
+wire Sel_3
+    path
+        50  60  v   168 8
+        50  78  h   8
+        50  a8  h   8
+        50  d8  h   8
+        50  108 h   8
+        50  138 h   8
+        50  168 h   8
+        50  198 h   8
+    colour
+        800080  ff00ff
+
+wire I_0_0
+    path
+        0   658 h   e8
+    colour
+        483838  907070
+wire I_0_1
+    path
+        0   628 h   e8
+    colour
+        503030  a06060
+wire I_0_2
+    path
+        0   5f8 h   e8
+    colour
+        582828  b05050
+wire I_0_3
+    path
+        0   5c8 h   e8
+    colour
+        602020  c04040
+wire I_0_4
+    path
+        0   598 h   e8
+    colour
+        681818  d03030
+wire I_0_5
+    path
+        0   568 h   e8
+    colour
+        701010  e02020
+wire I_0_6
+    path
+        0   538 h   e8
+    colour
+        780808  f01010
+wire I_0_7
+    path
+        0   508 h   e8
+    colour
+        800000  ff0000
+wire I_1_0
+    path
+        0   4d8 h   b8
+    colour
+        483838  907070
+wire I_1_1
+    path
+        0   4a8 h   b8
+    colour
+        503030  a06060
+wire I_1_2
+    path
+        0   478 h   b8
+    colour
+        582828  b05050
+wire I_1_3
+    path
+        0   448 h   b8
+    colour
+        602020  c04040
+wire I_1_4
+    path
+        0   418 h   b8
+    colour
+        681818  d03030
+wire I_1_5
+    path
+        0   3e8 h   b8
+    colour
+        701010  e02020
+wire I_1_6
+    path
+        0   3b8 h   b8
+    colour
+        780808  f01010
+wire I_1_7
+    path
+        0   388 h   b8
+    colour
+        800000  ff0000
+wire I_2_0
+    path
+        0   358 h   88
+    colour
+        483838  907070
+wire I_2_1
+    path
+        0   328 h   88
+    colour
+        503030  a06060
+wire I_2_2
+    path
+        0   2f8 h   88
+    colour
+        582828  b05050
+wire I_2_3
+    path
+        0   2c8 h   88
+    colour
+        602020  c04040
+wire I_2_4
+    path
+        0   298 h   88
+    colour
+        681818  d03030
+wire I_2_5
+    path
+        0   268 h   88
+    colour
+        701010  e02020
+wire I_2_6
+    path
+        0   238 h   88
+    colour
+        780808  f01010
+wire I_2_7
+    path
+        0   208 h   88
+    colour
+        800000  ff0000
+wire I_3_0
+    path
+        0   1d8 h   58
+    colour
+        483838  907070
+wire I_3_1
+    path
+        0   1a8 h   58
+    colour
+        503030  a06060
+wire I_3_2
+    path
+        0   178 h   58
+    colour
+        582828  b05050
+wire I_3_3
+    path
+        0   148 h   58
+    colour
+        602020  c04040
+wire I_3_4
+    path
+        0   118 h   58
+    colour
+        681818  d03030
+wire I_3_5
+    path
+        0   e8  h   58
+    colour
+        701010  e02020
+wire I_3_6
+    path
+        0   b8  h   58
+    colour
+        780808  f01010
+wire I_3_7
+    path
+        0   88  h   58
+    colour
+        800000  ff0000
+
+wire Y_0_0
+    path
+        108 650 h   2c  -474    14
+    colour
+        384838  709070
+wire Y_0_1
+    path
+        108 620 h   28  -474    18
+    colour
+        305030  60a060
+wire Y_0_2
+    path
+        108 5f0 h   24  -474    1c
+    colour
+        285828  50b050
+wire Y_0_3
+    path
+        108 5c0 h   20  -474    20
+    colour
+        206020  40c040
+wire Y_0_4
+    path
+        108 590 h   1c  -474    24
+    colour
+        186818  30d030
+wire Y_0_5
+    path
+        108 560 h   18  -474    28
+    colour
+        107010  20e020
+wire Y_0_6
+    path
+        108 530 h   14  -474    2c
+    colour
+        087808  10f010
+wire Y_0_7
+    path
+        108 500 h   10  -474    30
+    colour
+        008000  00ff00
+wire Y_1_0
+    path
+        d8  4d0 h   2c  -2fc    44
+    colour
+        384838  709070
+wire Y_1_1
+    path
+        d8  4a0 h   28  -2fc    48
+    colour
+        305030  60a060
+wire Y_1_2
+    path
+        d8  470 h   24  -2fc    4c
+    colour
+        285828  50b050
+wire Y_1_3
+    path
+        d8  440 h   20  -2fc    50
+    colour
+        206020  40c040
+wire Y_1_4
+    path
+        d8  410 h   1c  -2fc    54
+    colour
+        186818  30d030
+wire Y_1_5
+    path
+        d8  3e0 h   18  -2fc    58
+    colour
+        107010  20e020
+wire Y_1_6
+    path
+        d8  3b0 h   14  -2fc    5c
+    colour
+        087808  10f010
+wire Y_1_7
+    path
+        d8  380 h   10  -2fc    60
+    colour
+        008000  00ff00
+wire Y_2_0
+    path
+        a8  350 h   2c  -184    74
+    colour
+        384838  709070
+wire Y_2_1
+    path
+        a8  320 h   28  -184    78
+    colour
+        305030  60a060
+wire Y_2_2
+    path
+        a8  2f0 h   24  -184    7c
+    colour
+        285828  50b050
+wire Y_2_3
+    path
+        a8  2c0 h   20  -184    80
+    colour
+        206020  40c040
+wire Y_2_4
+    path
+        a8  290 h   1c  -184    84
+    colour
+        186818  30d030
+wire Y_2_5
+    path
+        a8  260 h   18  -184    88
+    colour
+        107010  20e020
+wire Y_2_6
+    path
+        a8  230 h   14  -184    8c
+    colour
+        087808  10f010
+wire Y_2_7
+    path
+        a8  200 h   10  -184    90
+    colour
+        008000  00ff00
+wire Y_3_0
+    path
+        78  1d0 h   2c  -c  a4
+    colour
+        384838  709070
+wire Y_3_1
+    path
+        78  1a0 h   28  -c  a8
+    colour
+        305030  60a060
+wire Y_3_2
+    path
+        78  170 h   24  -c  ac
+    colour
+        285828  50b050
+wire Y_3_3
+    path
+        78  140 h   20  -c  b0
+    colour
+        206020  40c040
+wire Y_3_4
+    path
+        78  110 h   1c  -c  b4
+    colour
+        186818  30d030
+wire Y_3_5
+    path
+        78  e0  h   18  -c  b8
+    colour
+        107010  20e020
+wire Y_3_6
+    path
+        78  b0  h   14  -c  bc
+    colour
+        087808  10f010
+wire Y_3_7
+    path
+        78  80  h   10  -c  c0
+    colour
+        008000  00ff00
+wire Y_0
+    path
+        160  1d0 h   10
+    colour
+        008000  00ff00
+wire Y_1
+    path
+        160  1a0 h   10
+    colour
+        008000  00ff00
+wire Y_2
+    path
+        160  170 h   10
+    colour
+        008000  00ff00
+wire Y_3
+    path
+        160  140 h   10
+    colour
+        008000  00ff00
+wire Y_4
+    path
+        160  110 h   10
+    colour
+        008000  00ff00
+wire Y_5
+    path
+        160  e0  h   10
+    colour
+        008000  00ff00
+wire Y_6
+    path
+        160  b0  h   10
+    colour
+        008000  00ff00
+wire Y_7
+    path
+        160  80  h   10
+    colour
+        008000  00ff00
+
+
+
+not fe_0
+    rect
+        20  38  10  10
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in__ S_0
+    __out__ S_r_0
+not fe_1
+    rect
+        20  18  10  10
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in__ S_1
+    __out__ S_r_1
+
+and zu_0
+    rect
+        d0  40  20  20
+    orientation
+        0
+    colour
+         ffffff  808080
+    __in0__ S_r_0
+    __in1__ S_r_1
+    __out__ Sel_0
+and zu_1
+    rect
+        a0  40  20  20
+    orientation
+        0
+    colour
+         ffffff  808080
+    __in0__ S_0
+    __in1__ S_r_1
+    __out__ Sel_1
+and zu_2
+    rect
+        70  40  20  20
+    orientation
+        0
+    colour
+         ffffff  808080
+    __in0__ S_r_0
+    __in1__ S_1
+    __out__ Sel_2
+and zu_3
+    rect
+        40  40  20  20
+    orientation
+        0
+    colour
+         ffffff  808080
+    __in0__ S_0
+    __in1__ S_1
+    __out__ Sel_3
+
+and zu_0_0
+    rect
+        e8  660 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_0
+    __in1__ I_0_0
+    __out__ Y_0_0
+and zu_0_1
+    rect
+        e8  630 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_0
+    __in1__ I_0_1
+    __out__ Y_0_1
+and zu_0_2
+    rect
+        e8  600 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_0
+    __in1__ I_0_2
+    __out__ Y_0_2
+and zu_0_3
+    rect
+        e8  5d0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_0
+    __in1__ I_0_3
+    __out__ Y_0_3
+and zu_0_4
+    rect
+        e8  5a0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_0
+    __in1__ I_0_4
+    __out__ Y_0_4
+and zu_0_5
+    rect
+        e8  570 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_0
+    __in1__ I_0_5
+    __out__ Y_0_5
+and zu_0_6
+    rect
+        e8  540 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_0
+    __in1__ I_0_6
+    __out__ Y_0_6
+and zu_0_7
+    rect
+        e8  510 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_0
+    __in1__ I_0_7
+    __out__ Y_0_7
+and zu_1_0
+    rect
+        b8  4e0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_1
+    __in1__ I_1_0
+    __out__ Y_1_0
+and zu_1_1
+    rect
+        b8  4b0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_1
+    __in1__ I_1_1
+    __out__ Y_1_1
+and zu_1_2
+    rect
+        b8  480 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_1
+    __in1__ I_1_2
+    __out__ Y_1_2
+and zu_1_3
+    rect
+        b8  450 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_1
+    __in1__ I_1_3
+    __out__ Y_1_3
+and zu_1_4
+    rect
+        b8  420 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_1
+    __in1__ I_1_4
+    __out__ Y_1_4
+and zu_1_5
+    rect
+        b8  3f0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_1
+    __in1__ I_1_5
+    __out__ Y_1_5
+and zu_1_6
+    rect
+        b8  3c0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_1
+    __in1__ I_1_6
+    __out__ Y_1_6
+and zu_1_7
+    rect
+        b8  390 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_1
+    __in1__ I_1_7
+    __out__ Y_1_7
+and zu_2_0
+    rect
+        88  360 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_2
+    __in1__ I_2_0
+    __out__ Y_2_0
+and zu_2_1
+    rect
+        88  330 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_2
+    __in1__ I_2_1
+    __out__ Y_2_1
+and zu_2_2
+    rect
+        88  300 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_2
+    __in1__ I_2_2
+    __out__ Y_2_2
+and zu_2_3
+    rect
+        88  2d0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_2
+    __in1__ I_2_3
+    __out__ Y_2_3
+and zu_2_4
+    rect
+        88  2a0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_2
+    __in1__ I_2_4
+    __out__ Y_2_4
+and zu_2_5
+    rect
+        88  270 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_2
+    __in1__ I_2_5
+    __out__ Y_2_5
+and zu_2_6
+    rect
+        88  240 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_2
+    __in1__ I_2_6
+    __out__ Y_2_6
+and zu_2_7
+    rect
+        88  210 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_2
+    __in1__ I_2_7
+    __out__ Y_2_7
+and zu_3_0
+    rect
+        58  1e0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_3
+    __in1__ I_3_0
+    __out__ Y_3_0
+and zu_3_1
+    rect
+        58  1b0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_3
+    __in1__ I_3_1
+    __out__ Y_3_1
+and zu_3_2
+    rect
+        58  180 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_3
+    __in1__ I_3_2
+    __out__ Y_3_2
+and zu_3_3
+    rect
+        58  150 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_3
+    __in1__ I_3_3
+    __out__ Y_3_3
+and zu_3_4
+    rect
+        58  120 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_3
+    __in1__ I_3_4
+    __out__ Y_3_4
+and zu_3_5
+    rect
+        58  f0  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_3
+    __in1__ I_3_5
+    __out__ Y_3_5
+and zu_3_6
+    rect
+        58  c0  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_3
+    __in1__ I_3_6
+    __out__ Y_3_6
+and zu_3_7
+    rect
+        58  90  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ Sel_3
+    __in1__ I_3_7
+    __out__ Y_3_7
+
+or_array xo_0
+    rect
+        140 1e0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ Y_0_0 Y_1_0 Y_2_0 Y_3_0
+    __out__ Y_0
+or_array xo_1
+    rect
+        140 1b0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ Y_0_1 Y_1_1 Y_2_1 Y_3_1
+    __out__ Y_1
+or_array xo_2
+    rect
+        140 180 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ Y_0_2 Y_1_2 Y_2_2 Y_3_2
+    __out__ Y_2
+or_array xo_3
+    rect
+        140 150 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ Y_0_3 Y_1_3 Y_2_3 Y_3_3
+    __out__ Y_3
+or_array xo_4
+    rect
+        140 120 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ Y_0_4 Y_1_4 Y_2_4 Y_3_4
+    __out__ Y_4
+or_array xo_5
+    rect
+        140 f0  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ Y_0_5 Y_1_5 Y_2_5 Y_3_5
+    __out__ Y_5
+or_array xo_6
+    rect
+        140 c0  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ Y_0_6 Y_1_6 Y_2_6 Y_3_6
+    __out__ Y_6
+or_array xo_7
+    rect
+        140 90  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ Y_0_7 Y_1_7 Y_2_7 Y_3_7
+    __out__ Y_7

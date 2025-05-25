@@ -1,0 +1,112 @@
+id decoder_2_4
+__input__ A_0 A_1
+__output__ D_0 D_1 D_2 D_3
+
+wire A_0
+    path
+        0   20  h   30
+        28  20  v   98  58
+        28  58  h   58
+    colour
+        503030  a06060
+wire A_1
+    path
+        0   0   h   30
+        20  0   v   78  60
+        20  48  h   60
+    colour
+        602020  c04040
+
+wire A_r_0
+    path
+        40  20  h   28  c8  18
+        68  88  h   18
+    colour
+        503030  a06060
+wire A_r_1
+    path
+        40  0   h   20  d8  20
+        60  a8  h   20
+    colour
+        602020  c04040
+
+wire D_0
+    path
+        a0  e0  h   10
+    colour
+        384838  709070
+wire D_1
+    path
+        a0  b0  h   10
+    colour
+        305030  60a060
+wire D_2
+    path
+        a0  80  h   10
+    colour
+        285828  50b050
+wire D_3
+    path
+        a0  50  h   10
+    colour
+        206020  40c040
+
+not fe_0
+    rect
+        30  28  10  10
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in__ A_0
+    __out__ A_r_0
+not fe_1
+    rect
+        30  8   10  10
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in__ A_1
+    __out__ A_r_1
+
+and zu_0
+    rect
+        80  f0  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ A_r_0
+    __in1__ A_r_1
+    __out__ D_0
+and zu_1
+    rect
+        80  c0  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ A_0
+    __in1__ A_r_1
+    __out__ D_1
+and zu_2
+    rect
+        80  90  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ A_r_0
+    __in1__ A_1
+    __out__ D_2
+and zu_3
+    rect
+        80  60  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ A_0
+    __in1__ A_1
+    __out__ D_3

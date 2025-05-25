@@ -1,0 +1,4880 @@
+id ram_256_8
+__input__ DI_0 DI_1 DI_2 DI_3 DI_4 DI_5 DI_6 DI_7 Addr_0 Addr_1 Addr_2 Addr_3 Addr_4 Addr_5 Addr_6 Addr_7 ChSel RW
+__output__ DO_en_0 DO_en_1 DO_en_2 DO_en_3 DO_en_4 DO_en_5 DO_en_6 DO_en_7
+
+// Data Input ________________________________________________________________
+
+wire DI_0
+    path
+        0   10c h   2010    -34 8
+        210 10c v   -34 8
+        410 10c v   -34 8
+        610 10c v   -34 8
+        810 10c v   -34 8
+        a10 10c v   -34 8
+        c10 10c v   -34 8
+        e10 10c v   -34 8
+        1010    10c v   -34 8
+        1210    10c v   -34 8
+        1410    10c v   -34 8
+        1610    10c v   -34 8
+        1810    10c v   -34 8
+        1a10    10c v   -34 8
+        1c10    10c v   -34 8
+        1e10    10c v   -34 8
+    colour
+        641c1c  c83838
+wire DI_1
+    path
+        0   108 h   1fd0    -30 8
+        1d0 108 v   -30 8
+        3d0 108 v   -30 8
+        5d0 108 v   -30 8
+        7d0 108 v   -30 8
+        9d0 108 v   -30 8
+        bd0 108 v   -30 8
+        dd0 108 v   -30 8
+        fd0 108 v   -30 8
+        11d0    108 v   -30 8
+        13d0    108 v   -30 8
+        15d0    108 v   -30 8
+        17d0    108 v   -30 8
+        19d0    108 v   -30 8
+        1bd0    108 v   -30 8
+        1dd0    108 v   -30 8
+    colour
+        681818  cc3434
+wire DI_2
+    path
+        0   104 h   1f90    -2c 8
+        190 104 v   -2c 8
+        390 104 v   -2c 8
+        590 104 v   -2c 8
+        790 104 v   -2c 8
+        990 104 v   -2c 8
+        b90 104 v   -2c 8
+        d90 104 v   -2c 8
+        f90 104 v   -2c 8
+        1190    104 v   -2c 8
+        1390    104 v   -2c 8
+        1590    104 v   -2c 8
+        1790    104 v   -2c 8
+        1990    104 v   -2c 8
+        1b90    104 v   -2c 8
+        1d90    104 v   -2c 8
+    colour
+        6c1414  d82828
+wire DI_3
+    path
+        0   100 h   1f50    -28 8
+        150 100 v   -28 8
+        350 100 v   -28 8
+        550 100 v   -28 8
+        750 100 v   -28 8
+        950 100 v   -28 8
+        b50 100 v   -28 8
+        d50 100 v   -28 8
+        f50 100 v   -28 8
+        1150    100 v   -28 8
+        1350    100 v   -28 8
+        1550    100 v   -28 8
+        1750    100 v   -28 8
+        1950    100 v   -28 8
+        1b50    100 v   -28 8
+        1d50    100 v   -28 8
+    colour
+        701010  e02020
+wire DI_4
+    path
+        0   fc  h   1f10    -24 8
+        110 fc  v   -24 8
+        310 fc  v   -24 8
+        510 fc  v   -24 8
+        710 fc  v   -24 8
+        910 fc  v   -24 8
+        b10 fc  v   -24 8
+        d10 fc  v   -24 8
+        f10 fc  v   -24 8
+        1110 fc  v   -24 8
+        1310 fc  v   -24 8
+        1510 fc  v   -24 8
+        1710 fc  v   -24 8
+        1910 fc  v   -24 8
+        1b10 fc  v   -24 8
+        1d10 fc  v   -24 8
+    colour
+        740c0c  e81818
+wire DI_5
+    path
+        0   f8  h   1ed0    -20 8
+        d0  f8  v   -20 8
+        2d0 f8  v   -20 8
+        4d0 f8  v   -20 8
+        6d0 f8  v   -20 8
+        8d0 f8  v   -20 8
+        ad0 f8  v   -20 8
+        cd0 f8  v   -20 8
+        ed0 f8  v   -20 8
+        10d0    f8  v   -20 8
+        12d0    f8  v   -20 8
+        14d0    f8  v   -20 8
+        16d0    f8  v   -20 8
+        18d0    f8  v   -20 8
+        1ad0    f8  v   -20 8
+        1cd0    f8  v   -20 8
+    colour
+        780808  f01010
+wire DI_6
+    path
+        0   f4  h   1e90    -1c 8
+        90  f4  v   -1c 8
+        290 f4  v   -1c 8
+        490 f4  v   -1c 8
+        690 f4  v   -1c 8
+        890 f4  v   -1c 8
+        a90 f4  v   -1c 8
+        c90 f4  v   -1c 8
+        e90 f4  v   -1c 8
+        1090    f4  v   -1c 8
+        1290    f4  v   -1c 8
+        1490    f4  v   -1c 8
+        1690    f4  v   -1c 8
+        1890    f4  v   -1c 8
+        1a90    f4  v   -1c 8
+        1c90    f4  v   -1c 8
+    colour
+        7c0404  f80808
+wire DI_7
+    path
+        0   f0  h   1e50    -18 8
+        50  f0  v   -18 8
+        250 f0  v   -18 8
+        450 f0  v   -18 8
+        650 f0  v   -18 8
+        850 f0  v   -18 8
+        a50 f0  v   -18 8
+        c50 f0  v   -18 8
+        e50 f0  v   -18 8
+        1050    f0  v   -18 8
+        1250    f0  v   -18 8
+        1450    f0  v   -18 8
+        1650    f0  v   -18 8
+        1850    f0  v   -18 8
+        1a50    f0  v   -18 8
+        1c50    f0  v   -18 8
+    colour
+        800000  ff0000
+
+// Address ________________________________________________________________
+
+wire Addr_0
+    path
+        0   78  h   10
+    colour
+        681868  d030d0
+wire Addr_1
+    path
+        0   68  h   10
+    colour
+        701070  e020e0
+wire Addr_2
+    path
+        0   58  h   10
+    colour
+        780878  f010f0
+wire Addr_3
+    path
+        0   48  h   10
+    colour
+        800080  ff00ff
+wire Addr_4
+    path
+        0   38  h   10
+    colour
+        681868  d030d0
+wire Addr_5
+    path
+        0   28  h   10
+    colour
+        701070  e020e0
+wire Addr_6
+    path
+        0   18  h   10
+    colour
+        780878  f010f0
+wire Addr_7
+    path
+        0   8   h   10
+    colour
+        800080  ff00ff
+
+// Chip  Select ________________________________________________________________
+
+wire ChSel
+    path
+        0   124 h   20  -a7
+    colour
+        800080  ff00ff
+
+// Read Write ________________________________________________________________
+
+wire RW
+    path
+        0   118 h   2068    0   30  158 8
+        60  118 v   -38
+        a0  118 v   -38
+        e0  118 v   -38
+        120 118 v   -38
+        160  118 v   -38
+        1a0  118 v   -38
+        1e0  118 v   -38
+        220  118 v   -38
+        260  118 v   -38
+        2a0  118 v   -38
+        2e0  118 v   -38
+        320  118 v   -38
+        360  118 v   -38
+        3a0  118 v   -38
+        3e0  118 v   -38
+        420  118 v   -38
+        460  118 v   -38
+        4a0  118 v   -38
+        4e0  118 v   -38
+        520  118 v   -38
+        560  118 v   -38
+        5a0  118 v   -38
+        5e0  118 v   -38
+        620  118 v   -38
+        660  118 v   -38
+        6a0  118 v   -38
+        6e0  118 v   -38
+        720  118 v   -38
+        760  118 v   -38
+        7a0  118 v   -38
+        7e0  118 v   -38
+        820  118 v   -38
+        860  118 v   -38
+        8a0  118 v   -38
+        8e0  118 v   -38
+        920  118 v   -38
+        960  118 v   -38
+        9a0  118 v   -38
+        9e0  118 v   -38
+        a20  118 v   -38
+        a60  118 v   -38
+        aa0  118 v   -38
+        ae0  118 v   -38
+        b20  118 v   -38
+        b60  118 v   -38
+        ba0  118 v   -38
+        be0  118 v   -38
+        c20  118 v   -38
+        c60  118 v   -38
+        ca0  118 v   -38
+        ce0  118 v   -38
+        d20  118 v   -38
+        d60  118 v   -38
+        da0  118 v   -38
+        de0  118 v   -38
+        e20  118 v   -38
+        e60  118 v   -38
+        ea0  118 v   -38
+        ee0  118 v   -38
+        f20  118 v   -38
+        f60  118 v   -38
+        fa0  118 v   -38
+        fe0  118 v   -38
+        1020    118 v   -38
+        1060    118 v   -38
+        10a0    118 v   -38
+        10e0    118 v   -38
+        1120    118 v   -38
+        1160    118 v   -38
+        11a0    118 v   -38
+        11e0    118 v   -38
+        1220    118 v   -38
+        1260    118 v   -38
+        12a0    118 v   -38
+        12e0    118 v   -38
+        1320    118 v   -38
+        1360    118 v   -38
+        13a0    118 v   -38
+        13e0    118 v   -38
+        1420    118 v   -38
+        1460    118 v   -38
+        14a0    118 v   -38
+        14e0    118 v   -38
+        1520    118 v   -38
+        1560    118 v   -38
+        15a0    118 v   -38
+        15e0    118 v   -38
+        1620    118 v   -38
+        1660    118 v   -38
+        16a0    118 v   -38
+        16e0    118 v   -38
+        1720    118 v   -38
+        1760    118 v   -38
+        17a0    118 v   -38
+        17e0    118 v   -38
+        1820    118 v   -38
+        1860    118 v   -38
+        18a0    118 v   -38
+        18e0    118 v   -38
+        1920    118 v   -38
+        1960    118 v   -38
+        19a0    118 v   -38
+        19e0    118 v   -38
+        1a20    118 v   -38
+        1a60    118 v   -38
+        1aa0    118 v   -38
+        1ae0    118 v   -38
+        1b20    118 v   -38
+        1b60    118 v   -38
+        1ba0    118 v   -38
+        1be0    118 v   -38
+        1c20    118 v   -38
+        1c60    118 v   -38
+        1ca0    118 v   -38
+        1ce0    118 v   -38
+        1d20    118 v   -38
+        1d60    118 v   -38
+        1da0    118 v   -38
+        1de0    118 v   -38
+        1e20    118 v   -38
+        1e60    118 v   -38
+        1ea0    118 v   -38
+        1ee0    118 v   -38
+        1f20    118 v   -38
+        1f60    118 v   -38
+        1fa0    118 v   -38
+        1fe0    118 v   -38
+        2020    118 v   -38
+        2098    120 h   8
+        2098    150 h   8
+        2098    180 h   8
+        2098    1b0 h   8
+        2098    1e0 h   8
+        2098    210 h   8
+        2098    240 h   8
+    colour
+        804000  ff8000
+
+// Column Select ________________________________________________________________
+
+wire CSel_0
+    path
+        30  7c  h   1ff0    c
+        1e60    7c  v   c
+        1ea0    7c  v   c
+        1ee0    7c  v   c
+        1f20    7c  v   c
+        1f60    7c  v   c
+        1fa0    7c  v   c
+        1fe0    7c  v   c
+    colour
+        621e62  c43cc4
+wire CSel_1
+    path
+        30  78  h   1df0    10
+        1c60    78  v   10
+        1ca0    78  v   10
+        1ce0    78  v   10
+        1d20    78  v   10
+        1d60    78  v   10
+        1da0    78  v   10
+        1de0    78  v   10
+    colour
+        641c64  c838c8
+wire CSel_2
+    path
+        30  74  h   1bf0    14
+        1a60    74  v   14
+        1aa0    74  v   14
+        1ae0    74  v   14
+        1b20    74  v   14
+        1b60    74  v   14
+        1ba0    74  v   14
+        1be0    74  v   14
+    colour
+        661a66  cc34cc
+wire CSel_3
+    path
+        30  70  h   19f0    18
+        1860    70  v   18
+        18a0    70  v   18
+        18e0    70  v   18
+        1920    70  v   18
+        1960    70  v   18
+        19a0    70  v   18
+        19e0    70  v   18
+    colour
+        681868  d030d0
+wire CSel_4
+    path
+        30  6c  h   17f0    1c
+        1660    6c  v   1c
+        16a0    6c  v   1c
+        16e0    6c  v   1c
+        1720    6c  v   1c
+        1760    6c  v   1c
+        17a0    6c  v   1c
+        17e0    6c  v   1c
+    colour
+        6a166a  d42cd4
+wire CSel_5
+    path
+        30  68  h   15f0    20
+        1460    68  v   20
+        14a0    68  v   20
+        14e0    68  v   20
+        1520    68  v   20
+        1560    68  v   20
+        15a0    68  v   20
+        15e0    68  v   20
+    colour
+        6c146c  d828d8
+wire CSel_6
+    path
+        30  64  h   13f0    24
+        1260    64  v   24
+        12a0    64  v   24
+        12e0    64  v   24
+        1320    64  v   24
+        1360    64  v   24
+        13a0    64  v   24
+        13e0    64  v   24
+    colour
+        6e126e  dc24dc
+wire CSel_7
+    path
+        30  60  h   11f0    28
+        1060    60  v   28
+        10a0    60  v   28
+        10e0    60  v   28
+        1120    60  v   28
+        1160    60  v   28
+        11a0    60  v   28
+        11e0    60  v   28
+    colour
+        701070  e020e0
+wire CSel_8
+    path
+        30  5c  h   ff0 2c
+        e60 5c  v   2c
+        ea0 5c  v   2c
+        ee0 5c  v   2c
+        f20 5c  v   2c
+        f60 5c  v   2c
+        fa0 5c  v   2c
+        fe0 5c  v   2c
+    colour
+        720e72  e41ce4
+wire CSel_9
+    path
+        30  58  h   df0 30
+        c60 58  v   30
+        ca0 58  v   30
+        ce0 58  v   30
+        d20 58  v   30
+        d60 58  v   30
+        da0 58  v   30
+        de0 58  v   30
+    colour
+        740c74  e818e8
+wire CSel_a
+    path
+        30  54  h   bf0 34
+        a60 54  v   34
+        aa0 54  v   34
+        ae0 54  v   34
+        b20 54  v   34
+        b60 54  v   34
+        ba0 54  v   34
+        be0 54  v   34
+    colour
+        760a76  ec14ec
+wire CSel_b
+    path
+        30  50  h   9f0 38
+        860 50  v   38
+        8a0 50  v   38
+        8e0 50  v   38
+        920 50  v   38
+        960 50  v   38
+        9a0 50  v   38
+        9e0 50  v   38
+    colour
+        780878  f010f0
+wire CSel_c
+    path
+        30  4c  h   7f0 3c
+        660 4c  v   3c
+        6a0 4c  v   3c
+        6e0 4c  v   3c
+        720 4c  v   3c
+        760 4c  v   3c
+        7a0 4c  v   3c
+        7e0 4c  v   3c
+    colour
+        7a067a  f40cf4
+wire CSel_d
+    path
+        30  48  h   5f0 40
+        460 48  v   40
+        4a0 48  v   40
+        4e0 48  v   40
+        520 48  v   40
+        560 48  v   40
+        5a0 48  v   40
+        5e0 48  v   40
+    colour
+        7c047c  f808f8
+wire CSel_e
+    path
+        30  44  h   3f0 44
+        260 44  v   44
+        2a0 44  v   44
+        2e0 44  v   44
+        320 44  v   44
+        360 44  v   44
+        3a0 44  v   44
+        3e0 44  v   44
+    colour
+        7e027e  fc04fc
+wire CSel_f
+    path
+        30  40  h   1f0 48
+        60  40  v   48
+        a0  40  v   48
+        e0  40  v   48
+        120 40  v   48
+        160 40  v   48
+        1a0 40  v   48
+        1e0 40  v   48
+    colour
+        800080  ff00ff
+
+// Row Select ________________________________________________________________
+
+wire RSel_0
+    path
+        30  3c  h   1fdf    90  9
+        4f  3c  v   90  9
+        8f  3c  v   90  9
+        cf  3c  v   90  9
+        10f 3c  v   90  9
+        14f 3c  v   90  9
+        18f 3c  v   90  9
+        1cf 3c  v   90  9
+        20f 3c  v   90  9
+        24f 3c  v   90  9
+        28f 3c  v   90  9
+        2cf 3c  v   90  9
+        30f 3c  v   90  9
+        34f 3c  v   90  9
+        38f 3c  v   90  9
+        3cf 3c  v   90  9
+        40f 3c  v   90  9
+        44f 3c  v   90  9
+        48f 3c  v   90  9
+        4cf 3c  v   90  9
+        50f 3c  v   90  9
+        54f 3c  v   90  9
+        58f 3c  v   90  9
+        5cf 3c  v   90  9
+        60f 3c  v   90  9
+        64f 3c  v   90  9
+        68f 3c  v   90  9
+        6cf 3c  v   90  9
+        70f 3c  v   90  9
+        74f 3c  v   90  9
+        78f 3c  v   90  9
+        7cf 3c  v   90  9
+        80f 3c  v   90  9
+        84f 3c  v   90  9
+        88f 3c  v   90  9
+        8cf 3c  v   90  9
+        90f 3c  v   90  9
+        94f 3c  v   90  9
+        98f 3c  v   90  9
+        9cf 3c  v   90  9
+        a0f 3c  v   90  9
+        a4f 3c  v   90  9
+        a8f 3c  v   90  9
+        acf 3c  v   90  9
+        b0f 3c  v   90  9
+        b4f 3c  v   90  9
+        b8f 3c  v   90  9
+        bcf 3c  v   90  9
+        c0f 3c  v   90  9
+        c4f 3c  v   90  9
+        c8f 3c  v   90  9
+        ccf 3c  v   90  9
+        d0f 3c  v   90  9
+        d4f 3c  v   90  9
+        d8f 3c  v   90  9
+        dcf 3c  v   90  9
+        e0f 3c  v   90  9
+        e4f 3c  v   90  9
+        e8f 3c  v   90  9
+        ecf 3c  v   90  9
+        f0f 3c  v   90  9
+        f4f 3c  v   90  9
+        f8f 3c  v   90  9
+        fcf 3c  v   90  9
+        100f    3c  v   90  9
+        104f    3c  v   90  9
+        108f    3c  v   90  9
+        10cf    3c  v   90  9
+        110f    3c  v   90  9
+        114f    3c  v   90  9
+        118f    3c  v   90  9
+        11cf    3c  v   90  9
+        120f    3c  v   90  9
+        124f    3c  v   90  9
+        128f    3c  v   90  9
+        12cf    3c  v   90  9
+        130f    3c  v   90  9
+        134f    3c  v   90  9
+        138f    3c  v   90  9
+        13cf    3c  v   90  9
+        140f    3c  v   90  9
+        144f    3c  v   90  9
+        148f    3c  v   90  9
+        14cf    3c  v   90  9
+        150f    3c  v   90  9
+        154f    3c  v   90  9
+        158f    3c  v   90  9
+        15cf    3c  v   90  9
+        160f    3c  v   90  9
+        164f    3c  v   90  9
+        168f    3c  v   90  9
+        16cf    3c  v   90  9
+        170f    3c  v   90  9
+        174f    3c  v   90  9
+        178f    3c  v   90  9
+        17cf    3c  v   90  9
+        180f    3c  v   90  9
+        184f    3c  v   90  9
+        188f    3c  v   90  9
+        18cf    3c  v   90  9
+        190f    3c  v   90  9
+        194f    3c  v   90  9
+        198f    3c  v   90  9
+        19cf    3c  v   90  9
+        1a0f    3c  v   90  9
+        1a4f    3c  v   90  9
+        1a8f    3c  v   90  9
+        1acf    3c  v   90  9
+        1b0f    3c  v   90  9
+        1b4f    3c  v   90  9
+        1b8f    3c  v   90  9
+        1bcf    3c  v   90  9
+        1c0f    3c  v   90  9
+        1c4f    3c  v   90  9
+        1c8f    3c  v   90  9
+        1ccf    3c  v   90  9
+        1d0f    3c  v   90  9
+        1d4f    3c  v   90  9
+        1d8f    3c  v   90  9
+        1dcf    3c  v   90  9
+        1e0f    3c  v   90  9
+        1e4f    3c  v   90  9
+        1e8f    3c  v   90  9
+        1ecf    3c  v   90  9
+        1f0f    3c  v   90  9
+        1f4f    3c  v   90  9
+        1f8f    3c  v   90  9
+        1fcf    3c  v   90  9
+    colour
+        621e62  c43cc4
+wire RSel_1
+    path
+        30  38  h   1fde    90  a
+        4e  38  v   90  a
+        8e  38  v   90  a
+        ce  38  v   90  a
+        10e 38  v   90  a
+        14e 38  v   90  a
+        18e 38  v   90  a
+        1ce 38  v   90  a
+        20e 38  v   90  a
+        24e 38  v   90  a
+        28e 38  v   90  a
+        2ce 38  v   90  a
+        30e 38  v   90  a
+        34e 38  v   90  a
+        38e 38  v   90  a
+        3ce 38  v   90  a
+        40e 38  v   90  a
+        44e 38  v   90  a
+        48e 38  v   90  a
+        4ce 38  v   90  a
+        50e 38  v   90  a
+        54e 38  v   90  a
+        58e 38  v   90  a
+        5ce 38  v   90  a
+        60e 38  v   90  a
+        64e 38  v   90  a
+        68e 38  v   90  a
+        6ce 38  v   90  a
+        70e 38  v   90  a
+        74e 38  v   90  a
+        78e 38  v   90  a
+        7ce 38  v   90  a
+        80e 38  v   90  a
+        84e 38  v   90  a
+        88e 38  v   90  a
+        8ce 38  v   90  a
+        90e 38  v   90  a
+        94e 38  v   90  a
+        98e 38  v   90  a
+        9ce 38  v   90  a
+        a0e 38  v   90  a
+        a4e 38  v   90  a
+        a8e 38  v   90  a
+        ace 38  v   90  a
+        b0e 38  v   90  a
+        b4e 38  v   90  a
+        b8e 38  v   90  a
+        bce 38  v   90  a
+        c0e 38  v   90  a
+        c4e 38  v   90  a
+        c8e 38  v   90  a
+        cce 38  v   90  a
+        d0e 38  v   90  a
+        d4e 38  v   90  a
+        d8e 38  v   90  a
+        dce 38  v   90  a
+        e0e 38  v   90  a
+        e4e 38  v   90  a
+        e8e 38  v   90  a
+        ece 38  v   90  a
+        f0e 38  v   90  a
+        f4e 38  v   90  a
+        f8e 38  v   90  a
+        fce 38  v   90  a
+        100e    38  v   90  a
+        104e    38  v   90  a
+        108e    38  v   90  a
+        10ce    38  v   90  a
+        110e    38  v   90  a
+        114e    38  v   90  a
+        118e    38  v   90  a
+        11ce    38  v   90  a
+        120e    38  v   90  a
+        124e    38  v   90  a
+        128e    38  v   90  a
+        12ce    38  v   90  a
+        130e    38  v   90  a
+        134e    38  v   90  a
+        138e    38  v   90  a
+        13ce    38  v   90  a
+        140e    38  v   90  a
+        144e    38  v   90  a
+        148e    38  v   90  a
+        14ce    38  v   90  a
+        150e    38  v   90  a
+        154e    38  v   90  a
+        158e    38  v   90  a
+        15ce    38  v   90  a
+        160e    38  v   90  a
+        164e    38  v   90  a
+        168e    38  v   90  a
+        16ce    38  v   90  a
+        170e    38  v   90  a
+        174e    38  v   90  a
+        178e    38  v   90  a
+        17ce    38  v   90  a
+        180e    38  v   90  a
+        184e    38  v   90  a
+        188e    38  v   90  a
+        18ce    38  v   90  a
+        190e    38  v   90  a
+        194e    38  v   90  a
+        198e    38  v   90  a
+        19ce    38  v   90  a
+        1a0e    38  v   90  a
+        1a4e    38  v   90  a
+        1a8e    38  v   90  a
+        1ace    38  v   90  a
+        1b0e    38  v   90  a
+        1b4e    38  v   90  a
+        1b8e    38  v   90  a
+        1bce    38  v   90  a
+        1c0e    38  v   90  a
+        1c4e    38  v   90  a
+        1c8e    38  v   90  a
+        1cce    38  v   90  a
+        1d0e    38  v   90  a
+        1d4e    38  v   90  a
+        1d8e    38  v   90  a
+        1dce    38  v   90  a
+        1e0e    38  v   90  a
+        1e4e    38  v   90  a
+        1e8e    38  v   90  a
+        1ece    38  v   90  a
+        1f0e    38  v   90  a
+        1f4e    38  v   90  a
+        1f8e    38  v   90  a
+        1fce    38  v   90  a
+    colour
+        641c64  c838c8
+wire RSel_2
+    path
+        30  34  h   1fdd    90  b
+        4d  34  v   90  b
+        8d  34  v   90  b
+        cd  34  v   90  b
+        10d 34  v   90  b
+        14d 34  v   90  b
+        18d 34  v   90  b
+        1cd 34  v   90  b
+        20d 34  v   90  b
+        24d 34  v   90  b
+        28d 34  v   90  b
+        2cd 34  v   90  b
+        30d 34  v   90  b
+        34d 34  v   90  b
+        38d 34  v   90  b
+        3cd 34  v   90  b
+        40d 34  v   90  b
+        44d 34  v   90  b
+        48d 34  v   90  b
+        4cd 34  v   90  b
+        50d 34  v   90  b
+        54d 34  v   90  b
+        58d 34  v   90  b
+        5cd 34  v   90  b
+        60d 34  v   90  b
+        64d 34  v   90  b
+        68d 34  v   90  b
+        6cd 34  v   90  b
+        70d 34  v   90  b
+        74d 34  v   90  b
+        78d 34  v   90  b
+        7cd 34  v   90  b
+        80d 34  v   90  b
+        84d 34  v   90  b
+        88d 34  v   90  b
+        8cd 34  v   90  b
+        90d 34  v   90  b
+        94d 34  v   90  b
+        98d 34  v   90  b
+        9cd 34  v   90  b
+        a0d 34  v   90  b
+        a4d 34  v   90  b
+        a8d 34  v   90  b
+        acd 34  v   90  b
+        b0d 34  v   90  b
+        b4d 34  v   90  b
+        b8d 34  v   90  b
+        bcd 34  v   90  b
+        c0d 34  v   90  b
+        c4d 34  v   90  b
+        c8d 34  v   90  b
+        ccd 34  v   90  b
+        d0d 34  v   90  b
+        d4d 34  v   90  b
+        d8d 34  v   90  b
+        dcd 34  v   90  b
+        e0d 34  v   90  b
+        e4d 34  v   90  b
+        e8d 34  v   90  b
+        ecd 34  v   90  b
+        f0d 34  v   90  b
+        f4d 34  v   90  b
+        f8d 34  v   90  b
+        fcd 34  v   90  b
+        100d    34  v   90  b
+        104d    34  v   90  b
+        108d    34  v   90  b
+        10cd    34  v   90  b
+        110d    34  v   90  b
+        114d    34  v   90  b
+        118d    34  v   90  b
+        11cd    34  v   90  b
+        120d    34  v   90  b
+        124d    34  v   90  b
+        128d    34  v   90  b
+        12cd    34  v   90  b
+        130d    34  v   90  b
+        134d    34  v   90  b
+        138d    34  v   90  b
+        13cd    34  v   90  b
+        140d    34  v   90  b
+        144d    34  v   90  b
+        148d    34  v   90  b
+        14cd    34  v   90  b
+        150d    34  v   90  b
+        154d    34  v   90  b
+        158d    34  v   90  b
+        15cd    34  v   90  b
+        160d    34  v   90  b
+        164d    34  v   90  b
+        168d    34  v   90  b
+        16cd    34  v   90  b
+        170d    34  v   90  b
+        174d    34  v   90  b
+        178d    34  v   90  b
+        17cd    34  v   90  b
+        180d    34  v   90  b
+        184d    34  v   90  b
+        188d    34  v   90  b
+        18cd    34  v   90  b
+        190d    34  v   90  b
+        194d    34  v   90  b
+        198d    34  v   90  b
+        19cd    34  v   90  b
+        1a0d    34  v   90  b
+        1a4d    34  v   90  b
+        1a8d    34  v   90  b
+        1acd    34  v   90  b
+        1b0d    34  v   90  b
+        1b4d    34  v   90  b
+        1b8d    34  v   90  b
+        1bcd    34  v   90  b
+        1c0d    34  v   90  b
+        1c4d    34  v   90  b
+        1c8d    34  v   90  b
+        1ccd    34  v   90  b
+        1d0d    34  v   90  b
+        1d4d    34  v   90  b
+        1d8d    34  v   90  b
+        1dcd    34  v   90  b
+        1e0d    34  v   90  b
+        1e4d    34  v   90  b
+        1e8d    34  v   90  b
+        1ecd    34  v   90  b
+        1f0d    34  v   90  b
+        1f4d    34  v   90  b
+        1f8d    34  v   90  b
+        1fcd    34  v   90  b
+    colour
+        661a66  cc34cc
+wire RSel_3
+    path
+        30  30  h   1fdc    90  c
+        4c  30  v   90  c
+        8c  30  v   90  c
+        cc  30  v   90  c
+        10c 30  v   90  c
+        14c 30  v   90  c
+        18c 30  v   90  c
+        1cc 30  v   90  c
+        20c 30  v   90  c
+        24c 30  v   90  c
+        28c 30  v   90  c
+        2cc 30  v   90  c
+        30c 30  v   90  c
+        34c 30  v   90  c
+        38c 30  v   90  c
+        3cc 30  v   90  c
+        40c 30  v   90  c
+        44c 30  v   90  c
+        48c 30  v   90  c
+        4cc 30  v   90  c
+        50c 30  v   90  c
+        54c 30  v   90  c
+        58c 30  v   90  c
+        5cc 30  v   90  c
+        60c 30  v   90  c
+        64c 30  v   90  c
+        68c 30  v   90  c
+        6cc 30  v   90  c
+        70c 30  v   90  c
+        74c 30  v   90  c
+        78c 30  v   90  c
+        7cc 30  v   90  c
+        80c 30  v   90  c
+        84c 30  v   90  c
+        88c 30  v   90  c
+        8cc 30  v   90  c
+        90c 30  v   90  c
+        94c 30  v   90  c
+        98c 30  v   90  c
+        9cc 30  v   90  c
+        a0c 30  v   90  c
+        a4c 30  v   90  c
+        a8c 30  v   90  c
+        acc 30  v   90  c
+        b0c 30  v   90  c
+        b4c 30  v   90  c
+        b8c 30  v   90  c
+        bcc 30  v   90  c
+        c0c 30  v   90  c
+        c4c 30  v   90  c
+        c8c 30  v   90  c
+        ccc 30  v   90  c
+        d0c 30  v   90  c
+        d4c 30  v   90  c
+        d8c 30  v   90  c
+        dcc 30  v   90  c
+        e0c 30  v   90  c
+        e4c 30  v   90  c
+        e8c 30  v   90  c
+        ecc 30  v   90  c
+        f0c 30  v   90  c
+        f4c 30  v   90  c
+        f8c 30  v   90  c
+        fcc 30  v   90  c
+        100c    30  v   90  c
+        104c    30  v   90  c
+        108c    30  v   90  c
+        10cc    30  v   90  c
+        110c    30  v   90  c
+        114c    30  v   90  c
+        118c    30  v   90  c
+        11cc    30  v   90  c
+        120c    30  v   90  c
+        124c    30  v   90  c
+        128c    30  v   90  c
+        12cc    30  v   90  c
+        130c    30  v   90  c
+        134c    30  v   90  c
+        138c    30  v   90  c
+        13cc    30  v   90  c
+        140c    30  v   90  c
+        144c    30  v   90  c
+        148c    30  v   90  c
+        14cc    30  v   90  c
+        150c    30  v   90  c
+        154c    30  v   90  c
+        158c    30  v   90  c
+        15cc    30  v   90  c
+        160c    30  v   90  c
+        164c    30  v   90  c
+        168c    30  v   90  c
+        16cc    30  v   90  c
+        170c    30  v   90  c
+        174c    30  v   90  c
+        178c    30  v   90  c
+        17cc    30  v   90  c
+        180c    30  v   90  c
+        184c    30  v   90  c
+        188c    30  v   90  c
+        18cc    30  v   90  c
+        190c    30  v   90  c
+        194c    30  v   90  c
+        198c    30  v   90  c
+        19cc    30  v   90  c
+        1a0c    30  v   90  c
+        1a4c    30  v   90  c
+        1a8c    30  v   90  c
+        1acc    30  v   90  c
+        1b0c    30  v   90  c
+        1b4c    30  v   90  c
+        1b8c    30  v   90  c
+        1bcc    30  v   90  c
+        1c0c    30  v   90  c
+        1c4c    30  v   90  c
+        1c8c    30  v   90  c
+        1ccc    30  v   90  c
+        1d0c    30  v   90  c
+        1d4c    30  v   90  c
+        1d8c    30  v   90  c
+        1dcc    30  v   90  c
+        1e0c    30  v   90  c
+        1e4c    30  v   90  c
+        1e8c    30  v   90  c
+        1ecc    30  v   90  c
+        1f0c    30  v   90  c
+        1f4c    30  v   90  c
+        1f8c    30  v   90  c
+        1fcc    30  v   90  c
+    colour
+        681868  d030d0
+wire RSel_4
+    path
+        30  2c  h   1fdb    90  d
+        4b  2c  v   90  d
+        8b  2c  v   90  d
+        cb  2c  v   90  d
+        10b 2c  v   90  d
+        14b 2c  v   90  d
+        18b 2c  v   90  d
+        1cb 2c  v   90  d
+        20b 2c  v   90  d
+        24b 2c  v   90  d
+        28b 2c  v   90  d
+        2cb 2c  v   90  d
+        30b 2c  v   90  d
+        34b 2c  v   90  d
+        38b 2c  v   90  d
+        3cb 2c  v   90  d
+        40b 2c  v   90  d
+        44b 2c  v   90  d
+        48b 2c  v   90  d
+        4cb 2c  v   90  d
+        50b 2c  v   90  d
+        54b 2c  v   90  d
+        58b 2c  v   90  d
+        5cb 2c  v   90  d
+        60b 2c  v   90  d
+        64b 2c  v   90  d
+        68b 2c  v   90  d
+        6cb 2c  v   90  d
+        70b 2c  v   90  d
+        74b 2c  v   90  d
+        78b 2c  v   90  d
+        7cb 2c  v   90  d
+        80b 2c  v   90  d
+        84b 2c  v   90  d
+        88b 2c  v   90  d
+        8cb 2c  v   90  d
+        90b 2c  v   90  d
+        94b 2c  v   90  d
+        98b 2c  v   90  d
+        9cb 2c  v   90  d
+        a0b 2c  v   90  d
+        a4b 2c  v   90  d
+        a8b 2c  v   90  d
+        acb 2c  v   90  d
+        b0b 2c  v   90  d
+        b4b 2c  v   90  d
+        b8b 2c  v   90  d
+        bcb 2c  v   90  d
+        c0b 2c  v   90  d
+        c4b 2c  v   90  d
+        c8b 2c  v   90  d
+        ccb 2c  v   90  d
+        d0b 2c  v   90  d
+        d4b 2c  v   90  d
+        d8b 2c  v   90  d
+        dcb 2c  v   90  d
+        e0b 2c  v   90  d
+        e4b 2c  v   90  d
+        e8b 2c  v   90  d
+        ecb 2c  v   90  d
+        f0b 2c  v   90  d
+        f4b 2c  v   90  d
+        f8b 2c  v   90  d
+        fcb 2c  v   90  d
+        100b    2c  v   90  d
+        104b    2c  v   90  d
+        108b    2c  v   90  d
+        10cb    2c  v   90  d
+        110b    2c  v   90  d
+        114b    2c  v   90  d
+        118b    2c  v   90  d
+        11cb    2c  v   90  d
+        120b    2c  v   90  d
+        124b    2c  v   90  d
+        128b    2c  v   90  d
+        12cb    2c  v   90  d
+        130b    2c  v   90  d
+        134b    2c  v   90  d
+        138b    2c  v   90  d
+        13cb    2c  v   90  d
+        140b    2c  v   90  d
+        144b    2c  v   90  d
+        148b    2c  v   90  d
+        14cb    2c  v   90  d
+        150b    2c  v   90  d
+        154b    2c  v   90  d
+        158b    2c  v   90  d
+        15cb    2c  v   90  d
+        160b    2c  v   90  d
+        164b    2c  v   90  d
+        168b    2c  v   90  d
+        16cb    2c  v   90  d
+        170b    2c  v   90  d
+        174b    2c  v   90  d
+        178b    2c  v   90  d
+        17cb    2c  v   90  d
+        180b    2c  v   90  d
+        184b    2c  v   90  d
+        188b    2c  v   90  d
+        18cb    2c  v   90  d
+        190b    2c  v   90  d
+        194b    2c  v   90  d
+        198b    2c  v   90  d
+        19cb    2c  v   90  d
+        1a0b    2c  v   90  d
+        1a4b    2c  v   90  d
+        1a8b    2c  v   90  d
+        1acb    2c  v   90  d
+        1b0b    2c  v   90  d
+        1b4b    2c  v   90  d
+        1b8b    2c  v   90  d
+        1bcb    2c  v   90  d
+        1c0b    2c  v   90  d
+        1c4b    2c  v   90  d
+        1c8b    2c  v   90  d
+        1ccb    2c  v   90  d
+        1d0b    2c  v   90  d
+        1d4b    2c  v   90  d
+        1d8b    2c  v   90  d
+        1dcb    2c  v   90  d
+        1e0b    2c  v   90  d
+        1e4b    2c  v   90  d
+        1e8b    2c  v   90  d
+        1ecb    2c  v   90  d
+        1f0b    2c  v   90  d
+        1f4b    2c  v   90  d
+        1f8b    2c  v   90  d
+        1fcb    2c  v   90  d
+    colour
+        6a166a  d42cd4
+wire RSel_5
+    path
+        30  28  h   1fda    90  e
+        4a  28  v   90  e
+        8a  28  v   90  e
+        ca  28  v   90  e
+        10a 28  v   90  e
+        14a 28  v   90  e
+        18a 28  v   90  e
+        1ca 28  v   90  e
+        20a 28  v   90  e
+        24a 28  v   90  e
+        28a 28  v   90  e
+        2ca 28  v   90  e
+        30a 28  v   90  e
+        34a 28  v   90  e
+        38a 28  v   90  e
+        3ca 28  v   90  e
+        40a 28  v   90  e
+        44a 28  v   90  e
+        48a 28  v   90  e
+        4ca 28  v   90  e
+        50a 28  v   90  e
+        54a 28  v   90  e
+        58a 28  v   90  e
+        5ca 28  v   90  e
+        60a 28  v   90  e
+        64a 28  v   90  e
+        68a 28  v   90  e
+        6ca 28  v   90  e
+        70a 28  v   90  e
+        74a 28  v   90  e
+        78a 28  v   90  e
+        7ca 28  v   90  e
+        80a 28  v   90  e
+        84a 28  v   90  e
+        88a 28  v   90  e
+        8ca 28  v   90  e
+        90a 28  v   90  e
+        94a 28  v   90  e
+        98a 28  v   90  e
+        9ca 28  v   90  e
+        a0a 28  v   90  e
+        a4a 28  v   90  e
+        a8a 28  v   90  e
+        aca 28  v   90  e
+        b0a 28  v   90  e
+        b4a 28  v   90  e
+        b8a 28  v   90  e
+        bca 28  v   90  e
+        c0a 28  v   90  e
+        c4a 28  v   90  e
+        c8a 28  v   90  e
+        cca 28  v   90  e
+        d0a 28  v   90  e
+        d4a 28  v   90  e
+        d8a 28  v   90  e
+        dca 28  v   90  e
+        e0a 28  v   90  e
+        e4a 28  v   90  e
+        e8a 28  v   90  e
+        eca 28  v   90  e
+        f0a 28  v   90  e
+        f4a 28  v   90  e
+        f8a 28  v   90  e
+        fca 28  v   90  e
+        100a    28  v   90  e
+        104a    28  v   90  e
+        108a    28  v   90  e
+        10ca    28  v   90  e
+        110a    28  v   90  e
+        114a    28  v   90  e
+        118a    28  v   90  e
+        11ca    28  v   90  e
+        120a    28  v   90  e
+        124a    28  v   90  e
+        128a    28  v   90  e
+        12ca    28  v   90  e
+        130a    28  v   90  e
+        134a    28  v   90  e
+        138a    28  v   90  e
+        13ca    28  v   90  e
+        140a    28  v   90  e
+        144a    28  v   90  e
+        148a    28  v   90  e
+        14ca    28  v   90  e
+        150a    28  v   90  e
+        154a    28  v   90  e
+        158a    28  v   90  e
+        15ca    28  v   90  e
+        160a    28  v   90  e
+        164a    28  v   90  e
+        168a    28  v   90  e
+        16ca    28  v   90  e
+        170a    28  v   90  e
+        174a    28  v   90  e
+        178a    28  v   90  e
+        17ca    28  v   90  e
+        180a    28  v   90  e
+        184a    28  v   90  e
+        188a    28  v   90  e
+        18ca    28  v   90  e
+        190a    28  v   90  e
+        194a    28  v   90  e
+        198a    28  v   90  e
+        19ca    28  v   90  e
+        1a0a    28  v   90  e
+        1a4a    28  v   90  e
+        1a8a    28  v   90  e
+        1aca    28  v   90  e
+        1b0a    28  v   90  e
+        1b4a    28  v   90  e
+        1b8a    28  v   90  e
+        1bca    28  v   90  e
+        1c0a    28  v   90  e
+        1c4a    28  v   90  e
+        1c8a    28  v   90  e
+        1cca    28  v   90  e
+        1d0a    28  v   90  e
+        1d4a    28  v   90  e
+        1d8a    28  v   90  e
+        1dca    28  v   90  e
+        1e0a    28  v   90  e
+        1e4a    28  v   90  e
+        1e8a    28  v   90  e
+        1eca    28  v   90  e
+        1f0a    28  v   90  e
+        1f4a    28  v   90  e
+        1f8a    28  v   90  e
+        1fca    28  v   90  e
+    colour
+        6c146c  d828d8
+wire RSel_6
+    path
+        30  24  h   1fd9    90  f
+        49  24  v   90  f
+        89  24  v   90  f
+        c9  24  v   90  f
+        109 24  v   90  f
+        149 24  v   90  f
+        189 24  v   90  f
+        1c9 24  v   90  f
+        209 24  v   90  f
+        249 24  v   90  f
+        289 24  v   90  f
+        2c9 24  v   90  f
+        309 24  v   90  f
+        349 24  v   90  f
+        389 24  v   90  f
+        3c9 24  v   90  f
+        409 24  v   90  f
+        449 24  v   90  f
+        489 24  v   90  f
+        4c9 24  v   90  f
+        509 24  v   90  f
+        549 24  v   90  f
+        589 24  v   90  f
+        5c9 24  v   90  f
+        609 24  v   90  f
+        649 24  v   90  f
+        689 24  v   90  f
+        6c9 24  v   90  f
+        709 24  v   90  f
+        749 24  v   90  f
+        789 24  v   90  f
+        7c9 24  v   90  f
+        809 24  v   90  f
+        849 24  v   90  f
+        889 24  v   90  f
+        8c9 24  v   90  f
+        909 24  v   90  f
+        949 24  v   90  f
+        989 24  v   90  f
+        9c9 24  v   90  f
+        a09 24  v   90  f
+        a49 24  v   90  f
+        a89 24  v   90  f
+        ac9 24  v   90  f
+        b09 24  v   90  f
+        b49 24  v   90  f
+        b89 24  v   90  f
+        bc9 24  v   90  f
+        c09 24  v   90  f
+        c49 24  v   90  f
+        c89 24  v   90  f
+        cc9 24  v   90  f
+        d09 24  v   90  f
+        d49 24  v   90  f
+        d89 24  v   90  f
+        dc9 24  v   90  f
+        e09 24  v   90  f
+        e49 24  v   90  f
+        e89 24  v   90  f
+        ec9 24  v   90  f
+        f09 24  v   90  f
+        f49 24  v   90  f
+        f89 24  v   90  f
+        fc9 24  v   90  f
+        1009    24  v   90  f
+        1049    24  v   90  f
+        1089    24  v   90  f
+        10c9    24  v   90  f
+        1109    24  v   90  f
+        1149    24  v   90  f
+        1189    24  v   90  f
+        11c9    24  v   90  f
+        1209    24  v   90  f
+        1249    24  v   90  f
+        1289    24  v   90  f
+        12c9    24  v   90  f
+        1309    24  v   90  f
+        1349    24  v   90  f
+        1389    24  v   90  f
+        13c9    24  v   90  f
+        1409    24  v   90  f
+        1449    24  v   90  f
+        1489    24  v   90  f
+        14c9    24  v   90  f
+        1509    24  v   90  f
+        1549    24  v   90  f
+        1589    24  v   90  f
+        15c9    24  v   90  f
+        1609    24  v   90  f
+        1649    24  v   90  f
+        1689    24  v   90  f
+        16c9    24  v   90  f
+        1709    24  v   90  f
+        1749    24  v   90  f
+        1789    24  v   90  f
+        17c9    24  v   90  f
+        1809    24  v   90  f
+        1849    24  v   90  f
+        1889    24  v   90  f
+        18c9    24  v   90  f
+        1909    24  v   90  f
+        1949    24  v   90  f
+        1989    24  v   90  f
+        19c9    24  v   90  f
+        1a09    24  v   90  f
+        1a49    24  v   90  f
+        1a89    24  v   90  f
+        1ac9    24  v   90  f
+        1b09    24  v   90  f
+        1b49    24  v   90  f
+        1b89    24  v   90  f
+        1bc9    24  v   90  f
+        1c09    24  v   90  f
+        1c49    24  v   90  f
+        1c89    24  v   90  f
+        1cc9    24  v   90  f
+        1d09    24  v   90  f
+        1d49    24  v   90  f
+        1d89    24  v   90  f
+        1dc9    24  v   90  f
+        1e09    24  v   90  f
+        1e49    24  v   90  f
+        1e89    24  v   90  f
+        1ec9    24  v   90  f
+        1f09    24  v   90  f
+        1f49    24  v   90  f
+        1f89    24  v   90  f
+        1fc9    24  v   90  f
+    colour
+        6e126e  dc24dc
+wire RSel_7
+    path
+        30  20  h   1fd8    90  10
+        48  20  v   90  10
+        88  20  v   90  10
+        c8  20  v   90  10
+        108 20  v   90  10
+        148 20  v   90  10
+        188 20  v   90  10
+        1c8 20  v   90  10
+        208 20  v   90  10
+        248 20  v   90  10
+        288 20  v   90  10
+        2c8 20  v   90  10
+        308 20  v   90  10
+        348 20  v   90  10
+        388 20  v   90  10
+        3c8 20  v   90  10
+        408 20  v   90  10
+        448 20  v   90  10
+        488 20  v   90  10
+        4c8 20  v   90  10
+        508 20  v   90  10
+        548 20  v   90  10
+        588 20  v   90  10
+        5c8 20  v   90  10
+        608 20  v   90  10
+        648 20  v   90  10
+        688 20  v   90  10
+        6c8 20  v   90  10
+        708 20  v   90  10
+        748 20  v   90  10
+        788 20  v   90  10
+        7c8 20  v   90  10
+        808 20  v   90  10
+        848 20  v   90  10
+        888 20  v   90  10
+        8c8 20  v   90  10
+        908 20  v   90  10
+        948 20  v   90  10
+        988 20  v   90  10
+        9c8 20  v   90  10
+        a08 20  v   90  10
+        a48 20  v   90  10
+        a88 20  v   90  10
+        ac8 20  v   90  10
+        b08 20  v   90  10
+        b48 20  v   90  10
+        b88 20  v   90  10
+        bc8 20  v   90  10
+        c08 20  v   90  10
+        c48 20  v   90  10
+        c88 20  v   90  10
+        cc8 20  v   90  10
+        d08 20  v   90  10
+        d48 20  v   90  10
+        d88 20  v   90  10
+        dc8 20  v   90  10
+        e08 20  v   90  10
+        e48 20  v   90  10
+        e88 20  v   90  10
+        ec8 20  v   90  10
+        f08 20  v   90  10
+        f48 20  v   90  10
+        f88 20  v   90  10
+        fc8 20  v   90  10
+        1008    20  v   90  10
+        1048    20  v   90  10
+        1088    20  v   90  10
+        10c8    20  v   90  10
+        1108    20  v   90  10
+        1148    20  v   90  10
+        1188    20  v   90  10
+        11c8    20  v   90  10
+        1208    20  v   90  10
+        1248    20  v   90  10
+        1288    20  v   90  10
+        12c8    20  v   90  10
+        1308    20  v   90  10
+        1348    20  v   90  10
+        1388    20  v   90  10
+        13c8    20  v   90  10
+        1408    20  v   90  10
+        1448    20  v   90  10
+        1488    20  v   90  10
+        14c8    20  v   90  10
+        1508    20  v   90  10
+        1548    20  v   90  10
+        1588    20  v   90  10
+        15c8    20  v   90  10
+        1608    20  v   90  10
+        1648    20  v   90  10
+        1688    20  v   90  10
+        16c8    20  v   90  10
+        1708    20  v   90  10
+        1748    20  v   90  10
+        1788    20  v   90  10
+        17c8    20  v   90  10
+        1808    20  v   90  10
+        1848    20  v   90  10
+        1888    20  v   90  10
+        18c8    20  v   90  10
+        1908    20  v   90  10
+        1948    20  v   90  10
+        1988    20  v   90  10
+        19c8    20  v   90  10
+        1a08    20  v   90  10
+        1a48    20  v   90  10
+        1a88    20  v   90  10
+        1ac8    20  v   90  10
+        1b08    20  v   90  10
+        1b48    20  v   90  10
+        1b88    20  v   90  10
+        1bc8    20  v   90  10
+        1c08    20  v   90  10
+        1c48    20  v   90  10
+        1c88    20  v   90  10
+        1cc8    20  v   90  10
+        1d08    20  v   90  10
+        1d48    20  v   90  10
+        1d88    20  v   90  10
+        1dc8    20  v   90  10
+        1e08    20  v   90  10
+        1e48    20  v   90  10
+        1e88    20  v   90  10
+        1ec8    20  v   90  10
+        1f08    20  v   90  10
+        1f48    20  v   90  10
+        1f88    20  v   90  10
+        1fc8    20  v   90  10
+    colour
+        701070  e020e0
+wire RSel_8
+    path
+        30  1c  h   1fd7    90  11
+        47  1c  v   90  11
+        87  1c  v   90  11
+        c7  1c  v   90  11
+        107 1c  v   90  11
+        147 1c  v   90  11
+        187 1c  v   90  11
+        1c7 1c  v   90  11
+        207 1c  v   90  11
+        247 1c  v   90  11
+        287 1c  v   90  11
+        2c7 1c  v   90  11
+        307 1c  v   90  11
+        347 1c  v   90  11
+        387 1c  v   90  11
+        3c7 1c  v   90  11
+        407 1c  v   90  11
+        447 1c  v   90  11
+        487 1c  v   90  11
+        4c7 1c  v   90  11
+        507 1c  v   90  11
+        547 1c  v   90  11
+        587 1c  v   90  11
+        5c7 1c  v   90  11
+        607 1c  v   90  11
+        647 1c  v   90  11
+        687 1c  v   90  11
+        6c7 1c  v   90  11
+        707 1c  v   90  11
+        747 1c  v   90  11
+        787 1c  v   90  11
+        7c7 1c  v   90  11
+        807 1c  v   90  11
+        847 1c  v   90  11
+        887 1c  v   90  11
+        8c7 1c  v   90  11
+        907 1c  v   90  11
+        947 1c  v   90  11
+        987 1c  v   90  11
+        9c7 1c  v   90  11
+        a07 1c  v   90  11
+        a47 1c  v   90  11
+        a87 1c  v   90  11
+        ac7 1c  v   90  11
+        b07 1c  v   90  11
+        b47 1c  v   90  11
+        b87 1c  v   90  11
+        bc7 1c  v   90  11
+        c07 1c  v   90  11
+        c47 1c  v   90  11
+        c87 1c  v   90  11
+        cc7 1c  v   90  11
+        d07 1c  v   90  11
+        d47 1c  v   90  11
+        d87 1c  v   90  11
+        dc7 1c  v   90  11
+        e07 1c  v   90  11
+        e47 1c  v   90  11
+        e87 1c  v   90  11
+        ec7 1c  v   90  11
+        f07 1c  v   90  11
+        f47 1c  v   90  11
+        f87 1c  v   90  11
+        fc7 1c  v   90  11
+        1007    1c  v   90  11
+        1047    1c  v   90  11
+        1087    1c  v   90  11
+        10c7    1c  v   90  11
+        1107    1c  v   90  11
+        1147    1c  v   90  11
+        1187    1c  v   90  11
+        11c7    1c  v   90  11
+        1207    1c  v   90  11
+        1247    1c  v   90  11
+        1287    1c  v   90  11
+        12c7    1c  v   90  11
+        1307    1c  v   90  11
+        1347    1c  v   90  11
+        1387    1c  v   90  11
+        13c7    1c  v   90  11
+        1407    1c  v   90  11
+        1447    1c  v   90  11
+        1487    1c  v   90  11
+        14c7    1c  v   90  11
+        1507    1c  v   90  11
+        1547    1c  v   90  11
+        1587    1c  v   90  11
+        15c7    1c  v   90  11
+        1607    1c  v   90  11
+        1647    1c  v   90  11
+        1687    1c  v   90  11
+        16c7    1c  v   90  11
+        1707    1c  v   90  11
+        1747    1c  v   90  11
+        1787    1c  v   90  11
+        17c7    1c  v   90  11
+        1807    1c  v   90  11
+        1847    1c  v   90  11
+        1887    1c  v   90  11
+        18c7    1c  v   90  11
+        1907    1c  v   90  11
+        1947    1c  v   90  11
+        1987    1c  v   90  11
+        19c7    1c  v   90  11
+        1a07    1c  v   90  11
+        1a47    1c  v   90  11
+        1a87    1c  v   90  11
+        1ac7    1c  v   90  11
+        1b07    1c  v   90  11
+        1b47    1c  v   90  11
+        1b87    1c  v   90  11
+        1bc7    1c  v   90  11
+        1c07    1c  v   90  11
+        1c47    1c  v   90  11
+        1c87    1c  v   90  11
+        1cc7    1c  v   90  11
+        1d07    1c  v   90  11
+        1d47    1c  v   90  11
+        1d87    1c  v   90  11
+        1dc7    1c  v   90  11
+        1e07    1c  v   90  11
+        1e47    1c  v   90  11
+        1e87    1c  v   90  11
+        1ec7    1c  v   90  11
+        1f07    1c  v   90  11
+        1f47    1c  v   90  11
+        1f87    1c  v   90  11
+        1fc7    1c  v   90  11
+    colour
+        720e72  e41ce4
+wire RSel_9
+    path
+        30  18  h   1fd6    90  12
+        46  18  v   90  12
+        86  18  v   90  12
+        c6  18  v   90  12
+        106 18  v   90  12
+        146 18  v   90  12
+        186 18  v   90  12
+        1c6 18  v   90  12
+        206 18  v   90  12
+        246 18  v   90  12
+        286 18  v   90  12
+        2c6 18  v   90  12
+        306 18  v   90  12
+        346 18  v   90  12
+        386 18  v   90  12
+        3c6 18  v   90  12
+        406 18  v   90  12
+        446 18  v   90  12
+        486 18  v   90  12
+        4c6 18  v   90  12
+        506 18  v   90  12
+        546 18  v   90  12
+        586 18  v   90  12
+        5c6 18  v   90  12
+        606 18  v   90  12
+        646 18  v   90  12
+        686 18  v   90  12
+        6c6 18  v   90  12
+        706 18  v   90  12
+        746 18  v   90  12
+        786 18  v   90  12
+        7c6 18  v   90  12
+        806 18  v   90  12
+        846 18  v   90  12
+        886 18  v   90  12
+        8c6 18  v   90  12
+        906 18  v   90  12
+        946 18  v   90  12
+        986 18  v   90  12
+        9c6 18  v   90  12
+        a06 18  v   90  12
+        a46 18  v   90  12
+        a86 18  v   90  12
+        ac6 18  v   90  12
+        b06 18  v   90  12
+        b46 18  v   90  12
+        b86 18  v   90  12
+        bc6 18  v   90  12
+        c06 18  v   90  12
+        c46 18  v   90  12
+        c86 18  v   90  12
+        cc6 18  v   90  12
+        d06 18  v   90  12
+        d46 18  v   90  12
+        d86 18  v   90  12
+        dc6 18  v   90  12
+        e06 18  v   90  12
+        e46 18  v   90  12
+        e86 18  v   90  12
+        ec6 18  v   90  12
+        f06 18  v   90  12
+        f46 18  v   90  12
+        f86 18  v   90  12
+        fc6 18  v   90  12
+        1006    18  v   90  12
+        1046    18  v   90  12
+        1086    18  v   90  12
+        10c6    18  v   90  12
+        1106    18  v   90  12
+        1146    18  v   90  12
+        1186    18  v   90  12
+        11c6    18  v   90  12
+        1206    18  v   90  12
+        1246    18  v   90  12
+        1286    18  v   90  12
+        12c6    18  v   90  12
+        1306    18  v   90  12
+        1346    18  v   90  12
+        1386    18  v   90  12
+        13c6    18  v   90  12
+        1406    18  v   90  12
+        1446    18  v   90  12
+        1486    18  v   90  12
+        14c6    18  v   90  12
+        1506    18  v   90  12
+        1546    18  v   90  12
+        1586    18  v   90  12
+        15c6    18  v   90  12
+        1606    18  v   90  12
+        1646    18  v   90  12
+        1686    18  v   90  12
+        16c6    18  v   90  12
+        1706    18  v   90  12
+        1746    18  v   90  12
+        1786    18  v   90  12
+        17c6    18  v   90  12
+        1806    18  v   90  12
+        1846    18  v   90  12
+        1886    18  v   90  12
+        18c6    18  v   90  12
+        1906    18  v   90  12
+        1946    18  v   90  12
+        1986    18  v   90  12
+        19c6    18  v   90  12
+        1a06    18  v   90  12
+        1a46    18  v   90  12
+        1a86    18  v   90  12
+        1ac6    18  v   90  12
+        1b06    18  v   90  12
+        1b46    18  v   90  12
+        1b86    18  v   90  12
+        1bc6    18  v   90  12
+        1c06    18  v   90  12
+        1c46    18  v   90  12
+        1c86    18  v   90  12
+        1cc6    18  v   90  12
+        1d06    18  v   90  12
+        1d46    18  v   90  12
+        1d86    18  v   90  12
+        1dc6    18  v   90  12
+        1e06    18  v   90  12
+        1e46    18  v   90  12
+        1e86    18  v   90  12
+        1ec6    18  v   90  12
+        1f06    18  v   90  12
+        1f46    18  v   90  12
+        1f86    18  v   90  12
+        1fc6    18  v   90  12
+    colour
+        740c74  e818e8
+wire RSel_a
+    path
+        30  14  h   1fd5    90  13
+        45  14  v   90  13
+        85  14  v   90  13
+        c5  14  v   90  13
+        105 14  v   90  13
+        145 14  v   90  13
+        185 14  v   90  13
+        1c5 14  v   90  13
+        205 14  v   90  13
+        245 14  v   90  13
+        285 14  v   90  13
+        2c5 14  v   90  13
+        305 14  v   90  13
+        345 14  v   90  13
+        385 14  v   90  13
+        3c5 14  v   90  13
+        405 14  v   90  13
+        445 14  v   90  13
+        485 14  v   90  13
+        4c5 14  v   90  13
+        505 14  v   90  13
+        545 14  v   90  13
+        585 14  v   90  13
+        5c5 14  v   90  13
+        605 14  v   90  13
+        645 14  v   90  13
+        685 14  v   90  13
+        6c5 14  v   90  13
+        705 14  v   90  13
+        745 14  v   90  13
+        785 14  v   90  13
+        7c5 14  v   90  13
+        805 14  v   90  13
+        845 14  v   90  13
+        885 14  v   90  13
+        8c5 14  v   90  13
+        905 14  v   90  13
+        945 14  v   90  13
+        985 14  v   90  13
+        9c5 14  v   90  13
+        a05 14  v   90  13
+        a45 14  v   90  13
+        a85 14  v   90  13
+        ac5 14  v   90  13
+        b05 14  v   90  13
+        b45 14  v   90  13
+        b85 14  v   90  13
+        bc5 14  v   90  13
+        c05 14  v   90  13
+        c45 14  v   90  13
+        c85 14  v   90  13
+        cc5 14  v   90  13
+        d05 14  v   90  13
+        d45 14  v   90  13
+        d85 14  v   90  13
+        dc5 14  v   90  13
+        e05 14  v   90  13
+        e45 14  v   90  13
+        e85 14  v   90  13
+        ec5 14  v   90  13
+        f05 14  v   90  13
+        f45 14  v   90  13
+        f85 14  v   90  13
+        fc5 14  v   90  13
+        1005    14  v   90  13
+        1045    14  v   90  13
+        1085    14  v   90  13
+        10c5    14  v   90  13
+        1105    14  v   90  13
+        1145    14  v   90  13
+        1185    14  v   90  13
+        11c5    14  v   90  13
+        1205    14  v   90  13
+        1245    14  v   90  13
+        1285    14  v   90  13
+        12c5    14  v   90  13
+        1305    14  v   90  13
+        1345    14  v   90  13
+        1385    14  v   90  13
+        13c5    14  v   90  13
+        1405    14  v   90  13
+        1445    14  v   90  13
+        1485    14  v   90  13
+        14c5    14  v   90  13
+        1505    14  v   90  13
+        1545    14  v   90  13
+        1585    14  v   90  13
+        15c5    14  v   90  13
+        1605    14  v   90  13
+        1645    14  v   90  13
+        1685    14  v   90  13
+        16c5    14  v   90  13
+        1705    14  v   90  13
+        1745    14  v   90  13
+        1785    14  v   90  13
+        17c5    14  v   90  13
+        1805    14  v   90  13
+        1845    14  v   90  13
+        1885    14  v   90  13
+        18c5    14  v   90  13
+        1905    14  v   90  13
+        1945    14  v   90  13
+        1985    14  v   90  13
+        19c5    14  v   90  13
+        1a05    14  v   90  13
+        1a45    14  v   90  13
+        1a85    14  v   90  13
+        1ac5    14  v   90  13
+        1b05    14  v   90  13
+        1b45    14  v   90  13
+        1b85    14  v   90  13
+        1bc5    14  v   90  13
+        1c05    14  v   90  13
+        1c45    14  v   90  13
+        1c85    14  v   90  13
+        1cc5    14  v   90  13
+        1d05    14  v   90  13
+        1d45    14  v   90  13
+        1d85    14  v   90  13
+        1dc5    14  v   90  13
+        1e05    14  v   90  13
+        1e45    14  v   90  13
+        1e85    14  v   90  13
+        1ec5    14  v   90  13
+        1f05    14  v   90  13
+        1f45    14  v   90  13
+        1f85    14  v   90  13
+        1fc5    14  v   90  13
+    colour
+        760a76  ec14ec
+wire RSel_b
+    path
+        30  10  h   1fd4    90  14
+        44  10  v   90  14
+        84  10  v   90  14
+        c4  10  v   90  14
+        104 10  v   90  14
+        144 10  v   90  14
+        184 10  v   90  14
+        1c4 10  v   90  14
+        204 10  v   90  14
+        244 10  v   90  14
+        284 10  v   90  14
+        2c4 10  v   90  14
+        304 10  v   90  14
+        344 10  v   90  14
+        384 10  v   90  14
+        3c4 10  v   90  14
+        404 10  v   90  14
+        444 10  v   90  14
+        484 10  v   90  14
+        4c4 10  v   90  14
+        504 10  v   90  14
+        544 10  v   90  14
+        584 10  v   90  14
+        5c4 10  v   90  14
+        604 10  v   90  14
+        644 10  v   90  14
+        684 10  v   90  14
+        6c4 10  v   90  14
+        704 10  v   90  14
+        744 10  v   90  14
+        784 10  v   90  14
+        7c4 10  v   90  14
+        804 10  v   90  14
+        844 10  v   90  14
+        884 10  v   90  14
+        8c4 10  v   90  14
+        904 10  v   90  14
+        944 10  v   90  14
+        984 10  v   90  14
+        9c4 10  v   90  14
+        a04 10  v   90  14
+        a44 10  v   90  14
+        a84 10  v   90  14
+        ac4 10  v   90  14
+        b04 10  v   90  14
+        b44 10  v   90  14
+        b84 10  v   90  14
+        bc4 10  v   90  14
+        c04 10  v   90  14
+        c44 10  v   90  14
+        c84 10  v   90  14
+        cc4 10  v   90  14
+        d04 10  v   90  14
+        d44 10  v   90  14
+        d84 10  v   90  14
+        dc4 10  v   90  14
+        e04 10  v   90  14
+        e44 10  v   90  14
+        e84 10  v   90  14
+        ec4 10  v   90  14
+        f04 10  v   90  14
+        f44 10  v   90  14
+        f84 10  v   90  14
+        fc4 10  v   90  14
+        1004    10  v   90  14
+        1044    10  v   90  14
+        1084    10  v   90  14
+        10c4    10  v   90  14
+        1104    10  v   90  14
+        1144    10  v   90  14
+        1184    10  v   90  14
+        11c4    10  v   90  14
+        1204    10  v   90  14
+        1244    10  v   90  14
+        1284    10  v   90  14
+        12c4    10  v   90  14
+        1304    10  v   90  14
+        1344    10  v   90  14
+        1384    10  v   90  14
+        13c4    10  v   90  14
+        1404    10  v   90  14
+        1444    10  v   90  14
+        1484    10  v   90  14
+        14c4    10  v   90  14
+        1504    10  v   90  14
+        1544    10  v   90  14
+        1584    10  v   90  14
+        15c4    10  v   90  14
+        1604    10  v   90  14
+        1644    10  v   90  14
+        1684    10  v   90  14
+        16c4    10  v   90  14
+        1704    10  v   90  14
+        1744    10  v   90  14
+        1784    10  v   90  14
+        17c4    10  v   90  14
+        1804    10  v   90  14
+        1844    10  v   90  14
+        1884    10  v   90  14
+        18c4    10  v   90  14
+        1904    10  v   90  14
+        1944    10  v   90  14
+        1984    10  v   90  14
+        19c4    10  v   90  14
+        1a04    10  v   90  14
+        1a44    10  v   90  14
+        1a84    10  v   90  14
+        1ac4    10  v   90  14
+        1b04    10  v   90  14
+        1b44    10  v   90  14
+        1b84    10  v   90  14
+        1bc4    10  v   90  14
+        1c04    10  v   90  14
+        1c44    10  v   90  14
+        1c84    10  v   90  14
+        1cc4    10  v   90  14
+        1d04    10  v   90  14
+        1d44    10  v   90  14
+        1d84    10  v   90  14
+        1dc4    10  v   90  14
+        1e04    10  v   90  14
+        1e44    10  v   90  14
+        1e84    10  v   90  14
+        1ec4    10  v   90  14
+        1f04    10  v   90  14
+        1f44    10  v   90  14
+        1f84    10  v   90  14
+        1fc4    10  v   90  14
+    colour
+        780878  f010f0
+wire RSel_c
+    path
+        30  c   h   1fd3    90  15
+        43  c   v   90  15
+        83  c   v   90  15
+        c3  c   v   90  15
+        103 c   v   90  15
+        143 c   v   90  15
+        183 c   v   90  15
+        1c3 c   v   90  15
+        203 c   v   90  15
+        243 c   v   90  15
+        283 c   v   90  15
+        2c3 c   v   90  15
+        303 c   v   90  15
+        343 c   v   90  15
+        383 c   v   90  15
+        3c3 c   v   90  15
+        403 c   v   90  15
+        443 c   v   90  15
+        483 c   v   90  15
+        4c3 c   v   90  15
+        503 c   v   90  15
+        543 c   v   90  15
+        583 c   v   90  15
+        5c3 c   v   90  15
+        603 c   v   90  15
+        643 c   v   90  15
+        683 c   v   90  15
+        6c3 c   v   90  15
+        703 c   v   90  15
+        743 c   v   90  15
+        783 c   v   90  15
+        7c3 c   v   90  15
+        803 c   v   90  15
+        843 c   v   90  15
+        883 c   v   90  15
+        8c3 c   v   90  15
+        903 c   v   90  15
+        943 c   v   90  15
+        983 c   v   90  15
+        9c3 c   v   90  15
+        a03 c   v   90  15
+        a43 c   v   90  15
+        a83 c   v   90  15
+        ac3 c   v   90  15
+        b03 c   v   90  15
+        b43 c   v   90  15
+        b83 c   v   90  15
+        bc3 c   v   90  15
+        c03 c   v   90  15
+        c43 c   v   90  15
+        c83 c   v   90  15
+        cc3 c   v   90  15
+        d03 c   v   90  15
+        d43 c   v   90  15
+        d83 c   v   90  15
+        dc3 c   v   90  15
+        e03 c   v   90  15
+        e43 c   v   90  15
+        e83 c   v   90  15
+        ec3 c   v   90  15
+        f03 c   v   90  15
+        f43 c   v   90  15
+        f83 c   v   90  15
+        fc3 c   v   90  15
+        1003    c   v   90  15
+        1043    c   v   90  15
+        1083    c   v   90  15
+        10c3    c   v   90  15
+        1103    c   v   90  15
+        1143    c   v   90  15
+        1183    c   v   90  15
+        11c3    c   v   90  15
+        1203    c   v   90  15
+        1243    c   v   90  15
+        1283    c   v   90  15
+        12c3    c   v   90  15
+        1303    c   v   90  15
+        1343    c   v   90  15
+        1383    c   v   90  15
+        13c3    c   v   90  15
+        1403    c   v   90  15
+        1443    c   v   90  15
+        1483    c   v   90  15
+        14c3    c   v   90  15
+        1503    c   v   90  15
+        1543    c   v   90  15
+        1583    c   v   90  15
+        15c3    c   v   90  15
+        1603    c   v   90  15
+        1643    c   v   90  15
+        1683    c   v   90  15
+        16c3    c   v   90  15
+        1703    c   v   90  15
+        1743    c   v   90  15
+        1783    c   v   90  15
+        17c3    c   v   90  15
+        1803    c   v   90  15
+        1843    c   v   90  15
+        1883    c   v   90  15
+        18c3    c   v   90  15
+        1903    c   v   90  15
+        1943    c   v   90  15
+        1983    c   v   90  15
+        19c3    c   v   90  15
+        1a03    c   v   90  15
+        1a43    c   v   90  15
+        1a83    c   v   90  15
+        1ac3    c   v   90  15
+        1b03    c   v   90  15
+        1b43    c   v   90  15
+        1b83    c   v   90  15
+        1bc3    c   v   90  15
+        1c03    c   v   90  15
+        1c43    c   v   90  15
+        1c83    c   v   90  15
+        1cc3    c   v   90  15
+        1d03    c   v   90  15
+        1d43    c   v   90  15
+        1d83    c   v   90  15
+        1dc3    c   v   90  15
+        1e03    c   v   90  15
+        1e43    c   v   90  15
+        1e83    c   v   90  15
+        1ec3    c   v   90  15
+        1f03    c   v   90  15
+        1f43    c   v   90  15
+        1f83    c   v   90  15
+        1fc3    c   v   90  15
+    colour
+        7a067a  f40cf4
+wire RSel_d
+    path
+        30  8   h   1fd2    90  16
+        42  8   v   90  16
+        82  8   v   90  16
+        c2  8   v   90  16
+        102 8   v   90  16
+        142 8   v   90  16
+        182 8   v   90  16
+        1c2 8   v   90  16
+        202 8   v   90  16
+        242 8   v   90  16
+        282 8   v   90  16
+        2c2 8   v   90  16
+        302 8   v   90  16
+        342 8   v   90  16
+        382 8   v   90  16
+        3c2 8   v   90  16
+        402 8   v   90  16
+        442 8   v   90  16
+        482 8   v   90  16
+        4c2 8   v   90  16
+        502 8   v   90  16
+        542 8   v   90  16
+        582 8   v   90  16
+        5c2 8   v   90  16
+        602 8   v   90  16
+        642 8   v   90  16
+        682 8   v   90  16
+        6c2 8   v   90  16
+        702 8   v   90  16
+        742 8   v   90  16
+        782 8   v   90  16
+        7c2 8   v   90  16
+        802 8   v   90  16
+        842 8   v   90  16
+        882 8   v   90  16
+        8c2 8   v   90  16
+        902 8   v   90  16
+        942 8   v   90  16
+        982 8   v   90  16
+        9c2 8   v   90  16
+        a02 8   v   90  16
+        a42 8   v   90  16
+        a82 8   v   90  16
+        ac2 8   v   90  16
+        b02 8   v   90  16
+        b42 8   v   90  16
+        b82 8   v   90  16
+        bc2 8   v   90  16
+        c02 8   v   90  16
+        c42 8   v   90  16
+        c82 8   v   90  16
+        cc2 8   v   90  16
+        d02 8   v   90  16
+        d42 8   v   90  16
+        d82 8   v   90  16
+        dc2 8   v   90  16
+        e02 8   v   90  16
+        e42 8   v   90  16
+        e82 8   v   90  16
+        ec2 8   v   90  16
+        f02 8   v   90  16
+        f42 8   v   90  16
+        f82 8   v   90  16
+        fc2 8   v   90  16
+        1002    8   v   90  16
+        1042    8   v   90  16
+        1082    8   v   90  16
+        10c2    8   v   90  16
+        1102    8   v   90  16
+        1142    8   v   90  16
+        1182    8   v   90  16
+        11c2    8   v   90  16
+        1202    8   v   90  16
+        1242    8   v   90  16
+        1282    8   v   90  16
+        12c2    8   v   90  16
+        1302    8   v   90  16
+        1342    8   v   90  16
+        1382    8   v   90  16
+        13c2    8   v   90  16
+        1402    8   v   90  16
+        1442    8   v   90  16
+        1482    8   v   90  16
+        14c2    8   v   90  16
+        1502    8   v   90  16
+        1542    8   v   90  16
+        1582    8   v   90  16
+        15c2    8   v   90  16
+        1602    8   v   90  16
+        1642    8   v   90  16
+        1682    8   v   90  16
+        16c2    8   v   90  16
+        1702    8   v   90  16
+        1742    8   v   90  16
+        1782    8   v   90  16
+        17c2    8   v   90  16
+        1802    8   v   90  16
+        1842    8   v   90  16
+        1882    8   v   90  16
+        18c2    8   v   90  16
+        1902    8   v   90  16
+        1942    8   v   90  16
+        1982    8   v   90  16
+        19c2    8   v   90  16
+        1a02    8   v   90  16
+        1a42    8   v   90  16
+        1a82    8   v   90  16
+        1ac2    8   v   90  16
+        1b02    8   v   90  16
+        1b42    8   v   90  16
+        1b82    8   v   90  16
+        1bc2    8   v   90  16
+        1c02    8   v   90  16
+        1c42    8   v   90  16
+        1c82    8   v   90  16
+        1cc2    8   v   90  16
+        1d02    8   v   90  16
+        1d42    8   v   90  16
+        1d82    8   v   90  16
+        1dc2    8   v   90  16
+        1e02    8   v   90  16
+        1e42    8   v   90  16
+        1e82    8   v   90  16
+        1ec2    8   v   90  16
+        1f02    8   v   90  16
+        1f42    8   v   90  16
+        1f82    8   v   90  16
+        1fc2    8   v   90  16
+    colour
+        7c047c  f808f8
+wire RSel_e
+    path
+        30  4   h   1fd1    90  17
+        41  4   v   90  17
+        81  4   v   90  17
+        c1  4   v   90  17
+        101 4   v   90  17
+        141 4   v   90  17
+        181 4   v   90  17
+        1c1 4   v   90  17
+        201 4   v   90  17
+        241 4   v   90  17
+        281 4   v   90  17
+        2c1 4   v   90  17
+        301 4   v   90  17
+        341 4   v   90  17
+        381 4   v   90  17
+        3c1 4   v   90  17
+        401 4   v   90  17
+        441 4   v   90  17
+        481 4   v   90  17
+        4c1 4   v   90  17
+        501 4   v   90  17
+        541 4   v   90  17
+        581 4   v   90  17
+        5c1 4   v   90  17
+        601 4   v   90  17
+        641 4   v   90  17
+        681 4   v   90  17
+        6c1 4   v   90  17
+        701 4   v   90  17
+        741 4   v   90  17
+        781 4   v   90  17
+        7c1 4   v   90  17
+        801 4   v   90  17
+        841 4   v   90  17
+        881 4   v   90  17
+        8c1 4   v   90  17
+        901 4   v   90  17
+        941 4   v   90  17
+        981 4   v   90  17
+        9c1 4   v   90  17
+        a01 4   v   90  17
+        a41 4   v   90  17
+        a81 4   v   90  17
+        ac1 4   v   90  17
+        b01 4   v   90  17
+        b41 4   v   90  17
+        b81 4   v   90  17
+        bc1 4   v   90  17
+        c01 4   v   90  17
+        c41 4   v   90  17
+        c81 4   v   90  17
+        cc1 4   v   90  17
+        d01 4   v   90  17
+        d41 4   v   90  17
+        d81 4   v   90  17
+        dc1 4   v   90  17
+        e01 4   v   90  17
+        e41 4   v   90  17
+        e81 4   v   90  17
+        ec1 4   v   90  17
+        f01 4   v   90  17
+        f41 4   v   90  17
+        f81 4   v   90  17
+        fc1 4   v   90  17
+        1001    4   v   90  17
+        1041    4   v   90  17
+        1081    4   v   90  17
+        10c1    4   v   90  17
+        1101    4   v   90  17
+        1141    4   v   90  17
+        1181    4   v   90  17
+        11c1    4   v   90  17
+        1201    4   v   90  17
+        1241    4   v   90  17
+        1281    4   v   90  17
+        12c1    4   v   90  17
+        1301    4   v   90  17
+        1341    4   v   90  17
+        1381    4   v   90  17
+        13c1    4   v   90  17
+        1401    4   v   90  17
+        1441    4   v   90  17
+        1481    4   v   90  17
+        14c1    4   v   90  17
+        1501    4   v   90  17
+        1541    4   v   90  17
+        1581    4   v   90  17
+        15c1    4   v   90  17
+        1601    4   v   90  17
+        1641    4   v   90  17
+        1681    4   v   90  17
+        16c1    4   v   90  17
+        1701    4   v   90  17
+        1741    4   v   90  17
+        1781    4   v   90  17
+        17c1    4   v   90  17
+        1801    4   v   90  17
+        1841    4   v   90  17
+        1881    4   v   90  17
+        18c1    4   v   90  17
+        1901    4   v   90  17
+        1941    4   v   90  17
+        1981    4   v   90  17
+        19c1    4   v   90  17
+        1a01    4   v   90  17
+        1a41    4   v   90  17
+        1a81    4   v   90  17
+        1ac1    4   v   90  17
+        1b01    4   v   90  17
+        1b41    4   v   90  17
+        1b81    4   v   90  17
+        1bc1    4   v   90  17
+        1c01    4   v   90  17
+        1c41    4   v   90  17
+        1c81    4   v   90  17
+        1cc1    4   v   90  17
+        1d01    4   v   90  17
+        1d41    4   v   90  17
+        1d81    4   v   90  17
+        1dc1    4   v   90  17
+        1e01    4   v   90  17
+        1e41    4   v   90  17
+        1e81    4   v   90  17
+        1ec1    4   v   90  17
+        1f01    4   v   90  17
+        1f41    4   v   90  17
+        1f81    4   v   90  17
+        1fc1    4   v   90  17
+    colour
+        7e027e  fc04fc
+wire RSel_f
+    path
+        30  0   h   1fd0    90  18
+        40  0   v   90  18
+        80  0   v   90  18
+        c0  0   v   90  18
+        100 0   v   90  18
+        140 0   v   90  18
+        180 0   v   90  18
+        1c0 0   v   90  18
+        200 0   v   90  18
+        240 0   v   90  18
+        280 0   v   90  18
+        2c0 0   v   90  18
+        300 0   v   90  18
+        340 0   v   90  18
+        380 0   v   90  18
+        3c0 0   v   90  18
+        400 0   v   90  18
+        440 0   v   90  18
+        480 0   v   90  18
+        4c0 0   v   90  18
+        500 0   v   90  18
+        540 0   v   90  18
+        580 0   v   90  18
+        5c0 0   v   90  18
+        600 0   v   90  18
+        640 0   v   90  18
+        680 0   v   90  18
+        6c0 0   v   90  18
+        700 0   v   90  18
+        740 0   v   90  18
+        780 0   v   90  18
+        7c0 0   v   90  18
+        800 0   v   90  18
+        840 0   v   90  18
+        880 0   v   90  18
+        8c0 0   v   90  18
+        900 0   v   90  18
+        940 0   v   90  18
+        980 0   v   90  18
+        9c0 0   v   90  18
+        a00 0   v   90  18
+        a40 0   v   90  18
+        a80 0   v   90  18
+        ac0 0   v   90  18
+        b00 0   v   90  18
+        b40 0   v   90  18
+        b80 0   v   90  18
+        bc0 0   v   90  18
+        c00 0   v   90  18
+        c40 0   v   90  18
+        c80 0   v   90  18
+        cc0 0   v   90  18
+        d00 0   v   90  18
+        d40 0   v   90  18
+        d80 0   v   90  18
+        dc0 0   v   90  18
+        e00 0   v   90  18
+        e40 0   v   90  18
+        e80 0   v   90  18
+        ec0 0   v   90  18
+        f00 0   v   90  18
+        f40 0   v   90  18
+        f80 0   v   90  18
+        fc0 0   v   90  18
+        1000    0   v   90  18
+        1040    0   v   90  18
+        1080    0   v   90  18
+        10c0    0   v   90  18
+        1100    0   v   90  18
+        1140    0   v   90  18
+        1180    0   v   90  18
+        11c0    0   v   90  18
+        1200    0   v   90  18
+        1240    0   v   90  18
+        1280    0   v   90  18
+        12c0    0   v   90  18
+        1300    0   v   90  18
+        1340    0   v   90  18
+        1380    0   v   90  18
+        13c0    0   v   90  18
+        1400    0   v   90  18
+        1440    0   v   90  18
+        1480    0   v   90  18
+        14c0    0   v   90  18
+        1500    0   v   90  18
+        1540    0   v   90  18
+        1580    0   v   90  18
+        15c0    0   v   90  18
+        1600    0   v   90  18
+        1640    0   v   90  18
+        1680    0   v   90  18
+        16c0    0   v   90  18
+        1700    0   v   90  18
+        1740    0   v   90  18
+        1780    0   v   90  18
+        17c0    0   v   90  18
+        1800    0   v   90  18
+        1840    0   v   90  18
+        1880    0   v   90  18
+        18c0    0   v   90  18
+        1900    0   v   90  18
+        1940    0   v   90  18
+        1980    0   v   90  18
+        19c0    0   v   90  18
+        1a00    0   v   90  18
+        1a40    0   v   90  18
+        1a80    0   v   90  18
+        1ac0    0   v   90  18
+        1b00    0   v   90  18
+        1b40    0   v   90  18
+        1b80    0   v   90  18
+        1bc0    0   v   90  18
+        1c00    0   v   90  18
+        1c40    0   v   90  18
+        1c80    0   v   90  18
+        1cc0    0   v   90  18
+        1d00    0   v   90  18
+        1d40    0   v   90  18
+        1d80    0   v   90  18
+        1dc0    0   v   90  18
+        1e00    0   v   90  18
+        1e40    0   v   90  18
+        1e80    0   v   90  18
+        1ec0    0   v   90  18
+        1f00    0   v   90  18
+        1f40    0   v   90  18
+        1f80    0   v   90  18
+        1fc0    0   v   90  18
+    colour
+        800080  ff00ff
+
+// Temporary Wire ________________________________________________________________
+
+wire DO_0_0
+    path
+        2028    d8  h   8   74
+        2030    14c h
+    colour
+        1c641c  38c838
+wire DO_0_1
+    path
+        1fe8    d8  h   8   70
+        1ff0    148 h
+    colour
+        186818  34cc34
+wire DO_0_2
+    path
+        1fa8    d8  h   8   6c
+        1fb0    144 h
+    colour
+        146c14  28d828
+wire DO_0_3
+    path
+        1f68    d8  h   8   68
+        1f70    140 h
+    colour
+        107010  20e020
+wire DO_0_4
+    path
+        1f28    d8  h   8   64
+        1f30    13c h
+    colour
+        0c740c  18e818
+wire DO_0_5
+    path
+        1ee8    d8  h   8   60
+        1ef0    138 h
+    colour
+        087808  10f010
+wire DO_0_6
+    path
+        1ea8    d8  h   8   5c
+        1eb0    134 h
+    colour
+        047c04  08f808
+wire DO_0_7
+    path
+        1e68    d8  h   8   58
+        1e70    130 h
+    colour
+        008000  00ff00
+
+wire DO_1_0
+    path
+        1e28    d8  h   8   74
+        1e30    14c h
+    colour
+        1c641c  38c838
+wire DO_1_1
+    path
+        1de8    d8  h   8   70
+        1df0    148 h
+    colour
+        186818  34cc34
+wire DO_1_2
+    path
+        1da8    d8  h   8   6c
+        1db0    144 h
+    colour
+        146c14  28d828
+wire DO_1_3
+    path
+        1d68    d8  h   8   68
+        1d70    140 h
+    colour
+        107010  20e020
+wire DO_1_4
+    path
+        1d28    d8  h   8   64
+        1d30    13c h
+    colour
+        0c740c  18e818
+wire DO_1_5
+    path
+        1ce8    d8  h   8   60
+        1cf0    138 h
+    colour
+        087808  10f010
+wire DO_1_6
+    path
+        1ca8    d8  h   8   5c
+        1cb0    134 h
+    colour
+        047c04  08f808
+wire DO_1_7
+    path
+        1c68    d8  h   8   58
+        1c70    130 h
+    colour
+        008000  00ff00
+
+wire DO_2_0
+    path
+        1c28    d8  h   8   74
+        1c30    14c h
+    colour
+        1c641c  38c838
+wire DO_2_1
+    path
+        1be8    d8  h   8   70
+        1bf0    148 h
+    colour
+        186818  34cc34
+wire DO_2_2
+    path
+        1ba8    d8  h   8   6c
+        1bb0    144 h
+    colour
+        146c14  28d828
+wire DO_2_3
+    path
+        1b68    d8  h   8   68
+        1b70    140 h
+    colour
+        107010  20e020
+wire DO_2_4
+    path
+        1b28    d8  h   8   64
+        1b30    13c h
+    colour
+        0c740c  18e818
+wire DO_2_5
+    path
+        1ae8    d8  h   8   60
+        1af0    138 h
+    colour
+        087808  10f010
+wire DO_2_6
+    path
+        1aa8    d8  h   8   5c
+        1ab0    134 h
+    colour
+        047c04  08f808
+wire DO_2_7
+    path
+        1a68    d8  h   8   58
+        1a70    130 h
+    colour
+        008000  00ff00
+
+wire DO_3_0
+    path
+        1a28    d8  h   8   74
+        1a30    14c h
+    colour
+        1c641c  38c838
+wire DO_3_1
+    path
+        19e8    d8  h   8   70
+        19f0    148 h
+    colour
+        186818  34cc34
+wire DO_3_2
+    path
+        19a8    d8  h   8   6c
+        19b0    144 h
+    colour
+        146c14  28d828
+wire DO_3_3
+    path
+        1968    d8  h   8   68
+        1970    140 h
+    colour
+        107010  20e020
+wire DO_3_4
+    path
+        1928    d8  h   8   64
+        1930    13c h
+    colour
+        0c740c  18e818
+wire DO_3_5
+    path
+        18e8    d8  h   8   60
+        18f0    138 h
+    colour
+        087808  10f010
+wire DO_3_6
+    path
+        18a8    d8  h   8   5c
+        18b0    134 h
+    colour
+        047c04  08f808
+wire DO_3_7
+    path
+        1868    d8  h   8   58
+        1870    130 h
+    colour
+        008000  00ff00
+
+wire DO_4_0
+    path
+        1828    d8  h   8   74
+        1830    14c h
+    colour
+        1c641c  38c838
+wire DO_4_1
+    path
+        17e8    d8  h   8   70
+        17f0    148 h
+    colour
+        186818  34cc34
+wire DO_4_2
+    path
+        17a8    d8  h   8   6c
+        17b0    144 h
+    colour
+        146c14  28d828
+wire DO_4_3
+    path
+        1768    d8  h   8   68
+        1770    140 h
+    colour
+        107010  20e020
+wire DO_4_4
+    path
+        1728    d8  h   8   64
+        1730    13c h
+    colour
+        0c740c  18e818
+wire DO_4_5
+    path
+        16e8    d8  h   8   60
+        16f0    138 h
+    colour
+        087808  10f010
+wire DO_4_6
+    path
+        16a8    d8  h   8   5c
+        16b0    134 h
+    colour
+        047c04  08f808
+wire DO_4_7
+    path
+        1668    d8  h   8   58
+        1670    130 h
+    colour
+        008000  00ff00
+
+wire DO_5_0
+    path
+        1628    d8  h   8   74
+        1630    14c h
+    colour
+        1c641c  38c838
+wire DO_5_1
+    path
+        15e8    d8  h   8   70
+        15f0    148 h
+    colour
+        186818  34cc34
+wire DO_5_2
+    path
+        15a8    d8  h   8   6c
+        15b0    144 h
+    colour
+        146c14  28d828
+wire DO_5_3
+    path
+        1568    d8  h   8   68
+        1570    140 h
+    colour
+        107010  20e020
+wire DO_5_4
+    path
+        1528    d8  h   8   64
+        1530    13c h
+    colour
+        0c740c  18e818
+wire DO_5_5
+    path
+        14e8    d8  h   8   60
+        14f0    138 h
+    colour
+        087808  10f010
+wire DO_5_6
+    path
+        14a8    d8  h   8   5c
+        14b0    134 h
+    colour
+        047c04  08f808
+wire DO_5_7
+    path
+        1468    d8  h   8   58
+        1470    130 h
+    colour
+        008000  00ff00
+
+wire DO_6_0
+    path
+        1428    d8  h   8   74
+        1430    14c h
+    colour
+        1c641c  38c838
+wire DO_6_1
+    path
+        13e8    d8  h   8   70
+        13f0    148 h
+    colour
+        186818  34cc34
+wire DO_6_2
+    path
+        13a8    d8  h   8   6c
+        13b0    144 h
+    colour
+        146c14  28d828
+wire DO_6_3
+    path
+        1368    d8  h   8   68
+        1370    140 h
+    colour
+        107010  20e020
+wire DO_6_4
+    path
+        1328    d8  h   8   64
+        1330    13c h
+    colour
+        0c740c  18e818
+wire DO_6_5
+    path
+        12e8    d8  h   8   60
+        12f0    138 h
+    colour
+        087808  10f010
+wire DO_6_6
+    path
+        12a8    d8  h   8   5c
+        12b0    134 h
+    colour
+        047c04  08f808
+wire DO_6_7
+    path
+        1268    d8  h   8   58
+        1270    130 h
+    colour
+        008000  00ff00
+
+wire DO_7_0
+    path
+        1228    d8  h   8   74
+        1230    14c h
+    colour
+        1c641c  38c838
+wire DO_7_1
+    path
+        11e8    d8  h   8   70
+        11f0    148 h
+    colour
+        186818  34cc34
+wire DO_7_2
+    path
+        11a8    d8  h   8   6c
+        11b0    144 h
+    colour
+        146c14  28d828
+wire DO_7_3
+    path
+        1168    d8  h   8   68
+        1170    140 h
+    colour
+        107010  20e020
+wire DO_7_4
+    path
+        1128    d8  h   8   64
+        1130    13c h
+    colour
+        0c740c  18e818
+wire DO_7_5
+    path
+        10e8    d8  h   8   60
+        10f0    138 h
+    colour
+        087808  10f010
+wire DO_7_6
+    path
+        10a8    d8  h   8   5c
+        10b0    134 h
+    colour
+        047c04  08f808
+wire DO_7_7
+    path
+        1068    d8  h   8   58
+        1070    130 h
+    colour
+        008000  00ff00
+
+wire DO_8_0
+    path
+        1028    d8  h   8   74
+        1030    14c h
+    colour
+        1c641c  38c838
+wire DO_8_1
+    path
+        fe8 d8  h   8   70
+        ff0 148 h
+    colour
+        186818  34cc34
+wire DO_8_2
+    path
+        fa8 d8  h   8   6c
+        fb0 144 h
+    colour
+        146c14  28d828
+wire DO_8_3
+    path
+        f68 d8  h   8   68
+        f70 140 h
+    colour
+        107010  20e020
+wire DO_8_4
+    path
+        f28 d8  h   8   64
+        f30 13c h
+    colour
+        0c740c  18e818
+wire DO_8_5
+    path
+        ee8 d8  h   8   60
+        ef0 138 h
+    colour
+        087808  10f010
+wire DO_8_6
+    path
+        ea8 d8  h   8   5c
+        eb0 134 h
+    colour
+        047c04  08f808
+wire DO_8_7
+    path
+        e68 d8  h   8   58
+        e70 130 h
+    colour
+        008000  00ff00
+
+wire DO_9_0
+    path
+        e28 d8  h   8   74
+        e30 14c h
+    colour
+        1c641c  38c838
+wire DO_9_1
+    path
+        de8 d8  h   8   70
+        df0 148 h
+    colour
+        186818  34cc34
+wire DO_9_2
+    path
+        da8 d8  h   8   6c
+        db0 144 h
+    colour
+        146c14  28d828
+wire DO_9_3
+    path
+        d68 d8  h   8   68
+        d70 140 h
+    colour
+        107010  20e020
+wire DO_9_4
+    path
+        d28 d8  h   8   64
+        d30 13c h
+    colour
+        0c740c  18e818
+wire DO_9_5
+    path
+        ce8 d8  h   8   60
+        cf0 138 h
+    colour
+        087808  10f010
+wire DO_9_6
+    path
+        ca8 d8  h   8   5c
+        cb0 134 h
+    colour
+        047c04  08f808
+wire DO_9_7
+    path
+        c68 d8  h   8   58
+        c70 130 h
+    colour
+        008000  00ff00
+
+wire DO_a_0
+    path
+        c28 d8  h   8   74
+        c30 14c h
+    colour
+        1c641c  38c838
+wire DO_a_1
+    path
+        be8 d8  h   8   70
+        bf0 148 h
+    colour
+        186818  34cc34
+wire DO_a_2
+    path
+        ba8 d8  h   8   6c
+        bb0 144 h
+    colour
+        146c14  28d828
+wire DO_a_3
+    path
+        b68 d8  h   8   68
+        b70 140 h
+    colour
+        107010  20e020
+wire DO_a_4
+    path
+        b28 d8  h   8   64
+        b30 13c h
+    colour
+        0c740c  18e818
+wire DO_a_5
+    path
+        ae8 d8  h   8   60
+        af0 138 h
+    colour
+        087808  10f010
+wire DO_a_6
+    path
+        aa8 d8  h   8   5c
+        ab0 134 h
+    colour
+        047c04  08f808
+wire DO_a_7
+    path
+        a68 d8  h   8   58
+        a70 130 h
+    colour
+        008000  00ff00
+
+wire DO_b_0
+    path
+        a28 d8  h   8   74
+        a30 14c h
+    colour
+        1c641c  38c838
+wire DO_b_1
+    path
+        9e8 d8  h   8   70
+        9f0 148 h
+    colour
+        186818  34cc34
+wire DO_b_2
+    path
+        9a8 d8  h   8   6c
+        9b0 144 h
+    colour
+        146c14  28d828
+wire DO_b_3
+    path
+        968 d8  h   8   68
+        970 140 h
+    colour
+        107010  20e020
+wire DO_b_4
+    path
+        928 d8  h   8   64
+        930 13c h
+    colour
+        0c740c  18e818
+wire DO_b_5
+    path
+        8e8 d8  h   8   60
+        8f0 138 h
+    colour
+        087808  10f010
+wire DO_b_6
+    path
+        8a8 d8  h   8   5c
+        8b0 134 h
+    colour
+        047c04  08f808
+wire DO_b_7
+    path
+        868 d8  h   8   58
+        870 130 h
+    colour
+        008000  00ff00
+
+wire DO_c_0
+    path
+        828 d8  h   8   74
+        830 14c h
+    colour
+        1c641c  38c838
+wire DO_c_1
+    path
+        7e8 d8  h   8   70
+        7f0 148 h
+    colour
+        186818  34cc34
+wire DO_c_2
+    path
+        7a8 d8  h   8   6c
+        7b0 144 h
+    colour
+        146c14  28d828
+wire DO_c_3
+    path
+        768 d8  h   8   68
+        770 140 h
+    colour
+        107010  20e020
+wire DO_c_4
+    path
+        728 d8  h   8   64
+        730 13c h
+    colour
+        0c740c  18e818
+wire DO_c_5
+    path
+        6e8 d8  h   8   60
+        6f0 138 h
+    colour
+        087808  10f010
+wire DO_c_6
+    path
+        6a8 d8  h   8   5c
+        6b0 134 h
+    colour
+        047c04  08f808
+wire DO_c_7
+    path
+        668 d8  h   8   58
+        670 130 h
+    colour
+        008000  00ff00
+
+wire DO_d_0
+    path
+        628 d8  h   8   74
+        630 14c h
+    colour
+        1c641c  38c838
+wire DO_d_1
+    path
+        5e8 d8  h   8   70
+        5f0 148 h
+    colour
+        186818  34cc34
+wire DO_d_2
+    path
+        5a8 d8  h   8   6c
+        5b0 144 h
+    colour
+        146c14  28d828
+wire DO_d_3
+    path
+        568 d8  h   8   68
+        570 140 h
+    colour
+        107010  20e020
+wire DO_d_4
+    path
+        528 d8  h   8   64
+        530 13c h
+    colour
+        0c740c  18e818
+wire DO_d_5
+    path
+        4e8 d8  h   8   60
+        4f0 138 h
+    colour
+        087808  10f010
+wire DO_d_6
+    path
+        4a8 d8  h   8   5c
+        4b0 134 h
+    colour
+        047c04  08f808
+wire DO_d_7
+    path
+        468 d8  h   8   58
+        470 130 h
+    colour
+        008000  00ff00
+
+wire DO_e_0
+    path
+        428 d8  h   8   74
+        430 14c h
+    colour
+        1c641c  38c838
+wire DO_e_1
+    path
+        3e8 d8  h   8   70
+        3f0 148 h
+    colour
+        186818  34cc34
+wire DO_e_2
+    path
+        3a8 d8  h   8   6c
+        3b0 144 h
+    colour
+        146c14  28d828
+wire DO_e_3
+    path
+        368 d8  h   8   68
+        370 140 h
+    colour
+        107010  20e020
+wire DO_e_4
+    path
+        328 d8  h   8   64
+        330 13c h
+    colour
+        0c740c  18e818
+wire DO_e_5
+    path
+        2e8 d8  h   8   60
+        2f0 138 h
+    colour
+        087808  10f010
+wire DO_e_6
+    path
+        2a8 d8  h   8   5c
+        2b0 134 h
+    colour
+        047c04  08f808
+wire DO_e_7
+    path
+        268 d8  h   8   58
+        270 130 h
+    colour
+        008000  00ff00
+
+wire DO_f_0
+    path
+        228 d8  h   8   74  1e08    134 40
+    colour
+        1c641c  38c838
+wire DO_f_1
+    path
+        1e8 d8  h   8   70  1e50    108 38
+    colour
+        186818  34cc34
+wire DO_f_2
+    path
+        1a8 d8  h   8   6c  1e98    dc  30
+    colour
+        146c14  28d828
+wire DO_f_3
+    path
+        168 d8  h   8   68  1ee0    b0  28
+    colour
+        107010  20e020
+wire DO_f_4
+    path
+        128 d8  h   8   64  1f28    84  20
+    colour
+        0c740c  18e818
+wire DO_f_5
+    path
+        e8  d8  h   8   60  1f70    58  18
+    colour
+        087808  10f010
+wire DO_f_6
+    path
+        a8  d8  h   8   5c  1fb8    2c  10
+    colour
+        047c04  08f808
+wire DO_f_7
+    path
+        68  d8  h   8   58  2008
+    colour
+        008000  00ff00
+
+wire DO_en_0
+    path
+        2090    280 h   10
+    colour
+        1c641c  38c838
+wire DO_en_1
+    path
+        2090    250 h   10
+    colour
+        186818  34cc34
+wire DO_en_2
+    path
+        2090    220 h   10
+    colour
+        146c14  28d828
+wire DO_en_3
+    path
+        2090    1f0 h   10
+    colour
+        107010  20e020
+wire DO_en_4
+    path
+        2090    1c0 h   10
+    colour
+        0c740c  18e818
+wire DO_en_5
+    path
+        2090    190 h   10
+    colour
+        087808  10f010
+wire DO_en_6
+    path
+        2090    160 h   10
+    colour
+        047c04  08f808
+wire DO_en_7
+    path
+        2090    130 h   10
+    colour
+        008000  00ff00
+
+// Data Output ________________________________________________________________
+
+wire DO_0
+    path
+        20c0    278 h   2c  3c  -c0 -140    -202c
+    colour
+        1c641c  38c838
+wire DO_1
+    path
+        20c0    248 h   28  68  -c0 -140    -2028
+    colour
+        186818  34cc34
+wire DO_2
+    path
+        20c0    218 h   24  94  -c0 -140    -2024
+    colour
+        146c14  28d828
+wire DO_3
+    path
+        20c0    1e8 h   20  c0  -c0 -140    -2020
+    colour
+        107010  20e020
+wire DO_4
+    path
+        20c0    1b8 h   1c  ec  -c0 -140    -201c
+    colour
+        0c740c  18e818
+wire DO_5
+    path
+        20c0    188 h   18  118 -c0 -140    -2018
+    colour
+        087808  10f010
+wire DO_6
+    path
+        20c0    158 h   14  144 -c0 -140    -2014
+    colour
+        047c04  08f808
+wire DO_7
+    path
+        20c0    128 h   10  170 -c0 -140    -2010
+    colour
+        008000  00ff00
+
+// Decoder ________________________________________________________________
+
+module decoder_csel
+    module_id
+        decoder_en_4_16
+    rect
+        10  3f   20  3e
+    colour
+        ffffff  808080
+    __input__ Addr_0 Addr_1 Addr_2 Addr_3 ChSel
+    __output__ CSel_0 CSel_1 CSel_2 CSel_3 CSel_4 CSel_5 CSel_6 CSel_7 CSel_8 CSel_9 CSel_a CSel_b CSel_c CSel_d CSel_e CSel_f
+
+module decoder_rsel
+    module_id
+        decoder_4_16
+    rect
+        10  -1  20  3e
+    colour
+        ffffff  808080
+    __input__ Addr_4 Addr_5 Addr_6 Addr_7
+    __output__ RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f
+
+// Bit Slice ________________________________________________________________
+
+module bit_slice_0_0
+    module_id
+        ram_bit_slice_16
+    rect
+        2018    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_0 RW
+    __output__ DO_0_0
+module bit_slice_0_1
+    module_id
+        ram_bit_slice_16
+    rect
+        1fd8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_0 RW
+    __output__ DO_0_1
+module bit_slice_0_2
+    module_id
+        ram_bit_slice_16
+    rect
+        1f98    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_0 RW
+    __output__ DO_0_2
+module bit_slice_0_3
+    module_id
+        ram_bit_slice_16
+    rect
+        1f58    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_0 RW
+    __output__ DO_0_3
+module bit_slice_0_4
+    module_id
+        ram_bit_slice_16
+    rect
+        1f18    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_0 RW
+    __output__ DO_0_4
+module bit_slice_0_5
+    module_id
+        ram_bit_slice_16
+    rect
+        1ed8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_0 RW
+    __output__ DO_0_5
+module bit_slice_0_6
+    module_id
+        ram_bit_slice_16
+    rect
+        1e98    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_0 RW
+    __output__ DO_0_6
+module bit_slice_0_7
+    module_id
+        ram_bit_slice_16
+    rect
+        1e58    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_0 RW
+    __output__ DO_0_7
+
+module bit_slice_1_0
+    module_id
+        ram_bit_slice_16
+    rect
+        1e18    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_1 RW
+    __output__ DO_1_0
+module bit_slice_1_1
+    module_id
+        ram_bit_slice_16
+    rect
+        1dd8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_1 RW
+    __output__ DO_1_1
+module bit_slice_1_2
+    module_id
+        ram_bit_slice_16
+    rect
+        1d98    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_1 RW
+    __output__ DO_1_2
+module bit_slice_1_3
+    module_id
+        ram_bit_slice_16
+    rect
+        1d58    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_1 RW
+    __output__ DO_1_3
+module bit_slice_1_4
+    module_id
+        ram_bit_slice_16
+    rect
+        1d18    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_1 RW
+    __output__ DO_1_4
+module bit_slice_1_5
+    module_id
+        ram_bit_slice_16
+    rect
+        1cd8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_1 RW
+    __output__ DO_1_5
+module bit_slice_1_6
+    module_id
+        ram_bit_slice_16
+    rect
+        1c98    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_1 RW
+    __output__ DO_1_6
+module bit_slice_1_7
+    module_id
+        ram_bit_slice_16
+    rect
+        1c58    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_1 RW
+    __output__ DO_1_7
+
+module bit_slice_2_0
+    module_id
+        ram_bit_slice_16
+    rect
+        1c18    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_2 RW
+    __output__ DO_2_0
+module bit_slice_2_1
+    module_id
+        ram_bit_slice_16
+    rect
+        1bd8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_2 RW
+    __output__ DO_2_1
+module bit_slice_2_2
+    module_id
+        ram_bit_slice_16
+    rect
+        1b98    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_2 RW
+    __output__ DO_2_2
+module bit_slice_2_3
+    module_id
+        ram_bit_slice_16
+    rect
+        1b58    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_2 RW
+    __output__ DO_2_3
+module bit_slice_2_4
+    module_id
+        ram_bit_slice_16
+    rect
+        1b18    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_2 RW
+    __output__ DO_2_4
+module bit_slice_2_5
+    module_id
+        ram_bit_slice_16
+    rect
+        1ad8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_2 RW
+    __output__ DO_2_5
+module bit_slice_2_6
+    module_id
+        ram_bit_slice_16
+    rect
+        1a98    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_2 RW
+    __output__ DO_2_6
+module bit_slice_2_7
+    module_id
+        ram_bit_slice_16
+    rect
+        1a58    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_2 RW
+    __output__ DO_2_7
+
+module bit_slice_3_0
+    module_id
+        ram_bit_slice_16
+    rect
+        1a18    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_3 RW
+    __output__ DO_3_0
+module bit_slice_3_1
+    module_id
+        ram_bit_slice_16
+    rect
+        19d8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_3 RW
+    __output__ DO_3_1
+module bit_slice_3_2
+    module_id
+        ram_bit_slice_16
+    rect
+        1998    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_3 RW
+    __output__ DO_3_2
+module bit_slice_3_3
+    module_id
+        ram_bit_slice_16
+    rect
+        1958    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_3 RW
+    __output__ DO_3_3
+module bit_slice_3_4
+    module_id
+        ram_bit_slice_16
+    rect
+        1918    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_3 RW
+    __output__ DO_3_4
+module bit_slice_3_5
+    module_id
+        ram_bit_slice_16
+    rect
+        18d8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_3 RW
+    __output__ DO_3_5
+module bit_slice_3_6
+    module_id
+        ram_bit_slice_16
+    rect
+        1898    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_3 RW
+    __output__ DO_3_6
+module bit_slice_3_7
+    module_id
+        ram_bit_slice_16
+    rect
+        1858    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_3 RW
+    __output__ DO_3_7
+
+module bit_slice_4_0
+    module_id
+        ram_bit_slice_16
+    rect
+        1818    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_4 RW
+    __output__ DO_4_0
+module bit_slice_4_1
+    module_id
+        ram_bit_slice_16
+    rect
+        17d8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_4 RW
+    __output__ DO_4_1
+module bit_slice_4_2
+    module_id
+        ram_bit_slice_16
+    rect
+        1798    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_4 RW
+    __output__ DO_4_2
+module bit_slice_4_3
+    module_id
+        ram_bit_slice_16
+    rect
+        1758    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_4 RW
+    __output__ DO_4_3
+module bit_slice_4_4
+    module_id
+        ram_bit_slice_16
+    rect
+        1718    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_4 RW
+    __output__ DO_4_4
+module bit_slice_4_5
+    module_id
+        ram_bit_slice_16
+    rect
+        16d8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_4 RW
+    __output__ DO_4_5
+module bit_slice_4_6
+    module_id
+        ram_bit_slice_16
+    rect
+        1698    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_4 RW
+    __output__ DO_4_6
+module bit_slice_4_7
+    module_id
+        ram_bit_slice_16
+    rect
+        1658    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_4 RW
+    __output__ DO_4_7
+
+module bit_slice_5_0
+    module_id
+        ram_bit_slice_16
+    rect
+        1618    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_5 RW
+    __output__ DO_5_0
+module bit_slice_5_1
+    module_id
+        ram_bit_slice_16
+    rect
+        15d8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_5 RW
+    __output__ DO_5_1
+module bit_slice_5_2
+    module_id
+        ram_bit_slice_16
+    rect
+        1598    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_5 RW
+    __output__ DO_5_2
+module bit_slice_5_3
+    module_id
+        ram_bit_slice_16
+    rect
+        1558    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_5 RW
+    __output__ DO_5_3
+module bit_slice_5_4
+    module_id
+        ram_bit_slice_16
+    rect
+        1518    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_5 RW
+    __output__ DO_5_4
+module bit_slice_5_5
+    module_id
+        ram_bit_slice_16
+    rect
+        14d8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_5 RW
+    __output__ DO_5_5
+module bit_slice_5_6
+    module_id
+        ram_bit_slice_16
+    rect
+        1498    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_5 RW
+    __output__ DO_5_6
+module bit_slice_5_7
+    module_id
+        ram_bit_slice_16
+    rect
+        1458    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_5 RW
+    __output__ DO_5_7
+
+module bit_slice_6_0
+    module_id
+        ram_bit_slice_16
+    rect
+        1418    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_6 RW
+    __output__ DO_6_0
+module bit_slice_6_1
+    module_id
+        ram_bit_slice_16
+    rect
+        13d8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_6 RW
+    __output__ DO_6_1
+module bit_slice_6_2
+    module_id
+        ram_bit_slice_16
+    rect
+        1398    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_6 RW
+    __output__ DO_6_2
+module bit_slice_6_3
+    module_id
+        ram_bit_slice_16
+    rect
+        1358    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_6 RW
+    __output__ DO_6_3
+module bit_slice_6_4
+    module_id
+        ram_bit_slice_16
+    rect
+        1318    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_6 RW
+    __output__ DO_6_4
+module bit_slice_6_5
+    module_id
+        ram_bit_slice_16
+    rect
+        12d8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_6 RW
+    __output__ DO_6_5
+module bit_slice_6_6
+    module_id
+        ram_bit_slice_16
+    rect
+        1298    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_6 RW
+    __output__ DO_6_6
+module bit_slice_6_7
+    module_id
+        ram_bit_slice_16
+    rect
+        1258    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_6 RW
+    __output__ DO_6_7
+
+module bit_slice_7_0
+    module_id
+        ram_bit_slice_16
+    rect
+        1218    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_7 RW
+    __output__ DO_7_0
+module bit_slice_7_1
+    module_id
+        ram_bit_slice_16
+    rect
+        11d8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_7 RW
+    __output__ DO_7_1
+module bit_slice_7_2
+    module_id
+        ram_bit_slice_16
+    rect
+        1198    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_7 RW
+    __output__ DO_7_2
+module bit_slice_7_3
+    module_id
+        ram_bit_slice_16
+    rect
+        1158    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_7 RW
+    __output__ DO_7_3
+module bit_slice_7_4
+    module_id
+        ram_bit_slice_16
+    rect
+        1118    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_7 RW
+    __output__ DO_7_4
+module bit_slice_7_5
+    module_id
+        ram_bit_slice_16
+    rect
+        10d8    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_7 RW
+    __output__ DO_7_5
+module bit_slice_7_6
+    module_id
+        ram_bit_slice_16
+    rect
+        1098    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_7 RW
+    __output__ DO_7_6
+module bit_slice_7_7
+    module_id
+        ram_bit_slice_16
+    rect
+        1058    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_7 RW
+    __output__ DO_7_7
+
+module bit_slice_8_0
+    module_id
+        ram_bit_slice_16
+    rect
+        1018    88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_8 RW
+    __output__ DO_8_0
+module bit_slice_8_1
+    module_id
+        ram_bit_slice_16
+    rect
+        fd8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_8 RW
+    __output__ DO_8_1
+module bit_slice_8_2
+    module_id
+        ram_bit_slice_16
+    rect
+        f98 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_8 RW
+    __output__ DO_8_2
+module bit_slice_8_3
+    module_id
+        ram_bit_slice_16
+    rect
+        f58 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_8 RW
+    __output__ DO_8_3
+module bit_slice_8_4
+    module_id
+        ram_bit_slice_16
+    rect
+        f18 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_8 RW
+    __output__ DO_8_4
+module bit_slice_8_5
+    module_id
+        ram_bit_slice_16
+    rect
+        ed8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_8 RW
+    __output__ DO_8_5
+module bit_slice_8_6
+    module_id
+        ram_bit_slice_16
+    rect
+        e98 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_8 RW
+    __output__ DO_8_6
+module bit_slice_8_7
+    module_id
+        ram_bit_slice_16
+    rect
+        e58 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_8 RW
+    __output__ DO_8_7
+
+module bit_slice_9_0
+    module_id
+        ram_bit_slice_16
+    rect
+        e18 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_9 RW
+    __output__ DO_9_0
+module bit_slice_9_1
+    module_id
+        ram_bit_slice_16
+    rect
+        dd8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_9 RW
+    __output__ DO_9_1
+module bit_slice_9_2
+    module_id
+        ram_bit_slice_16
+    rect
+        d98 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_9 RW
+    __output__ DO_9_2
+module bit_slice_9_3
+    module_id
+        ram_bit_slice_16
+    rect
+        d58 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_9 RW
+    __output__ DO_9_3
+module bit_slice_9_4
+    module_id
+        ram_bit_slice_16
+    rect
+        d18 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_9 RW
+    __output__ DO_9_4
+module bit_slice_9_5
+    module_id
+        ram_bit_slice_16
+    rect
+        cd8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_9 RW
+    __output__ DO_9_5
+module bit_slice_9_6
+    module_id
+        ram_bit_slice_16
+    rect
+        c98 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_9 RW
+    __output__ DO_9_6
+module bit_slice_9_7
+    module_id
+        ram_bit_slice_16
+    rect
+        c58 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_9 RW
+    __output__ DO_9_7
+
+module bit_slice_a_0
+    module_id
+        ram_bit_slice_16
+    rect
+        c18 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_a RW
+    __output__ DO_a_0
+module bit_slice_a_1
+    module_id
+        ram_bit_slice_16
+    rect
+        bd8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_a RW
+    __output__ DO_a_1
+module bit_slice_a_2
+    module_id
+        ram_bit_slice_16
+    rect
+        b98 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_a RW
+    __output__ DO_a_2
+module bit_slice_a_3
+    module_id
+        ram_bit_slice_16
+    rect
+        b58 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_a RW
+    __output__ DO_a_3
+module bit_slice_a_4
+    module_id
+        ram_bit_slice_16
+    rect
+        b18 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_a RW
+    __output__ DO_a_4
+module bit_slice_a_5
+    module_id
+        ram_bit_slice_16
+    rect
+        ad8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_a RW
+    __output__ DO_a_5
+module bit_slice_a_6
+    module_id
+        ram_bit_slice_16
+    rect
+        a98 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_a RW
+    __output__ DO_a_6
+module bit_slice_a_7
+    module_id
+        ram_bit_slice_16
+    rect
+        a58 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_a RW
+    __output__ DO_a_7
+
+module bit_slice_b_0
+    module_id
+        ram_bit_slice_16
+    rect
+        a18 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_b RW
+    __output__ DO_b_0
+module bit_slice_b_1
+    module_id
+        ram_bit_slice_16
+    rect
+        9d8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_b RW
+    __output__ DO_b_1
+module bit_slice_b_2
+    module_id
+        ram_bit_slice_16
+    rect
+        998 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_b RW
+    __output__ DO_b_2
+module bit_slice_b_3
+    module_id
+        ram_bit_slice_16
+    rect
+        958 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_b RW
+    __output__ DO_b_3
+module bit_slice_b_4
+    module_id
+        ram_bit_slice_16
+    rect
+        918 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_b RW
+    __output__ DO_b_4
+module bit_slice_b_5
+    module_id
+        ram_bit_slice_16
+    rect
+        8d8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_b RW
+    __output__ DO_b_5
+module bit_slice_b_6
+    module_id
+        ram_bit_slice_16
+    rect
+        898 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_b RW
+    __output__ DO_b_6
+module bit_slice_b_7
+    module_id
+        ram_bit_slice_16
+    rect
+        858 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_b RW
+    __output__ DO_b_7
+
+module bit_slice_c_0
+    module_id
+        ram_bit_slice_16
+    rect
+        818 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_c RW
+    __output__ DO_c_0
+module bit_slice_c_1
+    module_id
+        ram_bit_slice_16
+    rect
+        7d8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_c RW
+    __output__ DO_c_1
+module bit_slice_c_2
+    module_id
+        ram_bit_slice_16
+    rect
+        798 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_c RW
+    __output__ DO_c_2
+module bit_slice_c_3
+    module_id
+        ram_bit_slice_16
+    rect
+        758 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_c RW
+    __output__ DO_c_3
+module bit_slice_c_4
+    module_id
+        ram_bit_slice_16
+    rect
+        718 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_c RW
+    __output__ DO_c_4
+module bit_slice_c_5
+    module_id
+        ram_bit_slice_16
+    rect
+        6d8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_c RW
+    __output__ DO_c_5
+module bit_slice_c_6
+    module_id
+        ram_bit_slice_16
+    rect
+        698 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_c RW
+    __output__ DO_c_6
+module bit_slice_c_7
+    module_id
+        ram_bit_slice_16
+    rect
+        658 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_c RW
+    __output__ DO_c_7
+
+module bit_slice_d_0
+    module_id
+        ram_bit_slice_16
+    rect
+        618 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_d RW
+    __output__ DO_d_0
+module bit_slice_d_1
+    module_id
+        ram_bit_slice_16
+    rect
+        5d8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_d RW
+    __output__ DO_d_1
+module bit_slice_d_2
+    module_id
+        ram_bit_slice_16
+    rect
+        598 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_d RW
+    __output__ DO_d_2
+module bit_slice_d_3
+    module_id
+        ram_bit_slice_16
+    rect
+        558 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_d RW
+    __output__ DO_d_3
+module bit_slice_d_4
+    module_id
+        ram_bit_slice_16
+    rect
+        518 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_d RW
+    __output__ DO_d_4
+module bit_slice_d_5
+    module_id
+        ram_bit_slice_16
+    rect
+        4d8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_d RW
+    __output__ DO_d_5
+module bit_slice_d_6
+    module_id
+        ram_bit_slice_16
+    rect
+        498 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_d RW
+    __output__ DO_d_6
+module bit_slice_d_7
+    module_id
+        ram_bit_slice_16
+    rect
+        458 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_d RW
+    __output__ DO_d_7
+
+module bit_slice_e_0
+    module_id
+        ram_bit_slice_16
+    rect
+        418 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_e RW
+    __output__ DO_e_0
+module bit_slice_e_1
+    module_id
+        ram_bit_slice_16
+    rect
+        3d8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_e RW
+    __output__ DO_e_1
+module bit_slice_e_2
+    module_id
+        ram_bit_slice_16
+    rect
+        398 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_e RW
+    __output__ DO_e_2
+module bit_slice_e_3
+    module_id
+        ram_bit_slice_16
+    rect
+        358 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_e RW
+    __output__ DO_e_3
+module bit_slice_e_4
+    module_id
+        ram_bit_slice_16
+    rect
+        318 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_e RW
+    __output__ DO_e_4
+module bit_slice_e_5
+    module_id
+        ram_bit_slice_16
+    rect
+        2d8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_e RW
+    __output__ DO_e_5
+module bit_slice_e_6
+    module_id
+        ram_bit_slice_16
+    rect
+        298 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_e RW
+    __output__ DO_e_6
+module bit_slice_e_7
+    module_id
+        ram_bit_slice_16
+    rect
+        258 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_e RW
+    __output__ DO_e_7
+
+module bit_slice_f_0
+    module_id
+        ram_bit_slice_16
+    rect
+        218 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_0 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_f RW
+    __output__ DO_f_0
+module bit_slice_f_1
+    module_id
+        ram_bit_slice_16
+    rect
+        1d8 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_1 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_f RW
+    __output__ DO_f_1
+module bit_slice_f_2
+    module_id
+        ram_bit_slice_16
+    rect
+        198 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_2 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_f RW
+    __output__ DO_f_2
+module bit_slice_f_3
+    module_id
+        ram_bit_slice_16
+    rect
+        158 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_3 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_f RW
+    __output__ DO_f_3
+module bit_slice_f_4
+    module_id
+        ram_bit_slice_16
+    rect
+        118 88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_4 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_f RW
+    __output__ DO_f_4
+module bit_slice_f_5
+    module_id
+        ram_bit_slice_16
+    rect
+        d8  88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_5 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_f RW
+    __output__ DO_f_5
+module bit_slice_f_6
+    module_id
+        ram_bit_slice_16
+    rect
+        98  88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_6 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_f RW
+    __output__ DO_f_6
+module bit_slice_f_7
+    module_id
+        ram_bit_slice_16
+    rect
+        58  88  10  58
+    colour
+        ffffff  808080
+    __input__ DI_7 RSel_0 RSel_1 RSel_2 RSel_3 RSel_4 RSel_5 RSel_6 RSel_7 RSel_8 RSel_9 RSel_a RSel_b RSel_c RSel_d RSel_e RSel_f CSel_f RW
+    __output__ DO_f_7
+
+// Gate ________________________________________________________________
+
+or_array xo_0
+    rect
+        2070    290 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ DO_0_0 DO_1_0 DO_2_0 DO_3_0 DO_4_0 DO_5_0 DO_6_0 DO_7_0 DO_8_0 DO_9_0 DO_a_0 DO_b_0 DO_c_0 DO_d_0 DO_e_0 DO_f_0
+    __out__ DO_en_0
+or_array xo_1
+    rect
+        2070    260 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ DO_0_1 DO_1_1 DO_2_1 DO_3_1 DO_4_1 DO_5_1 DO_6_1 DO_7_1 DO_8_1 DO_9_1 DO_a_1 DO_b_1 DO_c_1 DO_d_1 DO_e_1 DO_f_1
+    __out__ DO_en_1
+or_array xo_2
+    rect
+        2070    230 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ DO_0_2 DO_1_2 DO_2_2 DO_3_2 DO_4_2 DO_5_2 DO_6_2 DO_7_2 DO_8_2 DO_9_2 DO_a_2 DO_b_2 DO_c_2 DO_d_2 DO_e_2 DO_f_2
+    __out__ DO_en_2
+or_array xo_3
+    rect
+        2070    200 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ DO_0_3 DO_1_3 DO_2_3 DO_3_3 DO_4_3 DO_5_3 DO_6_3 DO_7_3 DO_8_3 DO_9_3 DO_a_3 DO_b_3 DO_c_3 DO_d_3 DO_e_3 DO_f_3
+    __out__ DO_en_3
+or_array xo_4
+    rect
+        2070    1d0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ DO_0_4 DO_1_4 DO_2_4 DO_3_4 DO_4_4 DO_5_4 DO_6_4 DO_7_4 DO_8_4 DO_9_4 DO_a_4 DO_b_4 DO_c_4 DO_d_4 DO_e_4 DO_f_4
+    __out__ DO_en_4
+or_array xo_5
+    rect
+        2070    1a0 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ DO_0_5 DO_1_5 DO_2_5 DO_3_5 DO_4_5 DO_5_5 DO_6_5 DO_7_5 DO_8_5 DO_9_5 DO_a_5 DO_b_5 DO_c_5 DO_d_5 DO_e_5 DO_f_5
+    __out__ DO_en_5
+or_array xo_6
+    rect
+        2070    170 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ DO_0_6 DO_1_6 DO_2_6 DO_3_6 DO_4_6 DO_5_6 DO_6_6 DO_7_6 DO_8_6 DO_9_6 DO_a_6 DO_b_6 DO_c_6 DO_d_6 DO_e_6 DO_f_6
+    __out__ DO_en_6
+or_array xo_7
+    rect
+        2070    140 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in_array__ DO_0_7 DO_1_7 DO_2_7 DO_3_7 DO_4_7 DO_5_7 DO_6_7 DO_7_7 DO_8_7 DO_9_7 DO_a_7 DO_b_7 DO_c_7 DO_d_7 DO_e_7 DO_f_7
+    __out__ DO_en_7
+
+and zu_0
+    rect
+        20a0    288 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ DO_en_0
+    __in1__ RW
+    __out__ DO_0
+and zu_1
+    rect
+        20a0    258 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ DO_en_1
+    __in1__ RW
+    __out__ DO_1
+and zu_2
+    rect
+        20a0    228 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ DO_en_2
+    __in1__ RW
+    __out__ DO_2
+and zu_3
+    rect
+        20a0    1f8 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ DO_en_3
+    __in1__ RW
+    __out__ DO_3
+and zu_4
+    rect
+        20a0    1c8 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ DO_en_4
+    __in1__ RW
+    __out__ DO_4
+and zu_5
+    rect
+        20a0    198 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ DO_en_5
+    __in1__ RW
+    __out__ DO_5
+and zu_6
+    rect
+        20a0    168 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ DO_en_6
+    __in1__ RW
+    __out__ DO_6
+and zu_7
+    rect
+        20a0    138 20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ DO_en_7
+    __in1__ RW
+    __out__ DO_7

@@ -1,0 +1,766 @@
+id reg_32bit
+__input__ D_00 D_01 D_02 D_03 D_04 D_05 D_06 D_07 D_08 D_09 D_0a D_0b D_0c D_0d D_0e D_0f D_10 D_11 D_12 D_13 D_14 D_15 D_16 D_17 D_18 D_19 D_1a D_1b D_1c D_1d D_1e D_1f
+__output__ Q_00 Q_01 Q_02 Q_03 Q_04 Q_05 Q_06 Q_07 Q_08 Q_09 Q_0a Q_0b Q_0c Q_0d Q_0e Q_0f Q_10 Q_11 Q_12 Q_13 Q_14 Q_15 Q_16 Q_17 Q_18 Q_19 Q_1a Q_1b Q_1c Q_1d Q_1e Q_1f
+
+// Wait for write, not now
+
+// clock_signal
+
+wire C
+    path
+        0   -20 h   10  410 10
+        10  10  h   10
+        10  30  h   10
+        10  50  h   10
+        10  70  h   10
+        10  90  h   10
+        10  b0  h   10
+        10  d0  h   10
+        10  f0  h   10
+        10  110 h   10
+        10  130 h   10
+        10  150 h   10
+        10  170 h   10
+        10  190 h   10
+        10  1b0 h   10
+        10  1d0 h   10
+        10  1f0 h   10
+        10  210 h   10
+        10  230 h   10
+        10  250 h   10
+        10  270 h   10
+        10  290 h   10
+        10  2b0 h   10
+        10  2d0 h   10
+        10  2f0 h   10
+        10  310 h   10
+        10  330 h   10
+        10  350 h   10
+        10  370 h   10
+        10  390 h   10
+        10  3b0 h   10
+        10  3d0 h   10
+    colour
+        808000 ffff00
+
+// Ds ________________________________________________________________
+
+wire D_00
+    path
+        0   0   h   20
+    colour
+        800000 ff0000
+
+wire D_01
+    path
+        0   20  h   20
+    colour
+        800000 ff0000
+
+wire D_02
+    path
+        0   40  h   20
+    colour
+        800000 ff0000
+
+wire D_03
+    path
+        0   60  h   20
+    colour
+        800000 ff0000
+
+wire D_04
+    path
+        0   80  h   20
+    colour
+        800000 ff0000
+
+wire D_05
+    path
+        0   a0  h   20
+    colour
+        800000 ff0000
+
+wire D_06
+    path
+        0   c0  h   20
+    colour
+        800000 ff0000
+
+wire D_07
+    path
+        0   e0  h   20
+    colour
+        800000 ff0000
+
+wire D_08
+    path
+        0   100 h   20
+    colour
+        800000 ff0000
+
+wire D_09
+    path
+        0   120 h   20
+    colour
+        800000 ff0000
+
+wire D_0a
+    path
+        0   140 h   20
+    colour
+        800000 ff0000
+
+wire D_0b
+    path
+        0   160 h   20
+    colour
+        800000 ff0000
+
+wire D_0c
+    path
+        0   180 h   20
+    colour
+        800000 ff0000
+
+wire D_0d
+    path
+        0   1a0 h   20
+    colour
+        800000 ff0000
+
+wire D_0e
+    path
+        0   1c0 h   20
+    colour
+        800000 ff0000
+
+wire D_0f
+    path
+        0   1e0 h   20
+    colour
+        800000 ff0000
+
+wire D_10
+    path
+        0   200 h   20
+    colour
+        800000 ff0000
+
+wire D_11
+    path
+        0   220 h   20
+    colour
+        800000 ff0000
+
+wire D_12
+    path
+        0   240 h   20
+    colour
+        800000 ff0000
+
+wire D_13
+    path
+        0   260 h   20
+    colour
+        800000 ff0000
+
+wire D_14
+    path
+        0   280 h   20
+    colour
+        800000 ff0000
+
+wire D_15
+    path
+        0   2a0 h   20
+    colour
+        800000 ff0000
+
+wire D_16
+    path
+        0   2c0 h   20
+    colour
+        800000 ff0000
+
+wire D_17
+    path
+        0   2e0 h   20
+    colour
+        800000 ff0000
+
+wire D_18
+    path
+        0   300 h   20
+    colour
+        800000 ff0000
+
+wire D_19
+    path
+        0   320 h   20
+    colour
+        800000 ff0000
+
+wire D_1a
+    path
+        0   340 h   20
+    colour
+        800000 ff0000
+
+wire D_1b
+    path
+        0   360 h   20
+    colour
+        800000 ff0000
+
+wire D_1c
+    path
+        0   380 h   20
+    colour
+        800000 ff0000
+
+wire D_1d
+    path
+        0   3a0 h   20
+    colour
+        800000 ff0000
+
+wire D_1e
+    path
+        0   3c0 h   20
+    colour
+        800000 ff0000
+
+wire D_1f
+    path
+        0   3e0 h   20
+    colour
+        800000 ff0000
+
+// Qs ________________________________________________________________
+
+wire Q_00
+    path
+        30  0   h   10
+    colour
+        008000 00ff00
+
+wire Q_01
+    path
+        30  20  h   10
+    colour
+        008000 00ff00
+
+wire Q_02
+    path
+        30  40  h   10
+    colour
+        008000 00ff00
+
+wire Q_03
+    path
+        30  60  h   10
+    colour
+        008000 00ff00
+
+wire Q_04
+    path
+        30  80  h   10
+    colour
+        008000 00ff00
+
+wire Q_05
+    path
+        30  a0  h   10
+    colour
+        008000 00ff00
+
+wire Q_06
+    path
+        30  c0  h   10
+    colour
+        008000 00ff00
+
+wire Q_07
+    path
+        30  e0  h   10
+    colour
+        008000 00ff00
+
+wire Q_08
+    path
+        30  100 h   10
+    colour
+        008000 00ff00
+
+wire Q_09
+    path
+        30  120 h   10
+    colour
+        008000 00ff00
+
+wire Q_0a
+    path
+        30  140 h   10
+    colour
+        008000 00ff00
+
+wire Q_0b
+    path
+        30  160 h   10
+    colour
+        008000 00ff00
+
+wire Q_0c
+    path
+        30  180 h   10
+    colour
+        008000 00ff00
+
+wire Q_0d
+    path
+        30  1a0 h   10
+    colour
+        008000 00ff00
+
+wire Q_0e
+    path
+        30  1c0 h   10
+    colour
+        008000 00ff00
+
+wire Q_0f
+    path
+        30  1e0 h   10
+    colour
+        008000 00ff00
+
+wire Q_10
+    path
+        30  200 h   10
+    colour
+        008000 00ff00
+
+wire Q_11
+    path
+        30  220 h   10
+    colour
+        008000 00ff00
+
+wire Q_12
+    path
+        30  240 h   10
+    colour
+        008000 00ff00
+
+wire Q_13
+    path
+        30  260 h   10
+    colour
+        008000 00ff00
+
+wire Q_14
+    path
+        30  280 h   10
+    colour
+        008000 00ff00
+
+wire Q_15
+    path
+        30  2a0 h   10
+    colour
+        008000 00ff00
+
+wire Q_16
+    path
+        30  2c0 h   10
+    colour
+        008000 00ff00
+
+wire Q_17
+    path
+        30  2e0 h   10
+    colour
+        008000 00ff00
+
+wire Q_18
+    path
+        30  300 h   10
+    colour
+        008000 00ff00
+
+wire Q_19
+    path
+        30  320 h   10
+    colour
+        008000 00ff00
+
+wire Q_1a
+    path
+        30  340 h   10
+    colour
+        008000 00ff00
+
+wire Q_1b
+    path
+        30  360 h   10
+    colour
+        008000 00ff00
+
+wire Q_1c
+    path
+        30  380 h   10
+    colour
+        008000 00ff00
+
+wire Q_1d
+    path
+        30  3a0 h   10
+    colour
+        008000 00ff00
+
+wire Q_1e
+    path
+        30  3c0 h   10
+    colour
+        008000 00ff00
+
+wire Q_1f
+    path
+        30  3e0 h   10
+    colour
+        008000 00ff00
+
+// modules ________________________________________________________________
+
+module trigger_00
+    __input__ C D_00
+    __output__ Q_00 *
+    module_id
+        trigger_d
+    rect
+        20  -4  10  18
+    colour
+        ffffff 808080
+
+module trigger_01
+    __input__ C D_01
+    __output__ Q_01 *
+    module_id
+        trigger_d
+    rect
+        20  1c  10  18
+    colour
+        ffffff 808080
+
+module trigger_02
+    __input__ C D_02
+    __output__ Q_02 *
+    module_id
+        trigger_d
+    rect
+        20  3c  10  18
+    colour
+        ffffff 808080
+
+module trigger_03
+    __input__ C D_03
+    __output__ Q_03 *
+    module_id
+        trigger_d
+    rect
+        20  5c  10  18
+    colour
+        ffffff 808080
+
+module trigger_04
+    __input__ C D_04
+    __output__ Q_04 *
+    module_id
+        trigger_d
+    rect
+        20  7c  10  18
+    colour
+        ffffff 808080
+
+module trigger_05
+    __input__ C D_05
+    __output__ Q_05 *
+    module_id
+        trigger_d
+    rect
+        20  9c  10  18
+    colour
+        ffffff 808080
+
+module trigger_06
+    __input__ C D_06
+    __output__ Q_06 *
+    module_id
+        trigger_d
+    rect
+        20  bc  10  18
+    colour
+        ffffff 808080
+
+module trigger_07
+    __input__ C D_07
+    __output__ Q_07 *
+    module_id
+        trigger_d
+    rect
+        20  dc  10  18
+    colour
+        ffffff 808080
+
+module trigger_08
+    __input__ C D_08
+    __output__ Q_08 *
+    module_id
+        trigger_d
+    rect
+        20  fc  10  18
+    colour
+        ffffff 808080
+
+module trigger_09
+    __input__ C D_09
+    __output__ Q_09 *
+    module_id
+        trigger_d
+    rect
+        20  11c 10  18
+    colour
+        ffffff 808080
+
+module trigger_0a
+    __input__ C D_0a
+    __output__ Q_0a *
+    module_id
+        trigger_d
+    rect
+        20  13c 10  18
+    colour
+        ffffff 808080
+
+module trigger_0b
+    __input__ C D_0b
+    __output__ Q_0b *
+    module_id
+        trigger_d
+    rect
+        20  15c 10  18
+    colour
+        ffffff 808080
+
+module trigger_0c
+    __input__ C D_0c
+    __output__ Q_0c *
+    module_id
+        trigger_d
+    rect
+        20  17c 10  18
+    colour
+        ffffff 808080
+
+module trigger_0d
+    __input__ C D_0d
+    __output__ Q_0d *
+    module_id
+        trigger_d
+    rect
+        20  19c 10  18
+    colour
+        ffffff 808080
+
+module trigger_0e
+    __input__ C D_0e
+    __output__ Q_0e *
+    module_id
+        trigger_d
+    rect
+        20  1bc 10  18
+    colour
+        ffffff 808080
+
+module trigger_0f
+    __input__ C D_0f
+    __output__ Q_0f *
+    module_id
+        trigger_d
+    rect
+        20  1dc 10  18
+    colour
+        ffffff 808080
+
+module trigger_10
+    __input__ C D_10
+    __output__ Q_10 *
+    module_id
+        trigger_d
+    rect
+        20  1fc 10  18
+    colour
+        ffffff 808080
+
+module trigger_11
+    __input__ C D_11
+    __output__ Q_11 *
+    module_id
+        trigger_d
+    rect
+        20  21c 10  18
+    colour
+        ffffff 808080
+
+module trigger_12
+    __input__ C D_12
+    __output__ Q_12 *
+    module_id
+        trigger_d
+    rect
+        20  23c 10  18
+    colour
+        ffffff 808080
+
+module trigger_13
+    __input__ C D_13
+    __output__ Q_13 *
+    module_id
+        trigger_d
+    rect
+        20  25c 10  18
+    colour
+        ffffff 808080
+
+module trigger_14
+    __input__ C D_14
+    __output__ Q_14 *
+    module_id
+        trigger_d
+    rect
+        20  27c 10  18
+    colour
+        ffffff 808080
+
+module trigger_15
+    __input__ C D_15
+    __output__ Q_15 *
+    module_id
+        trigger_d
+    rect
+        20  29c 10  18
+    colour
+        ffffff 808080
+
+module trigger_16
+    __input__ C D_16
+    __output__ Q_16 *
+    module_id
+        trigger_d
+    rect
+        20  2bc 10  18
+    colour
+        ffffff 808080
+
+module trigger_17
+    __input__ C D_17
+    __output__ Q_17 *
+    module_id
+        trigger_d
+    rect
+        20  2dc 10  18
+    colour
+        ffffff 808080
+
+module trigger_18
+    __input__ C D_18
+    __output__ Q_18 *
+    module_id
+        trigger_d
+    rect
+        20  2fc 10  18
+    colour
+        ffffff 808080
+
+module trigger_19
+    __input__ C D_19
+    __output__ Q_19 *
+    module_id
+        trigger_d
+    rect
+        20  31c 10  18
+    colour
+        ffffff 808080
+
+module trigger_1a
+    __input__ C D_1a
+    __output__ Q_1a *
+    module_id
+        trigger_d
+    rect
+        20  33c 10  18
+    colour
+        ffffff 808080
+
+module trigger_1b
+    __input__ C D_1b
+    __output__ Q_1b *
+    module_id
+        trigger_d
+    rect
+        20  35c 10  18
+    colour
+        ffffff 808080
+
+module trigger_1c
+    __input__ C D_1c
+    __output__ Q_1c *
+    module_id
+        trigger_d
+    rect
+        20  37c 10  18
+    colour
+        ffffff 808080
+
+module trigger_1d
+    __input__ C D_1d
+    __output__ Q_1d *
+    module_id
+        trigger_d
+    rect
+        20  39c 10  18
+    colour
+        ffffff 808080
+
+module trigger_1e
+    __input__ C D_1e
+    __output__ Q_1e *
+    module_id
+        trigger_d
+    rect
+        20  3bc 10  18
+    colour
+        ffffff 808080
+
+module trigger_1f
+    __input__ C D_1f
+    __output__ Q_1f *
+    module_id
+        trigger_d
+    rect
+        20  3dc 10  18
+    colour
+        ffffff 808080
+
+// timer ________________________________________________________________
+
+module clock
+    __input__
+    __output__ C
+    module_id
+        timer
+    rect
+        -10 -28 10  10
+    colour
+        ffff00 808000

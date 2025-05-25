@@ -1,0 +1,128 @@
+id ram_cell
+__input__ R S Sel
+__output__ Q Q_r
+
+wire R
+    path
+        0   0   h   28
+    colour
+        800000 ff0000
+
+wire S
+    path
+        0   40  h   28
+    colour
+        808000 ffff00
+
+wire Sel
+    path
+        10  -30 v   60  10
+        10  10  h   10
+        10  -20 h   a0  60  10
+        b0  0   h   10
+    colour
+        800080  ff00ff
+
+wire R_latch
+    path
+        40  8   h   28
+    colour
+        800000 ff0000
+
+wire S_latch
+    path
+        40  38  h   28
+    colour
+        808000 ffff00
+
+wire Q_latch
+    path
+        80  40  h   20  -30 20
+        a0  18  h   -50 -20 18
+    colour
+        008000 00ff00
+
+wire Q_r_latch
+    path
+        80  0   h   10  30  30
+        90  28  h   -40 20  18
+    colour
+        008080 00ffff
+
+wire Q
+    path
+        e0  8   h   10
+    colour
+        008000 00ff00
+
+wire Q_r
+    path
+        e0  38  h   10
+    colour
+        008080 00ffff
+
+and zu_0
+    rect
+        20  18  20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ R
+    __in1__ Sel
+    __out__ R_latch
+
+and zu_1
+    rect
+        20  48  20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ S
+    __in1__ Sel
+    __out__ S_latch
+
+and zu_2
+    rect
+        c0  18  20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ Q_latch
+    __in1__ Sel
+    __out__ Q
+
+and zu_3
+    rect
+        c0  48  20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ Q_r_latch
+    __in1__ Sel
+    __out__ Q_r
+
+nor xofe_0
+    rect
+        60  10 20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ R_latch
+    __in1__ Q_latch
+    __out__ Q_r_latch
+
+nor xofe_1
+    rect
+        60  50  20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ S_latch
+    __in1__ Q_r_latch
+    __out__ Q_latch

@@ -1,0 +1,175 @@
+id _231119_4_13
+__input__ X
+__output__ A A_not B B_not
+
+wire X
+    path
+        0   0   h   20
+        10  0   v   98  40
+        10  38  h   40
+    colour
+        800000  ff0000
+wire X_not
+    path
+        30  0   h   10  c8  10
+        40  68  h   10  
+    colour
+        800000  ff0000
+wire Clock
+    path
+        a8  0   v   c8  8
+        a8  68  h   8
+    colour
+        808000  ffff00
+wire D_A_0
+    path
+        70  40  h   18
+    colour
+        008000  00ff00
+wire D_A_1
+    path
+        70  70  h   8   -20 10
+    colour
+        008000  00ff00
+wire D_A
+    path
+        a0  48  h   10
+    colour
+        008000  00ff00
+wire A
+    path
+        d0  48  h   30
+        e0  48  v   -38 -c8 98  38
+        18  78  h   38
+    colour
+        008000  00ff00
+wire A_not
+    path
+        d0  68  h   30
+    colour
+        008000  00ff00
+wire D_B_0
+    path
+        70  a0  h   18
+    colour
+        008080  00ffff
+wire D_B_1
+    path
+        70  d0  h   8   -20 10
+    colour
+        008080  00ffff
+wire D_B
+    path
+        a0  a8  h   10
+    colour
+        008080  00ffff
+wire B
+    path
+        d0  a8  h   30
+        e8  a8  v   -90 -c8 c0  30
+    colour
+        008080  00ffff
+wire B_not
+    path
+        d0  c8  h   30
+        f0  c8  v   -a8 -c8 28  28
+    colour
+        008080  00ffff
+
+module timer_0
+    module_id
+        timer
+    rect
+        a0  -10 10  10
+    colour
+        ffff00  808000
+    __input__
+    __output__ Clock
+module trigger_A
+    module_id
+        trigger_d
+    rect
+        b0  38  20  40
+    colour
+        ffffff  808080
+    __input__ Clock D_A
+    __output__ A A_not
+module trigger_B
+    module_id
+        trigger_d
+    rect
+        b0  98  20  40
+    colour
+        ffffff  808080
+    __input__ Clock D_B
+    __output__ B B_not
+
+not fe_X_not
+    rect
+        20  8   10  10
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in__ X
+    __out__ X_not
+and zu_D_A_0
+    rect
+        50  50  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ X
+    __in1__ B_not
+    __out__ D_A_0
+and zu_D_A_1
+    rect
+        50  80  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ X_not
+    __in1__ A
+    __out__ D_A_1
+and zu_D_B_0
+    rect
+        50  b0  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ X
+    __in1__ A
+    __out__ D_B_0
+and zu_D_B_1
+    rect
+        50  e0  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ X_not
+    __in1__ B
+    __out__ D_B_1
+or xo_D_A
+    rect
+        80  58  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ D_A_0
+    __in1__ D_A_1
+    __out__ D_A
+or xo_D_B
+    rect
+        80  b8  20  20
+    orientation
+        3
+    colour
+        ffffff  808080
+    __in0__ D_B_0
+    __in1__ D_B_1
+    __out__ D_B

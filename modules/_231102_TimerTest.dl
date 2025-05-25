@@ -1,0 +1,19 @@
+id _231102_timer_test
+__input__
+__output__ C
+
+wire C
+    path
+        0   0   h   20
+    colour
+        808000  ffff00
+
+module timer_0
+    module_id
+        timer
+    rect
+        -20 -10 20  20
+    colour
+        ffffff  808080
+    __input__
+    __output__ C

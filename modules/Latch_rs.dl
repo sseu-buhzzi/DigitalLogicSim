@@ -1,0 +1,51 @@
+id latch_rs
+__input__ R S
+__output__ Q Q_revr
+
+wire R
+    path
+        0   0   h   28
+    colour
+        800000 ff0000
+
+wire S
+    path
+        0   40  h   28
+    colour
+        808000 ffff00
+
+wire Q
+    path
+        40  48  h   20  -30 10
+        60  18  h   -50 -28 18
+    colour
+        008000 00ff00
+
+wire Q_revr
+    path
+        40  -8  h   10  30  20
+        50  28  h   -40 28  18
+    colour
+        000080 0000ff
+
+nor xofe_0
+    rect
+        20  8  20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ R
+    __in1__ Q
+    __out__ Q_revr
+
+nor xofe_1
+    rect
+        20  58  20  20
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in0__ S
+    __in1__ Q_revr
+    __out__ Q

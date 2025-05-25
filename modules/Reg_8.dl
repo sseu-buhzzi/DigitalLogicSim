@@ -1,0 +1,200 @@
+id reg_8
+__input__ Load DI_0 DI_1 DI_2 DI_3 DI_4 DI_5 DI_6 DI_7
+__output__ DO_0 DO_1 DO_2 DO_3 DO_4 DO_5 DO_6 DO_7
+
+// Load Signal ________________________________________________________________
+
+wire Load
+    path
+        0   -20 h   10  110 10
+        10  10  h   10
+        10  30  h   10
+        10  50  h   10
+        10  70  h   10
+        10  90  h   10
+        10  b0  h   10
+        10  d0  h   10
+    colour
+        808000 ffff00
+
+// Data Input ________________________________________________________________
+
+wire DI_0
+    path
+        0   0   h   20
+    colour
+        800000 ff0000
+
+wire DI_1
+    path
+        0   20  h   20
+    colour
+        800000 ff0000
+
+wire DI_2
+    path
+        0   40  h   20
+    colour
+        800000 ff0000
+
+wire DI_3
+    path
+        0   60  h   20
+    colour
+        800000 ff0000
+
+wire DI_4
+    path
+        0   80  h   20
+    colour
+        800000 ff0000
+
+wire DI_5
+    path
+        0   a0  h   20
+    colour
+        800000 ff0000
+
+wire DI_6
+    path
+        0   c0  h   20
+    colour
+        800000 ff0000
+
+wire DI_7
+    path
+        0   e0  h   20
+    colour
+        800000 ff0000
+
+// Data Output ________________________________________________________________
+
+wire DO_0
+    path
+        30  0   h   10
+    colour
+        008000 00ff00
+
+wire DO_1
+    path
+        30  20  h   10
+    colour
+        008000 00ff00
+
+wire DO_2
+    path
+        30  40  h   10
+    colour
+        008000 00ff00
+
+wire DO_3
+    path
+        30  60  h   10
+    colour
+        008000 00ff00
+
+wire DO_4
+    path
+        30  80  h   10
+    colour
+        008000 00ff00
+
+wire DO_5
+    path
+        30  a0  h   10
+    colour
+        008000 00ff00
+
+wire DO_6
+    path
+        30  c0  h   10
+    colour
+        008000 00ff00
+
+wire DO_7
+    path
+        30  e0  h   10
+    colour
+        008000 00ff00
+
+// Trigger ________________________________________________________________
+
+module trigger_0
+    __input__ Load DI_0
+    __output__ DO_0 null
+    module_id
+        trigger_d
+    rect
+        20  -4  10  18
+    colour
+        ffffff 808080
+
+module trigger_1
+    __input__ Load DI_1
+    __output__ DO_1 null
+    module_id
+        trigger_d
+    rect
+        20  1c  10  18
+    colour
+        ffffff 808080
+
+module trigger_2
+    __input__ Load DI_2
+    __output__ DO_2 null
+    module_id
+        trigger_d
+    rect
+        20  3c  10  18
+    colour
+        ffffff 808080
+
+module trigger_3
+    __input__ Load DI_3
+    __output__ DO_3 null
+    module_id
+        trigger_d
+    rect
+        20  5c  10  18
+    colour
+        ffffff 808080
+
+module trigger_4
+    __input__ Load DI_4
+    __output__ DO_4 null
+    module_id
+        trigger_d
+    rect
+        20  7c  10  18
+    colour
+        ffffff 808080
+
+module trigger_5
+    __input__ Load DI_5
+    __output__ DO_5 null
+    module_id
+        trigger_d
+    rect
+        20  9c  10  18
+    colour
+        ffffff 808080
+
+module trigger_6
+    __input__ Load DI_6
+    __output__ DO_6 null
+    module_id
+        trigger_d
+    rect
+        20  bc  10  18
+    colour
+        ffffff 808080
+
+module trigger_7
+    __input__ Load DI_7
+    __output__ DO_7 null
+    module_id
+        trigger_d
+    rect
+        20  dc  10  18
+    colour
+        ffffff 808080

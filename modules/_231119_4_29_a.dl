@@ -1,0 +1,79 @@
+id _231119_4_29_a
+__input__
+__output__ Q_2
+
+wire X
+    path
+        30  58  h   -30 -48 20
+    colour
+        800000  ff0000
+wire Clock
+    path
+        0   -10 h   98  40  10
+        18  -10 v   40  10
+        58  -10 v   40  10
+    colour
+        808000  ffff00
+wire Q_0
+    path
+        40  10  h   20
+    colour
+        008000  00ff00
+wire Q_1
+    path
+        80  10  h   20
+    colour
+        008000  00ff00
+wire Q_2
+    path
+        c0  10  h   20
+        c8  10  v   48  -88
+    colour
+        008000  00ff00
+
+module timer_0
+    module_id
+        timer
+    rect
+        -10 -18 10  10
+    colour
+        ffff00  808000
+    __input__
+    __output__ Clock
+module trigger_0
+    module_id
+        trigger_d
+    rect
+        20  0   20  40
+    colour
+        ffffff  808080
+    __input__ Clock X
+    __output__ Q_0 null
+module trigger_1
+    module_id
+        trigger_d
+    rect
+        60  0   20  40
+    colour
+        ffffff  808080
+    __input__ Clock Q_0
+    __output__ Q_1 null
+module trigger_2
+    module_id
+        trigger_d
+    rect
+        a0  0   20  40
+    colour
+        ffffff  808080
+    __input__ Clock Q_1
+    __output__ Q_2 null
+
+not fe_0
+    rect
+        40  50  10  10
+    orientation
+        1
+    colour
+        ffffff  808080
+    __in__ Q_2
+    __out__ X

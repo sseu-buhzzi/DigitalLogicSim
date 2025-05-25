@@ -1,0 +1,70 @@
+id trigger_d
+__input__ C D
+__output__ Q Q_revr
+
+wire C
+    path
+        0   20  h   20
+        10  20  v   20  18
+    colour
+        808000 ffff00
+
+wire C_revr
+    path
+        38  40  h   18  -20 10
+    colour
+        808000 ffff00
+
+wire D
+    path
+        0   0   h   20
+    colour
+        800000 ff0000
+
+wire Y
+    path
+        40  0   h   20
+    colour
+        008000 00ff00
+
+wire Q
+    path
+        80  0   h   20
+    colour
+        008000 00ff00
+
+wire Q_revr
+    path
+        80  20  h   20
+    colour
+        000080 0000ff
+
+not fe_0
+    rect
+        28  48  10  10
+    orientation
+        3
+    colour
+        ffffff 808080
+    __in__ C
+    __out__ C_revr
+
+module latch_0
+    module_id
+        latch_d
+    rect
+        20  -10 20  40
+    colour
+        ffffff 808080
+    __input__ C D
+    __output__ Y *
+
+module latch_1
+    module_id
+        latch_d
+    rect
+        60  -10 20  40
+    colour
+        ffffff 808080
+    __input__ C_revr Y
+    __output__ Q Q_revr

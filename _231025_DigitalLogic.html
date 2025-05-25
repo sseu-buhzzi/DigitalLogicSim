@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalLogic</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: "Courier New", Courier, monospace;
+        }
+        body {
+            background-color: #080810;
+        }
+        #view {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100vw;
+            height: 100vh;
+        }
+        #sidebar {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 192px;
+            height: 100vh;
+            background-color: #303060;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+        .sidebar_title {
+            width: auto;
+            height: 32px;
+            padding-left: 8px;
+            flex-shrink: 0;
+            background-color: #202040;
+            text-align: left;
+            line-height: 32px;
+            overflow: hidden;
+            font-size: 16px;
+            color: #808080;
+            cursor: pointer;
+        }
+        .sidebar_item, .sidebar_item_selected {
+            width: auto;
+            height: 32px;
+            padding-left: 8px;
+            flex-shrink: 0;
+            background-color: #101020;
+            text-align: left;
+            line-height: 32px;
+            overflow: hidden;
+            font-size: 8px;
+            color: #808080;
+            cursor: pointer;
+        }
+        .sidebar_item_selected {
+            background-color: #201010;
+        }
+        .sidebar_hint {
+            width: auto;
+            height: 8px;
+            flex-shrink: 0;
+            background-color: #101020;
+            text-align: center;
+            line-height: 8px;
+            font-size: 8px;
+            color: #808080;
+            cursor: pointer;
+        }
+        #floating_window {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            width: 256px;
+            height: 256px;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff40;
+            border-radius: 4px;
+            border: 4px solid #808080;
+        }
+        #floating_input {
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            width: 192px;
+            height: 64px;
+            transform: translate(-50%, -50%);
+            background-color: #808080;
+            font-size: 32px;
+        }
+        #floating_button {
+            position: absolute;
+            left: 50%;
+            top: 75%;
+            width: 192px;
+            height: 64px;
+            transform: translate(-50%, -50%);
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id = "view"></canvas>
+    <div id = "sidebar"></div>
+    <div id = "floating_window" style = "display: none; ">
+        <input type = "text" id = "floating_input">
+        <button id = "floating_button">OK</div>
+    </div>
+    <script src = "./DigitalLogic.js"></script>
+    <script>
+        user_interface.add_module_from_local_paths([
+            "./modules/Latch_d.json",
+            "./modules/Latch_rs.json",
+            "./modules/Timer.json",
+            "./modules/Decoder_2_4.json",
+            "./modules/Decoder_4_16.json",
+            "./modules/Decoder_en_4_16.json",
+            "./modules/Mux_2_8.json",
+            "./modules/Mux_4_8.json",
+            "./modules/Adder_8.json",
+            "./modules/Trigger_d.json",
+            "./modules/RAMCell.json",
+            "./modules/RAMBitSlice_16.json",
+            "./modules/RAM_256_8.json",
+            "./modules/Reg_8.json",
+            "./modules/_231106_Functional.json",
+        ]);
+    </script>
+</body>
+</html>

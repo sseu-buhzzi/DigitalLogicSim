@@ -1,0 +1,562 @@
+{
+    "id": "_231119_4_12_b",
+    "content": {
+        "X": {
+            "__signal__": "true",
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        48
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 0,
+                    "is_horizontal": false,
+                    "turn": [
+                        232,
+                        32
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 48,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                },
+                {
+                    "x": 16,
+                    "y": 120,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "Clock": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 136,
+                    "y": 256,
+                    "is_horizontal": false,
+                    "turn": [
+                        -216,
+                        72
+                    ]
+                },
+                {
+                    "x": 136,
+                    "y": 152,
+                    "is_horizontal": true,
+                    "turn": [
+                        72
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "Reset": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 288,
+                    "is_horizontal": true,
+                    "turn": [
+                        48
+                    ]
+                }
+            ],
+            "stroke": "#804000",
+            "active_stroke": "#ff8000"
+        },
+        "Reset_not": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 288,
+                    "is_horizontal": true,
+                    "turn": [
+                        88,
+                        -272,
+                        8
+                    ]
+                },
+                {
+                    "x": 152,
+                    "y": 128,
+                    "is_horizontal": true,
+                    "turn": [
+                        8
+                    ]
+                }
+            ],
+            "stroke": "#804000",
+            "active_stroke": "#ff8000"
+        },
+        "A": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 240,
+                    "y": 8,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 272,
+                    "y": 8,
+                    "is_horizontal": false,
+                    "turn": [
+                        -40,
+                        -248,
+                        232,
+                        32
+                    ]
+                },
+                {
+                    "x": 24,
+                    "y": -16,
+                    "is_horizontal": true,
+                    "turn": [
+                        24
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "A_not": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 240,
+                    "y": 40,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 272,
+                    "y": 40,
+                    "is_horizontal": false,
+                    "turn": [
+                        24,
+                        -232,
+                        40,
+                        8
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "B": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 240,
+                    "y": 120,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 272,
+                    "y": 120,
+                    "is_horizontal": false,
+                    "turn": [
+                        -40,
+                        -240,
+                        -48,
+                        16
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 80,
+                    "is_horizontal": false,
+                    "turn": [
+                        104,
+                        24
+                    ]
+                }
+            ],
+            "stroke": "#008080",
+            "active_stroke": "#00ffff"
+        },
+        "B_not": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 240,
+                    "y": 152,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                }
+            ],
+            "stroke": "#008080",
+            "active_stroke": "#00ffff"
+        },
+        "X_and_A": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 80,
+                    "y": -8,
+                    "is_horizontal": true,
+                    "turn": [
+                        24
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "X_and_B": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 80,
+                    "y": 40,
+                    "is_horizontal": true,
+                    "turn": [
+                        8,
+                        -32,
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "X_and__A_or_B": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 128,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        32
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "D_A": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 192,
+                    "y": 8,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "X_and_not_A": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 80,
+                    "y": 112,
+                    "is_horizontal": true,
+                    "turn": [
+                        80
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "D_B": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 192,
+                    "y": 120,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "A_or_B": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 80,
+                    "y": 192,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "X_not": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 64,
+                    "y": 232,
+                    "is_horizontal": true,
+                    "turn": [
+                        24,
+                        -24,
+                        8
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "Y": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 128,
+                    "y": 200,
+                    "is_horizontal": true,
+                    "turn": [
+                        128
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "timer_0": {
+            "__input__": [],
+            "__output__": [
+                "Clock"
+            ],
+            "type": "module",
+            "module_id": "timer",
+            "x": 128,
+            "y": 256,
+            "width": 16,
+            "height": 16,
+            "stroke": "#ffff00",
+            "fill": "#808000"
+        },
+        "trigger_A": {
+            "__input__": [
+                "Clock",
+                "X_and__A_or_B"
+            ],
+            "__output__": [
+                "A",
+                "A_not"
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 208,
+            "y": -8,
+            "width": 32,
+            "height": 64,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "trigger_B": {
+            "__input__": [
+                "Clock",
+                "X_and_not_A"
+            ],
+            "__output__": [
+                "B",
+                "B_not"
+            ],
+            "type": "module",
+            "module_id": "trigger_d",
+            "x": 208,
+            "y": 104,
+            "width": 32,
+            "height": 64,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_0": {
+            "__in0__": "A",
+            "__in1__": "X",
+            "__out__": "X_and_A",
+            "type": "and",
+            "x": 48,
+            "y": 8,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_1": {
+            "__in0__": "X",
+            "__in1__": "B",
+            "__out__": "X_and_B",
+            "type": "and",
+            "x": 48,
+            "y": 56,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_2": {
+            "__in0__": "A_not",
+            "__in1__": "X",
+            "__out__": "X_and_not_A",
+            "type": "and",
+            "x": 48,
+            "y": 128,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_3": {
+            "__in0__": "A_or_B",
+            "__in1__": "X_not",
+            "__out__": "Y",
+            "type": "and",
+            "x": 96,
+            "y": 216,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_0": {
+            "__in0__": "X_and_A",
+            "__in1__": "X_and_B",
+            "__out__": "X_and__A_or_B",
+            "type": "or",
+            "x": 96,
+            "y": 16,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_1": {
+            "__in0__": "A",
+            "__in1__": "B",
+            "__out__": "A_or_B",
+            "type": "or",
+            "x": 48,
+            "y": 208,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "fe_0": {
+            "__in__": "X",
+            "__out__": "X_not",
+            "type": "not",
+            "x": 48,
+            "y": 240,
+            "width": 16,
+            "height": 16,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_4": {
+            "__in0__": "X_and__A_or_B",
+            "__in1__": "Reset_not",
+            "__out__": "D_A",
+            "type": "and",
+            "x": 160,
+            "y": 24,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_5": {
+            "__in0__": "X_and_not_A",
+            "__in1__": "Reset_not",
+            "__out__": "D_B",
+            "type": "and",
+            "x": 160,
+            "y": 136,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "fe_1": {
+            "__in__": "Reset",
+            "__out__": "Reset_not",
+            "type": "not",
+            "x": 48,
+            "y": 296,
+            "width": 16,
+            "height": 16,
+            "orientation": 3
+        }
+    },
+    "__input__": [
+        "X",
+        "Reset"
+    ],
+    "__output__": [
+        "A",
+        "A_not",
+        "B",
+        "B_not",
+        "Y"
+    ]
+}

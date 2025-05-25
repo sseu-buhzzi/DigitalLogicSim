@@ -1,0 +1,116 @@
+{
+    "id": "triple_joint",
+    "content": {
+        "I": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "is_horizontal": true,
+                    "turn": [
+                        48,
+                        24
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 0,
+                    "is_horizontal": false,
+                    "turn": [
+                        -24
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "L": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 40,
+                    "y": -48,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                },
+                {
+                    "x": 40,
+                    "y": -64,
+                    "is_horizontal": true,
+                    "turn": [
+                        -24,
+                        72,
+                        16,
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "R": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 40,
+                    "y": 48,
+                    "is_horizontal": false,
+                    "turn": [
+                        32
+                    ]
+                },
+                {
+                    "x": 40,
+                    "y": 64,
+                    "is_horizontal": true,
+                    "turn": [
+                        24,
+                        -72,
+                        -16,
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#808080",
+            "active_stroke": "#ffffff"
+        },
+        "xo_l": {
+            "__in0__": "I",
+            "__in1__": "R",
+            "__out__": "L",
+            "type": "or",
+            "x": 56,
+            "y": -16,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_r": {
+            "__in0__": "I",
+            "__in1__": "L",
+            "__out__": "R",
+            "type": "or",
+            "x": 24,
+            "y": 16,
+            "width": 32,
+            "height": 32,
+            "orientation": 0,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        }
+    },
+    "__input__": [
+        "I",
+        "L",
+        "R"
+    ],
+    "__output__": []
+}

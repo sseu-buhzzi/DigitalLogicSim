@@ -1,0 +1,1747 @@
+{
+    "id": "adder_8",
+    "content": {
+        "A_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 1008,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 1008,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#681818",
+            "active_stroke": "#d03030"
+        },
+        "B_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 16,
+                    "y": 1024,
+                    "is_horizontal": true,
+                    "turn": [
+                        48
+                    ]
+                },
+                {
+                    "x": 48,
+                    "y": 1024,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#686818",
+            "active_stroke": "#d0d030"
+        },
+        "Y_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 96,
+                    "y": 1016,
+                    "is_horizontal": true,
+                    "turn": [
+                        56
+                    ]
+                },
+                {
+                    "x": 112,
+                    "y": 1016,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#186818",
+            "active_stroke": "#30d030"
+        },
+        "C_0_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 40,
+                    "y": 960,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        64,
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#681868",
+            "active_stroke": "#d030d0"
+        },
+        "C_0_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 120,
+                    "y": 968,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#681868",
+            "active_stroke": "#d030d0"
+        },
+        "CI": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 112,
+                    "y": 1056,
+                    "is_horizontal": false,
+                    "turn": [
+                        -24,
+                        40
+                    ]
+                },
+                {
+                    "x": 128,
+                    "y": 1032,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#681868",
+            "active_stroke": "#d030d0"
+        },
+        "S_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 184,
+                    "y": 1024,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#186818",
+            "active_stroke": "#30d030"
+        },
+        "A_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 880,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 880,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#701010",
+            "active_stroke": "#e02020"
+        },
+        "B_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 16,
+                    "y": 896,
+                    "is_horizontal": true,
+                    "turn": [
+                        48
+                    ]
+                },
+                {
+                    "x": 48,
+                    "y": 896,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#707010",
+            "active_stroke": "#e0e020"
+        },
+        "Y_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 96,
+                    "y": 888,
+                    "is_horizontal": true,
+                    "turn": [
+                        56
+                    ]
+                },
+                {
+                    "x": 112,
+                    "y": 888,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#107010",
+            "active_stroke": "#20e020"
+        },
+        "C_1_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 40,
+                    "y": 832,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        64,
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#701070",
+            "active_stroke": "#e020e0"
+        },
+        "C_1_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 120,
+                    "y": 840,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#701070",
+            "active_stroke": "#e020e0"
+        },
+        "C_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 112,
+                    "y": 912,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        40
+                    ]
+                },
+                {
+                    "x": 128,
+                    "y": 904,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#701070",
+            "active_stroke": "#e020e0"
+        },
+        "S_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 184,
+                    "y": 896,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#107010",
+            "active_stroke": "#20e020"
+        },
+        "A_2": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 752,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 752,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#780808",
+            "active_stroke": "#f01010"
+        },
+        "B_2": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 16,
+                    "y": 768,
+                    "is_horizontal": true,
+                    "turn": [
+                        48
+                    ]
+                },
+                {
+                    "x": 48,
+                    "y": 768,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#787808",
+            "active_stroke": "#f0f010"
+        },
+        "Y_2": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 96,
+                    "y": 760,
+                    "is_horizontal": true,
+                    "turn": [
+                        56
+                    ]
+                },
+                {
+                    "x": 112,
+                    "y": 760,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#087808",
+            "active_stroke": "#10f010"
+        },
+        "C_2_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 40,
+                    "y": 704,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        64,
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#780878",
+            "active_stroke": "#f010f0"
+        },
+        "C_2_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 120,
+                    "y": 712,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#780878",
+            "active_stroke": "#f010f0"
+        },
+        "C_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 112,
+                    "y": 784,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        40
+                    ]
+                },
+                {
+                    "x": 128,
+                    "y": 776,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#780878",
+            "active_stroke": "#f010f0"
+        },
+        "S_2": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 184,
+                    "y": 768,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#087808",
+            "active_stroke": "#10f010"
+        },
+        "A_3": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 624,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 624,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "B_3": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 16,
+                    "y": 640,
+                    "is_horizontal": true,
+                    "turn": [
+                        48
+                    ]
+                },
+                {
+                    "x": 48,
+                    "y": 640,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "Y_3": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 96,
+                    "y": 632,
+                    "is_horizontal": true,
+                    "turn": [
+                        56
+                    ]
+                },
+                {
+                    "x": 112,
+                    "y": 632,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "C_3_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 40,
+                    "y": 576,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        64,
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "C_3_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 120,
+                    "y": 584,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "C_2": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 112,
+                    "y": 656,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        40
+                    ]
+                },
+                {
+                    "x": 128,
+                    "y": 648,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "S_3": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 184,
+                    "y": 640,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "A_4": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 496,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 496,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "B_4": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 16,
+                    "y": 512,
+                    "is_horizontal": true,
+                    "turn": [
+                        48
+                    ]
+                },
+                {
+                    "x": 48,
+                    "y": 512,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "Y_4": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 96,
+                    "y": 504,
+                    "is_horizontal": true,
+                    "turn": [
+                        56
+                    ]
+                },
+                {
+                    "x": 112,
+                    "y": 504,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "C_4_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 40,
+                    "y": 448,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        64,
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "C_4_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 120,
+                    "y": 456,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "C_3": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 112,
+                    "y": 528,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        40
+                    ]
+                },
+                {
+                    "x": 128,
+                    "y": 520,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "S_4": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 184,
+                    "y": 512,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "A_5": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 368,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 368,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "B_5": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 16,
+                    "y": 384,
+                    "is_horizontal": true,
+                    "turn": [
+                        48
+                    ]
+                },
+                {
+                    "x": 48,
+                    "y": 384,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "Y_5": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 96,
+                    "y": 376,
+                    "is_horizontal": true,
+                    "turn": [
+                        56
+                    ]
+                },
+                {
+                    "x": 112,
+                    "y": 376,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "C_5_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 40,
+                    "y": 320,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        64,
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "C_5_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 120,
+                    "y": 328,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "C_4": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 112,
+                    "y": 400,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        40
+                    ]
+                },
+                {
+                    "x": 128,
+                    "y": 392,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "S_5": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 184,
+                    "y": 384,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "A_6": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 240,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 240,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "B_6": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 16,
+                    "y": 256,
+                    "is_horizontal": true,
+                    "turn": [
+                        48
+                    ]
+                },
+                {
+                    "x": 48,
+                    "y": 256,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "Y_6": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 96,
+                    "y": 248,
+                    "is_horizontal": true,
+                    "turn": [
+                        56
+                    ]
+                },
+                {
+                    "x": 112,
+                    "y": 248,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "C_6_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 40,
+                    "y": 192,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        64,
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "C_6_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 120,
+                    "y": 200,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "C_5": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 112,
+                    "y": 272,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        40
+                    ]
+                },
+                {
+                    "x": 128,
+                    "y": 264,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "S_6": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 184,
+                    "y": 256,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "A_7": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 0,
+                    "y": 112,
+                    "is_horizontal": true,
+                    "turn": [
+                        64
+                    ]
+                },
+                {
+                    "x": 32,
+                    "y": 112,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800000",
+            "active_stroke": "#ff0000"
+        },
+        "B_7": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 16,
+                    "y": 128,
+                    "is_horizontal": true,
+                    "turn": [
+                        48
+                    ]
+                },
+                {
+                    "x": 48,
+                    "y": 128,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#808000",
+            "active_stroke": "#ffff00"
+        },
+        "Y_7": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 96,
+                    "y": 120,
+                    "is_horizontal": true,
+                    "turn": [
+                        56
+                    ]
+                },
+                {
+                    "x": 112,
+                    "y": 120,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "CO_0": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 40,
+                    "y": 64,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        64,
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "CO_1": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 120,
+                    "y": 72,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "C_6": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 112,
+                    "y": 144,
+                    "is_horizontal": false,
+                    "turn": [
+                        -8,
+                        40
+                    ]
+                },
+                {
+                    "x": 128,
+                    "y": 136,
+                    "is_horizontal": false,
+                    "turn": [
+                        -32
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "S_7": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 184,
+                    "y": 128,
+                    "is_horizontal": true,
+                    "turn": [
+                        16
+                    ]
+                }
+            ],
+            "stroke": "#008000",
+            "active_stroke": "#00ff00"
+        },
+        "CO": {
+            "__signal__": false,
+            "type": "wire",
+            "path": [
+                {
+                    "x": 112,
+                    "y": 16,
+                    "is_horizontal": false,
+                    "turn": [
+                        -16
+                    ]
+                }
+            ],
+            "stroke": "#800080",
+            "active_stroke": "#ff00ff"
+        },
+        "zixo_0_0": {
+            "__in0__": "A_0",
+            "__in1__": "B_0",
+            "__out__": "Y_0",
+            "type": "xor",
+            "x": 64,
+            "y": 1032,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_0_1": {
+            "__in0__": "Y_0",
+            "__in1__": "CI",
+            "__out__": "S_0",
+            "type": "xor",
+            "x": 152,
+            "y": 1040,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_0_0": {
+            "__in0__": "A_0",
+            "__in1__": "B_0",
+            "__out__": "C_0_0",
+            "type": "and",
+            "x": 56,
+            "y": 992,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_0_1": {
+            "__in0__": "Y_0",
+            "__in1__": "CI",
+            "__out__": "C_0_1",
+            "type": "and",
+            "x": 136,
+            "y": 1000,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_0": {
+            "__in0__": "C_0_0",
+            "__in1__": "C_0_1",
+            "__out__": "C_0",
+            "type": "or",
+            "x": 128,
+            "y": 944,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_1_0": {
+            "__in0__": "A_1",
+            "__in1__": "B_1",
+            "__out__": "Y_1",
+            "type": "xor",
+            "x": 64,
+            "y": 904,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_1_1": {
+            "__in0__": "Y_1",
+            "__in1__": "C_0",
+            "__out__": "S_1",
+            "type": "xor",
+            "x": 152,
+            "y": 912,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_1_0": {
+            "__in0__": "A_1",
+            "__in1__": "B_1",
+            "__out__": "C_1_0",
+            "type": "and",
+            "x": 56,
+            "y": 864,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_1_1": {
+            "__in0__": "Y_1",
+            "__in1__": "C_0",
+            "__out__": "C_1_1",
+            "type": "and",
+            "x": 136,
+            "y": 872,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_1": {
+            "__in0__": "C_1_0",
+            "__in1__": "C_1_1",
+            "__out__": "C_1",
+            "type": "or",
+            "x": 128,
+            "y": 816,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_2_0": {
+            "__in0__": "A_2",
+            "__in1__": "B_2",
+            "__out__": "Y_2",
+            "type": "xor",
+            "x": 64,
+            "y": 776,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_2_1": {
+            "__in0__": "Y_2",
+            "__in1__": "C_1",
+            "__out__": "S_2",
+            "type": "xor",
+            "x": 152,
+            "y": 784,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_2_0": {
+            "__in0__": "A_2",
+            "__in1__": "B_2",
+            "__out__": "C_2_0",
+            "type": "and",
+            "x": 56,
+            "y": 736,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_2_1": {
+            "__in0__": "Y_2",
+            "__in1__": "C_1",
+            "__out__": "C_2_1",
+            "type": "and",
+            "x": 136,
+            "y": 744,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_2": {
+            "__in0__": "C_2_0",
+            "__in1__": "C_2_1",
+            "__out__": "C_2",
+            "type": "or",
+            "x": 128,
+            "y": 688,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_3_0": {
+            "__in0__": "A_3",
+            "__in1__": "B_3",
+            "__out__": "Y_3",
+            "type": "xor",
+            "x": 64,
+            "y": 648,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_3_1": {
+            "__in0__": "Y_3",
+            "__in1__": "C_2",
+            "__out__": "S_3",
+            "type": "xor",
+            "x": 152,
+            "y": 656,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_3_0": {
+            "__in0__": "A_3",
+            "__in1__": "B_3",
+            "__out__": "C_3_0",
+            "type": "and",
+            "x": 56,
+            "y": 608,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_3_1": {
+            "__in0__": "Y_3",
+            "__in1__": "C_2",
+            "__out__": "C_3_1",
+            "type": "and",
+            "x": 136,
+            "y": 616,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_3": {
+            "__in0__": "C_3_0",
+            "__in1__": "C_3_1",
+            "__out__": "C_3",
+            "type": "or",
+            "x": 128,
+            "y": 560,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_4_0": {
+            "__in0__": "A_4",
+            "__in1__": "B_4",
+            "__out__": "Y_4",
+            "type": "xor",
+            "x": 64,
+            "y": 520,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_4_1": {
+            "__in0__": "Y_4",
+            "__in1__": "C_3",
+            "__out__": "S_4",
+            "type": "xor",
+            "x": 152,
+            "y": 528,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_4_0": {
+            "__in0__": "A_4",
+            "__in1__": "B_4",
+            "__out__": "C_4_0",
+            "type": "and",
+            "x": 56,
+            "y": 480,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_4_1": {
+            "__in0__": "Y_4",
+            "__in1__": "C_3",
+            "__out__": "C_4_1",
+            "type": "and",
+            "x": 136,
+            "y": 488,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_4": {
+            "__in0__": "C_4_0",
+            "__in1__": "C_4_1",
+            "__out__": "C_4",
+            "type": "or",
+            "x": 128,
+            "y": 432,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_5_0": {
+            "__in0__": "A_5",
+            "__in1__": "B_5",
+            "__out__": "Y_5",
+            "type": "xor",
+            "x": 64,
+            "y": 392,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_5_1": {
+            "__in0__": "Y_5",
+            "__in1__": "C_4",
+            "__out__": "S_5",
+            "type": "xor",
+            "x": 152,
+            "y": 400,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_5_0": {
+            "__in0__": "A_5",
+            "__in1__": "B_5",
+            "__out__": "C_5_0",
+            "type": "and",
+            "x": 56,
+            "y": 352,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_5_1": {
+            "__in0__": "Y_5",
+            "__in1__": "C_4",
+            "__out__": "C_5_1",
+            "type": "and",
+            "x": 136,
+            "y": 360,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_5": {
+            "__in0__": "C_5_0",
+            "__in1__": "C_5_1",
+            "__out__": "C_5",
+            "type": "or",
+            "x": 128,
+            "y": 304,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_6_0": {
+            "__in0__": "A_6",
+            "__in1__": "B_6",
+            "__out__": "Y_6",
+            "type": "xor",
+            "x": 64,
+            "y": 264,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_6_1": {
+            "__in0__": "Y_6",
+            "__in1__": "C_5",
+            "__out__": "S_6",
+            "type": "xor",
+            "x": 152,
+            "y": 272,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_6_0": {
+            "__in0__": "A_6",
+            "__in1__": "B_6",
+            "__out__": "C_6_0",
+            "type": "and",
+            "x": 56,
+            "y": 224,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_6_1": {
+            "__in0__": "Y_6",
+            "__in1__": "C_5",
+            "__out__": "C_6_1",
+            "type": "and",
+            "x": 136,
+            "y": 232,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_6": {
+            "__in0__": "C_6_0",
+            "__in1__": "C_6_1",
+            "__out__": "C_6",
+            "type": "or",
+            "x": 128,
+            "y": 176,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_7_0": {
+            "__in0__": "A_7",
+            "__in1__": "B_7",
+            "__out__": "Y_7",
+            "type": "xor",
+            "x": 64,
+            "y": 136,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zixo_7_1": {
+            "__in0__": "Y_7",
+            "__in1__": "C_6",
+            "__out__": "S_7",
+            "type": "xor",
+            "x": 152,
+            "y": 144,
+            "width": 32,
+            "height": 32,
+            "orientation": 3,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_7_0": {
+            "__in0__": "A_7",
+            "__in1__": "B_7",
+            "__out__": "CO_0",
+            "type": "and",
+            "x": 56,
+            "y": 96,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "zu_7_1": {
+            "__in0__": "Y_7",
+            "__in1__": "C_6",
+            "__out__": "CO_1",
+            "type": "and",
+            "x": 136,
+            "y": 104,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        },
+        "xo_7": {
+            "__in0__": "CO_0",
+            "__in1__": "CO_1",
+            "__out__": "CO",
+            "type": "or",
+            "x": 128,
+            "y": 48,
+            "width": 32,
+            "height": 32,
+            "orientation": 2,
+            "stroke": "#ffffff",
+            "fill": "#808080"
+        }
+    },
+    "__input__": [
+        "A_0",
+        "A_1",
+        "A_2",
+        "A_3",
+        "A_4",
+        "A_5",
+        "A_6",
+        "A_7",
+        "B_0",
+        "B_1",
+        "B_2",
+        "B_3",
+        "B_4",
+        "B_5",
+        "B_6",
+        "B_7",
+        "CI"
+    ],
+    "__output__": [
+        "S_0",
+        "S_1",
+        "S_2",
+        "S_3",
+        "S_4",
+        "S_5",
+        "S_6",
+        "S_7",
+        "CO"
+    ]
+}
