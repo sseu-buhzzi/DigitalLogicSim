@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 
 def four_padded(numb: int):
@@ -465,4 +466,4 @@ content = "\n".join(lines)
 with open(__file__[ : -2] + "dl", "w") as file:
     file.write(content)
 
-os.system(r"python D:\Sseu\Tryingssiuh\Ssianxmuh\_231025_DigitalLogic\web\modules\_231027_Interpret.py")
+os.system(os.path.join(os.path.dirname(__file__), "Interpret.py"))

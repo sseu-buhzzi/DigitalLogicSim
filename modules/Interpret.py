@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 import os
 import sys
@@ -8,6 +9,7 @@ def dl_compile(file_path):
 
     module_json = {"id": None, "content": {}}
     indent_stack = []
+    line = None
     try:
         while True:
             line = lines.pop()
@@ -112,10 +114,10 @@ def dl_compile(file_path):
         json.dump(module_json, file, indent = 4)
         file.write("\n")
 
-dir = "D:\\Sseu\\Tryingssiuh\\Ssianxmuh\\_231025_DigitalLogic\\web\\modules"
-name = sys.argv[1] if len(sys.argv) > 1 else "Timer"
-if len(sys.argv) == 1:
-    for name in filter(lambda name: name.endswith(".dl"), os.listdir(dir)):
-        dl_compile(os.path.join(dir, name))
-else:
-    dl_compile(os.path.join(dir, sys.argv[1] + ".dl"))
+if __name__ == "__main__":
+    path = os.path.abspath(sys.argv[0]) if len(sys.argv) == 1 else os.path.dirname(os.path.abspath(__file__)) 
+    if os.path.isdir(path):
+        for name in filter(lambda name: name.endswith(".dl"), os.listdir(path)):
+            dl_compile(os.path.join(path, name))
+    elif path.endswith(".dl"):
+        dl_compile(path)
